@@ -1,0 +1,21 @@
+{
+  "schema": "fdt_alignment_transfer_querycount_readonly_v1",
+  "models": ["FDT100", "QueryBoundRefiner"],
+  "parent_payload_sha256": "a877f316d0d97f2c497497fd9b941184463238055906d7109d3300db4c253b36",
+  "query_counts": [1, 4, 8, 16],
+  "graph_count": 16,
+  "graphs_per_sampling_stratum": [4, 4, 4, 4],
+  "batch_size": 4,
+  "paired_noise_seed": 17,
+  "paired_noise_shape": [16, 16, 512],
+  "rollout_steps": 4,
+  "expected_actual_batched_model_calls": 160,
+  "max_actual_batched_model_calls": 200,
+  "wall_seconds_including_startup": 120,
+  "shutdown_reserve_seconds": 30,
+  "physical_premise_utf8_bytes_once": 1671,
+  "optimizer_allowed": false,
+  "checkpoint_write_allowed": false,
+  "e2_final_files_accessed": false,
+  "purpose": "Descriptive transfer check for the query-bound cross-attention change across nested query-count views; no benchmark promotion or generalization claim."
+}

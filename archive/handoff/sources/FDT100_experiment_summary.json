@@ -1,0 +1,2770 @@
+{
+  "parameters": 102237197,
+  "gpu": "Tesla T4",
+  "device": "cuda",
+  "weights_saved_to_drive": false,
+  "two_views_grounding_dev": 1.0,
+  "one_view_grounding_dev": 0.8470588235294118,
+  "role_conditioned": {
+    "new_graph_test": {
+      "graphs": 128,
+      "noise_seeds": [
+        17,
+        29,
+        43
+      ],
+      "ground_accuracy": 1.0,
+      "neural_before_verifier": true,
+      "queries_are_correlated_within_graph_and_seeds": true,
+      "initializer": {
+        "queries": 5640,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            1752,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            465,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            507,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2916
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 585,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 387,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 150,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 1752,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 2916,
+          "accuracy": 1.0
+        }
+      },
+      "diffusion": {
+        "queries": 5640,
+        "accuracy": 0.9881205558776855,
+        "macro_f1": 0.9747189176254332,
+        "confusion": [
+          [
+            1731,
+            8,
+            13,
+            0
+          ],
+          [
+            6,
+            453,
+            6,
+            0
+          ],
+          [
+            22,
+            12,
+            473,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2916
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.9860438621475364,
+          "GREATER": 0.9658848614072495,
+          "LESS": 0.9469469469469469,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 585,
+          "accuracy": 0.9418803453445435
+        },
+        "transitive": {
+          "count": 387,
+          "accuracy": 0.9689922332763672
+        },
+        "long_chain": {
+          "count": 150,
+          "accuracy": 0.9933333396911621
+        },
+        "unknown": {
+          "count": 1752,
+          "accuracy": 0.9880136847496033
+        },
+        "conflict": {
+          "count": 2916,
+          "accuracy": 1.0
+        }
+      },
+      "fuzzy_removed": {
+        "queries": 5640,
+        "accuracy": 0.31063830852508545,
+        "macro_f1": 0.1185064935064935,
+        "confusion": [
+          [
+            1752,
+            0,
+            0,
+            0
+          ],
+          [
+            465,
+            0,
+            0,
+            0
+          ],
+          [
+            507,
+            0,
+            0,
+            0
+          ],
+          [
+            2916,
+            0,
+            0,
+            0
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.474025974025974,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.0
+        },
+        "direct": {
+          "count": 585,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 387,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 150,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 1752,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 2916,
+          "accuracy": 0.0
+        }
+      },
+      "corrupted_initializer": {
+        "queries": 5640,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            1752,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            465,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            507,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2916
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 585,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 387,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 150,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 1752,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 2916,
+          "accuracy": 1.0
+        }
+      },
+      "repaired_latent": {
+        "queries": 5640,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            1752,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            465,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            507,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2916
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 585,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 387,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 150,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 1752,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 2916,
+          "accuracy": 1.0
+        }
+      },
+      "controlled_latent_repair_mse": {
+        "before": 0.5810638231535753,
+        "after": 0.4414718672633171
+      }
+    },
+    "new_heldout_phrase_test": {
+      "graphs": 64,
+      "noise_seeds": [
+        17,
+        29,
+        43
+      ],
+      "ground_accuracy": 0.0,
+      "neural_before_verifier": true,
+      "queries_are_correlated_within_graph_and_seeds": true,
+      "initializer": {
+        "queries": 2808,
+        "accuracy": 0.4829059839248657,
+        "macro_f1": 0.29335330310880825,
+        "confusion": [
+          [
+            540,
+            108,
+            117,
+            48
+          ],
+          [
+            225,
+            0,
+            45,
+            0
+          ],
+          [
+            225,
+            48,
+            0,
+            0
+          ],
+          [
+            501,
+            66,
+            69,
+            816
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.46875,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.7046632124352331
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 258,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 117,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 813,
+          "accuracy": 0.6642066240310669
+        },
+        "conflict": {
+          "count": 1452,
+          "accuracy": 0.5619834661483765
+        }
+      },
+      "diffusion": {
+        "queries": 2808,
+        "accuracy": 0.4853988587856293,
+        "macro_f1": 0.2972354351069875,
+        "confusion": [
+          [
+            544,
+            110,
+            111,
+            48
+          ],
+          [
+            227,
+            1,
+            42,
+            0
+          ],
+          [
+            222,
+            49,
+            2,
+            0
+          ],
+          [
+            498,
+            69,
+            69,
+            816
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.4722222222222222,
+          "GREATER": 0.004008016032064128,
+          "LESS": 0.008048289738430584,
+          "CONFLICT": 0.7046632124352331
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.010526316240429878
+        },
+        "transitive": {
+          "count": 258,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 117,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 813,
+          "accuracy": 0.6691266894340515
+        },
+        "conflict": {
+          "count": 1452,
+          "accuracy": 0.5619834661483765
+        }
+      },
+      "fuzzy_removed": {
+        "queries": 2808,
+        "accuracy": 0.2895299196243286,
+        "macro_f1": 0.11226180613090307,
+        "confusion": [
+          [
+            813,
+            0,
+            0,
+            0
+          ],
+          [
+            270,
+            0,
+            0,
+            0
+          ],
+          [
+            273,
+            0,
+            0,
+            0
+          ],
+          [
+            1452,
+            0,
+            0,
+            0
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.4490472245236123,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.0
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 258,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 117,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 813,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1452,
+          "accuracy": 0.0
+        }
+      },
+      "corrupted_initializer": {
+        "queries": 2808,
+        "accuracy": 0.4829059839248657,
+        "macro_f1": 0.29335330310880825,
+        "confusion": [
+          [
+            540,
+            108,
+            117,
+            48
+          ],
+          [
+            225,
+            0,
+            45,
+            0
+          ],
+          [
+            225,
+            48,
+            0,
+            0
+          ],
+          [
+            501,
+            66,
+            69,
+            816
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.46875,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.7046632124352331
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 258,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 117,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 813,
+          "accuracy": 0.6642066240310669
+        },
+        "conflict": {
+          "count": 1452,
+          "accuracy": 0.5619834661483765
+        }
+      },
+      "repaired_latent": {
+        "queries": 2808,
+        "accuracy": 0.4829059839248657,
+        "macro_f1": 0.29335330310880825,
+        "confusion": [
+          [
+            540,
+            108,
+            117,
+            48
+          ],
+          [
+            225,
+            0,
+            45,
+            0
+          ],
+          [
+            225,
+            48,
+            0,
+            0
+          ],
+          [
+            501,
+            66,
+            69,
+            816
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.46875,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.7046632124352331
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 258,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 117,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 813,
+          "accuracy": 0.6642066240310669
+        },
+        "conflict": {
+          "count": 1452,
+          "accuracy": 0.5619834661483765
+        }
+      },
+      "controlled_latent_repair_mse": {
+        "before": 0.7749417920907339,
+        "after": 0.7213808353990316
+      }
+    },
+    "new_larger_graph_test": {
+      "graphs": 64,
+      "noise_seeds": [
+        17,
+        29,
+        43
+      ],
+      "ground_accuracy": 1.0,
+      "neural_before_verifier": true,
+      "queries_are_correlated_within_graph_and_seeds": true,
+      "initializer": {
+        "queries": 3072,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            681,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            201,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            222,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1968
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 231,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 192,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 114,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 681,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1968,
+          "accuracy": 1.0
+        }
+      },
+      "diffusion": {
+        "queries": 3072,
+        "accuracy": 0.95703125,
+        "macro_f1": 0.879135424342185,
+        "confusion": [
+          [
+            638,
+            18,
+            25,
+            0
+          ],
+          [
+            18,
+            158,
+            25,
+            0
+          ],
+          [
+            25,
+            21,
+            176,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1968
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.9368575624082232,
+          "GREATER": 0.7939698492462312,
+          "LESS": 0.7857142857142857,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 231,
+          "accuracy": 0.7402597665786743
+        },
+        "transitive": {
+          "count": 192,
+          "accuracy": 0.8489583134651184
+        },
+        "long_chain": {
+          "count": 114,
+          "accuracy": 0.859649121761322
+        },
+        "unknown": {
+          "count": 681,
+          "accuracy": 0.9368575811386108
+        },
+        "conflict": {
+          "count": 1968,
+          "accuracy": 1.0
+        }
+      },
+      "fuzzy_removed": {
+        "queries": 3072,
+        "accuracy": 0.2216796875,
+        "macro_f1": 0.09072741806554756,
+        "confusion": [
+          [
+            681,
+            0,
+            0,
+            0
+          ],
+          [
+            201,
+            0,
+            0,
+            0
+          ],
+          [
+            222,
+            0,
+            0,
+            0
+          ],
+          [
+            1968,
+            0,
+            0,
+            0
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.36290967226219023,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.0
+        },
+        "direct": {
+          "count": 231,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 192,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 114,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 681,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1968,
+          "accuracy": 0.0
+        }
+      },
+      "corrupted_initializer": {
+        "queries": 3072,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            681,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            201,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            222,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1968
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 231,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 192,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 114,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 681,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1968,
+          "accuracy": 1.0
+        }
+      },
+      "repaired_latent": {
+        "queries": 3072,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            681,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            201,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            222,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1968
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 231,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 192,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 114,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 681,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1968,
+          "accuracy": 1.0
+        }
+      },
+      "controlled_latent_repair_mse": {
+        "before": 0.5824207328259945,
+        "after": 0.462719077244401
+      }
+    }
+  },
+  "matched_no_role_control": {
+    "new_graph_test": {
+      "graphs": 128,
+      "noise_seeds": [
+        17,
+        29,
+        43
+      ],
+      "ground_accuracy": 1.0,
+      "neural_before_verifier": true,
+      "queries_are_correlated_within_graph_and_seeds": true,
+      "initializer": {
+        "queries": 5640,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            1752,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            465,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            507,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2916
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 585,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 387,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 150,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 1752,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 2916,
+          "accuracy": 1.0
+        }
+      },
+      "diffusion": {
+        "queries": 5640,
+        "accuracy": 0.8453900814056396,
+        "macro_f1": 0.6535951763221302,
+        "confusion": [
+          [
+            1474,
+            125,
+            153,
+            0
+          ],
+          [
+            127,
+            166,
+            172,
+            0
+          ],
+          [
+            139,
+            156,
+            212,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2916
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.8442153493699885,
+          "GREATER": 0.36403508771929827,
+          "LESS": 0.4061302681992337,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 585,
+          "accuracy": 0.3401709496974945
+        },
+        "transitive": {
+          "count": 387,
+          "accuracy": 0.46253231167793274
+        },
+        "long_chain": {
+          "count": 150,
+          "accuracy": 0.5133333206176758
+        },
+        "unknown": {
+          "count": 1752,
+          "accuracy": 0.8413242101669312
+        },
+        "conflict": {
+          "count": 2916,
+          "accuracy": 1.0
+        }
+      },
+      "fuzzy_removed": {
+        "queries": 5640,
+        "accuracy": 0.31063830852508545,
+        "macro_f1": 0.12160017171761706,
+        "confusion": [
+          [
+            1749,
+            1,
+            2,
+            0
+          ],
+          [
+            463,
+            2,
+            0,
+            0
+          ],
+          [
+            506,
+            0,
+            1,
+            0
+          ],
+          [
+            2909,
+            6,
+            1,
+            0
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.47404797398021414,
+          "GREATER": 0.008438818565400843,
+          "LESS": 0.003913894324853229,
+          "CONFLICT": 0.0
+        },
+        "direct": {
+          "count": 585,
+          "accuracy": 0.003418803447857499
+        },
+        "transitive": {
+          "count": 387,
+          "accuracy": 0.002583979396149516
+        },
+        "long_chain": {
+          "count": 150,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 1752,
+          "accuracy": 0.9982876777648926
+        },
+        "conflict": {
+          "count": 2916,
+          "accuracy": 0.0
+        }
+      },
+      "corrupted_initializer": {
+        "queries": 5640,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            1752,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            465,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            507,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2916
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 585,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 387,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 150,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 1752,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 2916,
+          "accuracy": 1.0
+        }
+      },
+      "repaired_latent": {
+        "queries": 5640,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            1752,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            465,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            507,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2916
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 585,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 387,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 150,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 1752,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 2916,
+          "accuracy": 1.0
+        }
+      },
+      "controlled_latent_repair_mse": {
+        "before": 0.5810638231535753,
+        "after": 0.44079775425295037
+      }
+    },
+    "new_heldout_phrase_test": {
+      "graphs": 64,
+      "noise_seeds": [
+        17,
+        29,
+        43
+      ],
+      "ground_accuracy": 0.0,
+      "neural_before_verifier": true,
+      "queries_are_correlated_within_graph_and_seeds": true,
+      "initializer": {
+        "queries": 2808,
+        "accuracy": 0.4829059839248657,
+        "macro_f1": 0.29335330310880825,
+        "confusion": [
+          [
+            540,
+            108,
+            117,
+            48
+          ],
+          [
+            225,
+            0,
+            45,
+            0
+          ],
+          [
+            225,
+            48,
+            0,
+            0
+          ],
+          [
+            501,
+            66,
+            69,
+            816
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.46875,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.7046632124352331
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 258,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 117,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 813,
+          "accuracy": 0.6642066240310669
+        },
+        "conflict": {
+          "count": 1452,
+          "accuracy": 0.5619834661483765
+        }
+      },
+      "diffusion": {
+        "queries": 2808,
+        "accuracy": 0.5181623697280884,
+        "macro_f1": 0.3285113175511783,
+        "confusion": [
+          [
+            616,
+            76,
+            73,
+            48
+          ],
+          [
+            251,
+            7,
+            12,
+            0
+          ],
+          [
+            245,
+            12,
+            16,
+            0
+          ],
+          [
+            542,
+            47,
+            47,
+            816
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.4993919740575598,
+          "GREATER": 0.03398058252427184,
+          "LESS": 0.07600950118764846,
+          "CONFLICT": 0.7046632124352331
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.04210526496171951
+        },
+        "transitive": {
+          "count": 258,
+          "accuracy": 0.042635660618543625
+        },
+        "long_chain": {
+          "count": 117,
+          "accuracy": 0.04273504391312599
+        },
+        "unknown": {
+          "count": 813,
+          "accuracy": 0.7576875686645508
+        },
+        "conflict": {
+          "count": 1452,
+          "accuracy": 0.5619834661483765
+        }
+      },
+      "fuzzy_removed": {
+        "queries": 2808,
+        "accuracy": 0.2898860275745392,
+        "macro_f1": 0.1143465823908272,
+        "confusion": [
+          [
+            813,
+            0,
+            0,
+            0
+          ],
+          [
+            268,
+            1,
+            1,
+            0
+          ],
+          [
+            271,
+            2,
+            0,
+            0
+          ],
+          [
+            1447,
+            4,
+            1,
+            0
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.45016611295681064,
+          "GREATER": 0.007220216606498195,
+          "LESS": 0.0,
+          "CONFLICT": 0.0
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.003508772002533078
+        },
+        "transitive": {
+          "count": 258,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 117,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 813,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1452,
+          "accuracy": 0.0
+        }
+      },
+      "corrupted_initializer": {
+        "queries": 2808,
+        "accuracy": 0.4829059839248657,
+        "macro_f1": 0.29335330310880825,
+        "confusion": [
+          [
+            540,
+            108,
+            117,
+            48
+          ],
+          [
+            225,
+            0,
+            45,
+            0
+          ],
+          [
+            225,
+            48,
+            0,
+            0
+          ],
+          [
+            501,
+            66,
+            69,
+            816
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.46875,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.7046632124352331
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 258,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 117,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 813,
+          "accuracy": 0.6642066240310669
+        },
+        "conflict": {
+          "count": 1452,
+          "accuracy": 0.5619834661483765
+        }
+      },
+      "repaired_latent": {
+        "queries": 2808,
+        "accuracy": 0.4829059839248657,
+        "macro_f1": 0.29330246254481696,
+        "confusion": [
+          [
+            540,
+            108,
+            117,
+            48
+          ],
+          [
+            225,
+            0,
+            45,
+            0
+          ],
+          [
+            225,
+            48,
+            0,
+            0
+          ],
+          [
+            502,
+            65,
+            69,
+            816
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.4685466377440347,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.7046632124352331
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 258,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 117,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 813,
+          "accuracy": 0.6642066240310669
+        },
+        "conflict": {
+          "count": 1452,
+          "accuracy": 0.5619834661483765
+        }
+      },
+      "controlled_latent_repair_mse": {
+        "before": 0.7749417920907339,
+        "after": 0.717894380291303
+      }
+    },
+    "new_larger_graph_test": {
+      "graphs": 64,
+      "noise_seeds": [
+        17,
+        29,
+        43
+      ],
+      "ground_accuracy": 1.0,
+      "neural_before_verifier": true,
+      "queries_are_correlated_within_graph_and_seeds": true,
+      "initializer": {
+        "queries": 3072,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            681,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            201,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            222,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1968
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 231,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 192,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 114,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 681,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1968,
+          "accuracy": 1.0
+        }
+      },
+      "diffusion": {
+        "queries": 3072,
+        "accuracy": 0.8522135615348816,
+        "macro_f1": 0.6108435784032211,
+        "confusion": [
+          [
+            495,
+            86,
+            100,
+            0
+          ],
+          [
+            57,
+            67,
+            77,
+            0
+          ],
+          [
+            78,
+            56,
+            88,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1968
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.7551487414187643,
+          "GREATER": 0.32682926829268294,
+          "LESS": 0.3613963039014374,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 231,
+          "accuracy": 0.3160173296928406
+        },
+        "transitive": {
+          "count": 192,
+          "accuracy": 0.4270833432674408
+        },
+        "long_chain": {
+          "count": 114,
+          "accuracy": 0.44736841320991516
+        },
+        "unknown": {
+          "count": 681,
+          "accuracy": 0.7268722653388977
+        },
+        "conflict": {
+          "count": 1968,
+          "accuracy": 1.0
+        }
+      },
+      "fuzzy_removed": {
+        "queries": 3072,
+        "accuracy": 0.2216796875,
+        "macro_f1": 0.0908,
+        "confusion": [
+          [
+            681,
+            0,
+            0,
+            0
+          ],
+          [
+            201,
+            0,
+            0,
+            0
+          ],
+          [
+            222,
+            0,
+            0,
+            0
+          ],
+          [
+            1965,
+            2,
+            1,
+            0
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.3632,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.0
+        },
+        "direct": {
+          "count": 231,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 192,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 114,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 681,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1968,
+          "accuracy": 0.0
+        }
+      },
+      "corrupted_initializer": {
+        "queries": 3072,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            681,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            201,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            222,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1968
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 231,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 192,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 114,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 681,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1968,
+          "accuracy": 1.0
+        }
+      },
+      "repaired_latent": {
+        "queries": 3072,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            681,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            201,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            222,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1968
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 231,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 192,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 114,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 681,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1968,
+          "accuracy": 1.0
+        }
+      },
+      "controlled_latent_repair_mse": {
+        "before": 0.5824207328259945,
+        "after": 0.462742297599713
+      }
+    }
+  },
+  "prototype_demo": {
+    "chain": {
+      "text": "민수는 서연보다 더 큽니다. (제공된 가정의 근거와 일치)",
+      "status": "SOURCE_RELATIVE_VERIFIED",
+      "neural_candidate": "GREATER",
+      "neural_confidence_not_truth": 0.9832175970077515,
+      "source_ids": [
+        0,
+        1
+      ],
+      "source_texts": [
+        "민수 | 더 크다 | 지훈",
+        "지훈 | 더 크다 | 서연"
+      ],
+      "internal_natural_language_tokens": 0,
+      "persistent_fact_writes": 0
+    },
+    "unknown": {
+      "text": "민수와 서연의 관계를 확정할 근거가 부족합니다.",
+      "status": "UNRESOLVED",
+      "neural_candidate": "UNRESOLVED",
+      "neural_confidence_not_truth": 0.9566499590873718,
+      "source_ids": [],
+      "source_texts": [],
+      "internal_natural_language_tokens": 0,
+      "persistent_fact_writes": 0
+    },
+    "cycle": {
+      "text": "제공된 비교 가정이 서로 모순됩니다.",
+      "status": "CONFLICT",
+      "neural_candidate": "CONFLICT",
+      "neural_confidence_not_truth": 0.9845420122146606,
+      "source_ids": [
+        0,
+        1,
+        2
+      ],
+      "source_texts": [
+        "민수 | 더 크다 | 지훈",
+        "지훈 | 더 크다 | 서연",
+        "서연 | 더 크다 | 민수"
+      ],
+      "internal_natural_language_tokens": 0,
+      "persistent_fact_writes": 0
+    },
+    "negative": {
+      "text": "민수와 서연의 관계를 확정할 근거가 부족합니다.",
+      "status": "UNRESOLVED",
+      "neural_candidate": "UNRESOLVED",
+      "neural_confidence_not_truth": 0.9860484600067139,
+      "source_ids": [],
+      "source_texts": [],
+      "internal_natural_language_tokens": 0,
+      "persistent_fact_writes": 0
+    }
+  },
+  "baseline": {
+    "graph_test": {
+      "graphs": 128,
+      "noise_seeds": [
+        17,
+        29,
+        43
+      ],
+      "ground_accuracy": 1.0,
+      "neural_before_verifier": true,
+      "queries_are_correlated_within_graph_and_seeds": true,
+      "initializer": {
+        "queries": 5652,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            1788,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            495,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            501,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2868
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 615,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 381,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 147,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 1788,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 2868,
+          "accuracy": 1.0
+        }
+      },
+      "diffusion": {
+        "queries": 5652,
+        "accuracy": 0.8533262610435486,
+        "macro_f1": 0.6586479942398666,
+        "confusion": [
+          [
+            1585,
+            95,
+            108,
+            0
+          ],
+          [
+            128,
+            165,
+            202,
+            0
+          ],
+          [
+            128,
+            168,
+            205,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2868
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.8735188757233397,
+          "GREATER": 0.35752979414951247,
+          "LESS": 0.4035433070866142,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 615,
+          "accuracy": 0.2926829159259796
+        },
+        "transitive": {
+          "count": 381,
+          "accuracy": 0.49868765473365784
+        },
+        "long_chain": {
+          "count": 147,
+          "accuracy": 0.4897959232330322
+        },
+        "unknown": {
+          "count": 1788,
+          "accuracy": 0.886465311050415
+        },
+        "conflict": {
+          "count": 2868,
+          "accuracy": 1.0
+        }
+      },
+      "fuzzy_removed": {
+        "queries": 5652,
+        "accuracy": 0.3165251314640045,
+        "macro_f1": 0.12327924758917344,
+        "confusion": [
+          [
+            1786,
+            0,
+            2,
+            0
+          ],
+          [
+            495,
+            0,
+            0,
+            0
+          ],
+          [
+            496,
+            2,
+            3,
+            0
+          ],
+          [
+            2854,
+            5,
+            9,
+            0
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.48146650491980053,
+          "GREATER": 0.0,
+          "LESS": 0.011650485436893204,
+          "CONFLICT": 0.0
+        },
+        "direct": {
+          "count": 615,
+          "accuracy": 0.00325203244574368
+        },
+        "transitive": {
+          "count": 381,
+          "accuracy": 0.002624671906232834
+        },
+        "long_chain": {
+          "count": 147,
+          "accuracy": 0.006802720949053764
+        },
+        "unknown": {
+          "count": 1788,
+          "accuracy": 0.998881459236145
+        },
+        "conflict": {
+          "count": 2868,
+          "accuracy": 0.0
+        }
+      },
+      "corrupted_initializer": {
+        "queries": 5652,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            1788,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            495,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            501,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2868
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 615,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 381,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 147,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 1788,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 2868,
+          "accuracy": 1.0
+        }
+      },
+      "repaired_latent": {
+        "queries": 5652,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            1788,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            495,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            501,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2868
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 615,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 381,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 147,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 1788,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 2868,
+          "accuracy": 1.0
+        }
+      },
+      "controlled_latent_repair_mse": {
+        "before": 0.5809035021811724,
+        "after": 0.44725322412947816
+      }
+    },
+    "heldout_phrase_test": {
+      "graphs": 64,
+      "noise_seeds": [
+        17,
+        29,
+        43
+      ],
+      "ground_accuracy": 0.0,
+      "neural_before_verifier": true,
+      "queries_are_correlated_within_graph_and_seeds": true,
+      "initializer": {
+        "queries": 2940,
+        "accuracy": 0.5357142686843872,
+        "macro_f1": 0.31317369115603355,
+        "confusion": [
+          [
+            591,
+            93,
+            90,
+            0
+          ],
+          [
+            216,
+            0,
+            39,
+            0
+          ],
+          [
+            228,
+            39,
+            0,
+            0
+          ],
+          [
+            537,
+            72,
+            51,
+            984
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.5038363171355499,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.7488584474885844
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 237,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 123,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 774,
+          "accuracy": 0.7635658979415894
+        },
+        "conflict": {
+          "count": 1644,
+          "accuracy": 0.5985401272773743
+        }
+      },
+      "diffusion": {
+        "queries": 2940,
+        "accuracy": 0.5751700401306152,
+        "macro_f1": 0.35426746470212506,
+        "confusion": [
+          [
+            684,
+            41,
+            49,
+            0
+          ],
+          [
+            232,
+            12,
+            11,
+            0
+          ],
+          [
+            249,
+            7,
+            11,
+            0
+          ],
+          [
+            602,
+            26,
+            32,
+            984
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.538370720188902,
+          "GREATER": 0.07038123167155426,
+          "LESS": 0.05945945945945946,
+          "CONFLICT": 0.7488584474885844
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.045614033937454224
+        },
+        "transitive": {
+          "count": 237,
+          "accuracy": 0.04219409450888634
+        },
+        "long_chain": {
+          "count": 123,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 774,
+          "accuracy": 0.8837209343910217
+        },
+        "conflict": {
+          "count": 1644,
+          "accuracy": 0.5985401272773743
+        }
+      },
+      "fuzzy_removed": {
+        "queries": 2940,
+        "accuracy": 0.2625850439071655,
+        "macro_f1": 0.10616767485512414,
+        "confusion": [
+          [
+            771,
+            1,
+            2,
+            0
+          ],
+          [
+            253,
+            1,
+            1,
+            0
+          ],
+          [
+            267,
+            0,
+            0,
+            0
+          ],
+          [
+            1632,
+            7,
+            5,
+            0
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.417094941844739,
+          "GREATER": 0.007575757575757576,
+          "LESS": 0.0,
+          "CONFLICT": 0.0
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 237,
+          "accuracy": 0.004219409078359604
+        },
+        "long_chain": {
+          "count": 123,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 774,
+          "accuracy": 0.9961240291595459
+        },
+        "conflict": {
+          "count": 1644,
+          "accuracy": 0.0
+        }
+      },
+      "corrupted_initializer": {
+        "queries": 2940,
+        "accuracy": 0.5357142686843872,
+        "macro_f1": 0.31317369115603355,
+        "confusion": [
+          [
+            591,
+            93,
+            90,
+            0
+          ],
+          [
+            216,
+            0,
+            39,
+            0
+          ],
+          [
+            228,
+            39,
+            0,
+            0
+          ],
+          [
+            537,
+            72,
+            51,
+            984
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.5038363171355499,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.7488584474885844
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 237,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 123,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 774,
+          "accuracy": 0.7635658979415894
+        },
+        "conflict": {
+          "count": 1644,
+          "accuracy": 0.5985401272773743
+        }
+      },
+      "repaired_latent": {
+        "queries": 2940,
+        "accuracy": 0.5357142686843872,
+        "macro_f1": 0.31312002303533315,
+        "confusion": [
+          [
+            591,
+            93,
+            90,
+            0
+          ],
+          [
+            216,
+            0,
+            39,
+            0
+          ],
+          [
+            228,
+            39,
+            0,
+            0
+          ],
+          [
+            538,
+            71,
+            51,
+            984
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.5036216446527482,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.7488584474885844
+        },
+        "direct": {
+          "count": 285,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 237,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 123,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 774,
+          "accuracy": 0.7635658979415894
+        },
+        "conflict": {
+          "count": 1644,
+          "accuracy": 0.5985401272773743
+        }
+      },
+      "controlled_latent_repair_mse": {
+        "before": 0.7631155848503113,
+        "after": 0.6944145585099856
+      }
+    },
+    "larger_graph_test": {
+      "graphs": 64,
+      "noise_seeds": [
+        17,
+        29,
+        43
+      ],
+      "ground_accuracy": 1.0,
+      "neural_before_verifier": true,
+      "queries_are_correlated_within_graph_and_seeds": true,
+      "initializer": {
+        "queries": 3072,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            855,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            261,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            324,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1632
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 228,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 357,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 210,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 855,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1632,
+          "accuracy": 1.0
+        }
+      },
+      "diffusion": {
+        "queries": 3072,
+        "accuracy": 0.85546875,
+        "macro_f1": 0.6804851329024179,
+        "confusion": [
+          [
+            749,
+            40,
+            66,
+            0
+          ],
+          [
+            38,
+            111,
+            112,
+            0
+          ],
+          [
+            76,
+            112,
+            136,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1632
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.8719441210710128,
+          "GREATER": 0.42366412213740456,
+          "LESS": 0.4263322884012539,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 228,
+          "accuracy": 0.3333333432674408
+        },
+        "transitive": {
+          "count": 357,
+          "accuracy": 0.4789915978908539
+        },
+        "long_chain": {
+          "count": 210,
+          "accuracy": 0.4714285731315613
+        },
+        "unknown": {
+          "count": 855,
+          "accuracy": 0.8760234117507935
+        },
+        "conflict": {
+          "count": 1632,
+          "accuracy": 1.0
+        }
+      },
+      "fuzzy_removed": {
+        "queries": 3072,
+        "accuracy": 0.2783203125,
+        "macro_f1": 0.10897272495539129,
+        "confusion": [
+          [
+            855,
+            0,
+            0,
+            0
+          ],
+          [
+            261,
+            0,
+            0,
+            0
+          ],
+          [
+            324,
+            0,
+            0,
+            0
+          ],
+          [
+            1628,
+            4,
+            0,
+            0
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 0.43589089982156515,
+          "GREATER": 0.0,
+          "LESS": 0.0,
+          "CONFLICT": 0.0
+        },
+        "direct": {
+          "count": 228,
+          "accuracy": 0.0
+        },
+        "transitive": {
+          "count": 357,
+          "accuracy": 0.0
+        },
+        "long_chain": {
+          "count": 210,
+          "accuracy": 0.0
+        },
+        "unknown": {
+          "count": 855,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1632,
+          "accuracy": 0.0
+        }
+      },
+      "corrupted_initializer": {
+        "queries": 3072,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            855,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            261,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            324,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1632
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 228,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 357,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 210,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 855,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1632,
+          "accuracy": 1.0
+        }
+      },
+      "repaired_latent": {
+        "queries": 3072,
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "confusion": [
+          [
+            855,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            261,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            324,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1632
+          ]
+        ],
+        "class_f1": {
+          "UNRESOLVED": 1.0,
+          "GREATER": 1.0,
+          "LESS": 1.0,
+          "CONFLICT": 1.0
+        },
+        "direct": {
+          "count": 228,
+          "accuracy": 1.0
+        },
+        "transitive": {
+          "count": 357,
+          "accuracy": 1.0
+        },
+        "long_chain": {
+          "count": 210,
+          "accuracy": 1.0
+        },
+        "unknown": {
+          "count": 855,
+          "accuracy": 1.0
+        },
+        "conflict": {
+          "count": 1632,
+          "accuracy": 1.0
+        }
+      },
+      "controlled_latent_repair_mse": {
+        "before": 0.5818746288617452,
+        "after": 0.47146821953356266
+      }
+    }
+  }
+}

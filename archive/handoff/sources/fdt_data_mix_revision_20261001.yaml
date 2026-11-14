@@ -1,0 +1,153 @@
+# Planning specification. Map these fields to the actual trainer before use.
+# No live trainer configuration or training job was changed.
+schema: fdt_data_mix_planning_v1
+date: '2026-10-01'
+status: proposed_initial_mixture_not_empirically_optimized
+scope: continual_base_pretraining_from_current_final_checkpoint
+historical_full_checkpoint_corpus_shares: unknown
+
+preserve:
+  checkpoint: current_final_checkpoint_identity_must_be_resolved_locally
+  tokenizer_and_token_ids: true
+  local_fuzzy_exact_and_output_contracts: true
+  existing_retention_gate_definitions: true
+  architecture_and_optimizer_changes_in_this_plan: none
+
+accounting:
+  training_budget_unit: nonpadding_input_tokens_consumed_in_training
+  excluded_from_budget: [padding_tokens, evaluation_tokens]
+  sampling_basis: consumed_token_quotas_not_row_counts
+  log_separately:
+    - source_and_category_rows
+    - input_tokens
+    - loss_bearing_target_tokens
+    - weighted_loss_denominator
+    - unique_tokens_after_deduplication
+    - repeated_token_exposure
+    - source_by_length_cross_table
+  note: Input exposure, supervised tokens, loss weights, and gradient influence are distinct.
+
+streams:
+  new_corpus:
+    fraction_of_total_training_tokens: 0.90
+    weights_within_new_corpus:
+      fineweb_edu: 0.35
+      structured_wikipedia: 0.25
+      libretexts: 0.20
+      stackexchange: 0.10
+      project_gutenberg: 0.05
+      arxiv: 0.05
+    full_training_token_shares:
+      fineweb_edu: 0.315
+      structured_wikipedia: 0.225
+      libretexts: 0.180
+      stackexchange: 0.090
+      project_gutenberg: 0.045
+      arxiv: 0.045
+    initial_objective: causal_next_token_prediction_on_coherent_documents
+    sampling: interleave_sources_by_token_deficit
+    raw_document_first_pass_without_resampling: true
+    exhaustion_policy: report_shortfall_and_revise_mix_do_not_silently_repeat
+    source_revisions_and_document_metadata: record_before_training
+
+  retention_replay:
+    fraction_of_total_training_tokens: 0.10
+    source: existing_training_only_examples_with_known_provenance
+    category_weights_within_replay_by_input_token_exposure:
+      natural: 0.40
+      factual: 0.20
+      retrieval_exact: 0.20
+      python: 0.10
+      json: 0.10
+    validation_and_test_examples_allowed: false
+    loss_mask_and_category_normalization: preserve_current_verified_contract
+    warning: These weights are not the historical V20 completion-loss weights.
+
+document_processing:
+  boundary_unit: paragraph_section_or_explanation
+  fixed_width_text_slicing: false
+  split_only_when_supported_length_cap_is_exceeded: true
+  retain_section_titles_definitions_and_formula_context: true
+  cross_document_attention: false
+  reset_all_document_specific_memory_at_document_boundaries: true
+  independent_documents_must_not_share_summary_or_exact_state: true
+  deduplicate_before_split_and_keep_document_families_in_one_split: true
+  pack_short_documents_only_with_verified_document_isolation: true
+  do_not_pad_or_concatenate_unrelated_text_to_fake_long_documents: true
+
+length_targets:
+  denominator: new_corpus_input_tokens
+  initial_pilot:
+    up_to_2048: 0.50
+    from_2049_to_4096: 0.35
+    from_4097_to_8192: 0.15
+    from_8193_to_16384: 0.00
+  later_candidate_after_verified_position_cache_and_retention_gates:
+    up_to_2048: 0.35
+    from_2049_to_4096: 0.40
+    from_4097_to_8192: 0.20
+    from_8193_to_16384: 0.05
+  requirements:
+    - Each length must pass the current position and memory implementation checks.
+    - Source quotas and length quotas must be planned jointly from actual inventory.
+    - Targets are not evidence that a document inventory can supply these lengths.
+    - Do not repeat scarce long documents to satisfy a length target.
+    - If a length is unsupported, report the blocked target rather than claim it was used.
+
+pilot:
+  proposed_total_input_tokens: 10000000
+  new_corpus_input_tokens: 9000000
+  replay_input_tokens: 1000000
+  new_source_token_budgets:
+    fineweb_edu: 3150000
+    structured_wikipedia: 2250000
+    libretexts: 1800000
+    stackexchange: 900000
+    project_gutenberg: 450000
+    arxiv: 450000
+  evaluation_points_consumed_input_tokens: [500000, 2000000, 5000000, 10000000]
+  launch_status: not_launched
+  success_requires:
+    - Knowledge and grounded explanation gains on fixed development examples.
+    - Retention of exact copy, source selection, output behavior, and existing gates.
+    - Length and distractor breakdowns, not just aggregate NLL.
+    - Per-source exposure, repetition, and loss accounting.
+  final_holdout: unused_until_the_selected_recipe_and_model_are_fixed
+
+optional_grounded_qa_pilot:
+  enabled_in_initial_pilot: false
+  reason: Isolate source-mixture effects from a new answer-supervision objective.
+  candidate_replacement_fraction_within_new_corpus: 0.05
+  increases_total_token_budget: false
+  provenance: use_training_documents_only_and_verify_answer_support
+  accounting: charge_context_and_answer_tokens_to_the_original_source_quota
+  compare_against: same_checkpoint_and_token_budget_without_this_objective
+
+revision_rules:
+  step_size: 5_percentage_points_within_new_corpus_per_comparison
+  weak_factual_or_explanation_candidate:
+    fineweb_edu: 0.35
+    structured_wikipedia: 0.25
+    libretexts: 0.25
+    stackexchange: 0.10
+    project_gutenberg: 0.025
+    arxiv: 0.025
+  weak_grounded_question_use_candidate:
+    fineweb_edu: 0.30
+    structured_wikipedia: 0.25
+    libretexts: 0.20
+    stackexchange: 0.15
+    project_gutenberg: 0.05
+    arxiv: 0.05
+  legacy_retention_regression:
+    new_corpus_fraction: 0.80
+    retention_replay_fraction: 0.20
+    note: Consider only after diagnostics; high NLL alone is not a reason to upweight a noisy source.
+
+source_notes:
+  fineweb_edu: Use the standard score-at-least-3 collection as an initial choice; deduplicate overlaps with other sources.
+  structured_wikipedia: A parsing specification, not an assumed canonical dataset ID; pin dump revision and parser.
+  libretexts: Preserve pedagogical sections, worked examples, and per-document provenance.
+  stackexchange: Preserve question-answer association and topic balance; do not treat accepted status as proof of truth.
+  project_gutenberg: Retain coherent chapters and remove distribution boilerplate.
+  arxiv: Preserve interpretable introductions, explanations, and formulas; reject failed text extraction.

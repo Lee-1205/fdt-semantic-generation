@@ -1,0 +1,33 @@
+{
+  "final_MAIN112": {
+    "rows": 112,
+    "UTF8": 112,
+    "EOS": 93,
+    "no_EOS": 19,
+    "whole_exact": 2,
+    "correct_prefix": 3,
+    "mean_byte4gram_repeat_ratio": 0.012834738763910858,
+    "mean_length_excess_bytes": 124.21428571428571,
+    "notes": "Length excess is not a claim that the preceding content is correct; byte4gram repetition is not an AR feedback metric."
+  },
+  "final_FULLTRAIN134": {
+    "rows": 134,
+    "UTF8": 134,
+    "EOS": 104,
+    "no_EOS": 30,
+    "whole_exact": 1,
+    "correct_prefix": 4,
+    "mean_byte4gram_repeat_ratio": 0.017969979077515567,
+    "mean_length_excess_bytes": 146.58955223880596,
+    "notes": "Length excess is not a claim that the preceding content is correct; byte4gram repetition is not an AR feedback metric."
+  },
+  "actual_oracle_EY27": {
+    "rows": 27,
+    "UTF8": 27,
+    "EOS": 27,
+    "whole_exact": 0,
+    "correct_prefix": 27,
+    "trailing_bytes_min": 1,
+    "trailing_bytes_max": 12
+  }
+}

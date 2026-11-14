@@ -1,0 +1,6 @@
+wall_seconds: 300
+noise_seeds: [17, 29, 43]
+suites:
+  new_graphs: {graphs: 8, seed: 60001}
+  heldout_phrases: {graphs: 8, seed: 70001, heldout: true}
+  larger_graphs: {graphs: 8, seed: 80001, n_range: [7, 8]}

@@ -1,0 +1,20 @@
+schema: fdt_local_plan_v1
+profile: full
+variant: baseline
+plan:
+  seed: 19
+  phase_steps: [480, 320, 640]
+  micro_batch: 4
+  accumulation: 2
+  save_every: 1
+  log_every: 1
+  train_graphs: 4096
+  dev_graphs: 96
+  test_graphs: 128
+  eval_seed: 17
+  encoder_lr: 0.00003
+  ground_lr: 0.001
+  semantic_lr: 0.0003
+  diffusion_lr: 0.0003
+  ground_gate: 0.9
+  semantic_gate: 0.8

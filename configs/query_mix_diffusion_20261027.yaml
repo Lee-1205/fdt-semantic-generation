@@ -1,0 +1,22 @@
+schema: fdt_local_plan_v1
+profile: full
+variant: masked
+start_phase: 2
+research_stage: query-mix resampling continuation, active-balanced weights-only parent
+plan:
+  seed: 23
+  phase_steps: [480, 320, 256]
+  micro_batch: 4
+  accumulation: 2
+  save_every: 1
+  log_every: 1
+  train_graphs: 1024
+  dev_graphs: 64
+  test_graphs: 128
+  eval_seed: 17
+  encoder_lr: 0.00003
+  ground_lr: 0.001
+  semantic_lr: 0.0003
+  diffusion_lr: 0.00003
+  ground_gate: 0.9
+  semantic_gate: 0.8

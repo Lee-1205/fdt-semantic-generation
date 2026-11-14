@@ -1,0 +1,17 @@
+{
+  "time": "2026-11-13T09:44:29.931979+09:00",
+  "decision": "KEEP_V75_AS_NEXT_RESEARCH_INITIALIZATION_DO_NOT_PROMOTE_V78",
+  "selected_version": "V75",
+  "selected_runtime": "PROJECT_ROOT\\runs\\critical_retention_20261112_v75\\model\\runtime.pt",
+  "selected_SHA": "f01e851284df0bd971498ee709b81158abb4ce157bf7e19578c146614411c124",
+  "mandatory_standalone_base": "PROJECT_ROOT\\runs\\context_verbalizer_20261112_v74\\model\\checkpoints\\state_0640.pt",
+  "mandatory_base_SHA": "734a2eed6526f86526f203d6389f6b1a778b50f9273ae9aaf90d4c801998dab7",
+  "rejected_as_default": "V78",
+  "V78_final_SHA": "e2e2cd004b6b96f6347d71e89f06dbc7bdb4b7b0ef3fe1483ee3cfff90cffca5",
+  "all_V76_V77_V78_states_preserved": true,
+  "reason": "Revised64 both quantities54->56/64 but long quantities16->28,episode10->25,decoded58->76 vs V75; V77 episode17->25. Preserve useful gains, no overall promotion.",
+  "deployed_registry_changed": false,
+  "weight_files_modified": false,
+  "automatic_extra_training": false,
+  "all_unused_budgets_closed": true
+}

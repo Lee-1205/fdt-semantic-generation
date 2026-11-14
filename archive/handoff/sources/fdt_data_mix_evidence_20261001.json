@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-01",
+  "scope": "Historical evidence and proposed future mixture; no live configuration changed",
+  "full_current_checkpoint_corpus_consumption_shares": null,
+  "full_current_checkpoint_note": "The historical recovery-stream shares must not be extrapolated to the complete V20 or latest checkpoint.",
+  "historical_recovery_stream": {
+    "source_library_file_id": "libfile_5ecfc7bee348819192775cbd64e74f68",
+    "source_filename": "붙여넣은 텍스트 (1)(4).txt",
+    "file_date_utc": "2026-07-12",
+    "source_dataset": "prepared_data\\fdt_rlm_100m",
+    "scope_note": "Shared approximately 50M-token recovery continuation from the staged_50m checkpoints",
+    "input_tokens": 49999872,
+    "sequences": 97656,
+    "sequence_length": 512,
+    "ratio_basis": "Registered equal-length input blocks; not supervised-loss or gradient-contribution shares",
+    "source_sequence_counts": {
+      "fineweb_edu": 28867,
+      "fineweb": 25893,
+      "code_python": 19328,
+      "code_javascript_typescript": 8420,
+      "code_c_cpp": 4349,
+      "code_java": 4317,
+      "code_rust_go": 4335,
+      "code_structured_docs": 2147
+    },
+    "source_ratios": {
+      "fineweb_edu": 0.29559883673302206,
+      "fineweb": 0.26514499877119685,
+      "code_python": 0.1979192266732203,
+      "code_javascript_typescript": 0.08622102072581306,
+      "code_c_cpp": 0.044533874006717454,
+      "code_java": 0.04420619316785451,
+      "code_rust_go": 0.04439051363971492,
+      "code_structured_docs": 0.021985336282460882
+    }
+  },
+  "v20_tranche_1": {
+    "source_library_file_id": "libfile_c8a375f7218c8191aa1080b7f4d2ff7e",
+    "source_pages": [10, 11],
+    "cumulative_tokens_at_checkpoint": 528905026,
+    "rows": 22500,
+    "rows_per_category": 4500,
+    "active_tokens_approx": 5159000,
+    "completion_supervised_tokens": 950972,
+    "category_normalized_completion_loss_weights": {
+      "factual": 0.20,
+      "retrieval": 0.20,
+      "python": 0.15,
+      "json": 0.15,
+      "natural": 0.30
+    },
+    "note": "These loss weights are not corpus-level input-token shares. Per-category input and completion-token counts were not supplied."
+  },
+  "historical_v4_long_context_distortion": {
+    "source_library_file_id": "libfile_a06950528ddc8191ab8a406a464e4d30",
+    "source_page": 9,
+    "long_source_row_share": 0.02,
+    "long_source_active_token_share_approx": 0.321,
+    "unique_long_rows": 128,
+    "repeat_exposures_approx": 41
+  },
+  "v41_stage_a": {
+    "source_library_file_id": "libfile_a06950528ddc8191ab8a406a464e4d30",
+    "source_page": 10,
+    "purpose": "Position-transition safety, not a recommended complete base-pretraining corpus mix",
+    "natural_token_share": 0.50,
+    "factual_token_share": 0.50,
+    "observed_natural_tokens": 5423000,
+    "observed_factual_tokens": 5423000
+  },
+  "prior_future_mix_from_conversation_retrieval": {
+    "date_utc": "2026-09-30",
+    "status": "Prior assistant proposal, not measured consumption or a proven optimum",
+    "main_five_source_weights": {
+      "fineweb_edu": 0.30,
+      "structured_wikipedia": 0.25,
+      "libretexts": 0.20,
+      "project_gutenberg": 0.15,
+      "arxiv": 0.10
+    },
+    "optional_stackexchange_upper_fraction": 0.05,
+    "normalization_note": "The main five weights already sum to 1; adding StackExchange requires reallocating or normalizing the other shares."
+  },
+  "revised_proposal": {
+    "status": "Initial hypothesis requiring controlled pilot validation",
+    "new_corpus_fraction": 0.90,
+    "retention_replay_fraction": 0.10,
+    "new_source_weights": {
+      "fineweb_edu": 0.35,
+      "structured_wikipedia": 0.25,
+      "libretexts": 0.20,
+      "stackexchange": 0.10,
+      "project_gutenberg": 0.05,
+      "arxiv": 0.05
+    }
+  }
+}

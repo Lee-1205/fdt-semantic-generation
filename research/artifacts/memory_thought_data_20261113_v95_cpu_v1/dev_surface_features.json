@@ -1,0 +1,130 @@
+[
+  {
+    "id": "27e7e3a3ec946f820e7791cff146caeff2dd8c922f7185c0b50af4e985d1debe",
+    "prompt": "A is larger than B. State how A relates in size to B."
+  },
+  {
+    "id": "405ebb380d9e5c66cade86412b3ca426459b9ddf89ea8f8e83edbc153ad3537a",
+    "prompt": "A is larger than B. State how B relates in size to A."
+  },
+  {
+    "id": "80eb3a9b3abe71898fd21dcebb09427526776a3823b5407e6f5c7976f2fcee69",
+    "prompt": "State how A relates in size to B. A is larger than B."
+  },
+  {
+    "id": "174cae6a070a668f74d56378bc2425f529e9f2b5bde04e22e33bf02548f4959c",
+    "prompt": "State how B relates in size to A. A is larger than B."
+  },
+  {
+    "id": "3de2c0b25ad797d23e2948b425bc0dfd23f48ae4fb8f87ca82698f818b41ed99",
+    "prompt": "A is larger than B. Taking A first, describe its size against B."
+  },
+  {
+    "id": "453fbc89a0b5d414c035a1036a60236264cb6e73ff2e7248177d69b4a05244d9",
+    "prompt": "A is larger than B. Taking B first, describe its size against A."
+  },
+  {
+    "id": "859c92e8c3360357c70ce25b83068286d5c9f0111ac9cc91f87419c5bcc7dc00",
+    "prompt": "Taking A first, describe its size against B. A is larger than B."
+  },
+  {
+    "id": "7c5053d93b97814548163b8b5317c15b66a153018646076c63ddf81b84edf772",
+    "prompt": "Taking B first, describe its size against A. A is larger than B."
+  },
+  {
+    "id": "8647a4ac95dddc2cb271cc464981350c1c5f9447e771862e815cc3fa5ced1359",
+    "prompt": "F is smaller than H. State how F relates in size to H."
+  },
+  {
+    "id": "06cd3582ba0b09ecab39dfa372b86b519eae2656283ff58f8209bf68be117961",
+    "prompt": "F is smaller than H. State how H relates in size to F."
+  },
+  {
+    "id": "f920b220149af8602dc3571eb5c1b95c4481d41ca444935a0b18bcba93113a1a",
+    "prompt": "State how F relates in size to H. F is smaller than H."
+  },
+  {
+    "id": "51a5d2ffe7ad759df9fd754eca223ab169cadadcfe3de43a3490f1c4fa035044",
+    "prompt": "State how H relates in size to F. F is smaller than H."
+  },
+  {
+    "id": "8abf6b13a662aad162f69eae33466074c16f28be24d377a50b5e06610649054f",
+    "prompt": "F is smaller than H. Taking F first, describe its size against H."
+  },
+  {
+    "id": "51c474cd59a558aa156215ada50145dab540df89477bd414c80fd116c6e5f39d",
+    "prompt": "F is smaller than H. Taking H first, describe its size against F."
+  },
+  {
+    "id": "02d74424363cc6bd250d14f4bd09cb6905715aaab2f4db4fdbc7fda814ff5a85",
+    "prompt": "Taking F first, describe its size against H. F is smaller than H."
+  },
+  {
+    "id": "b03a21670f22459498d5066991e1412dfc61a2bf8144875a9609ae9fa97492d9",
+    "prompt": "Taking H first, describe its size against F. F is smaller than H."
+  },
+  {
+    "id": "f0978734a420bc21a28bbe944bd686a10645ce5cc19308bd4c9d40ee379dea6e",
+    "prompt": "F is not larger than E. State how F relates in size to E."
+  },
+  {
+    "id": "863553e6a483d5b6f2c61d3723e8bbe826d22df0d24cbd4d57b9aadf073f284f",
+    "prompt": "F is not larger than E. State how E relates in size to F."
+  },
+  {
+    "id": "f1e3230bfb583a2ab3038bf20e8e6744c98f64ee327db87bb6b0e4b697fa26cf",
+    "prompt": "State how F relates in size to E. F is not larger than E."
+  },
+  {
+    "id": "f94399db34bc0449b18bd54430deaa087a75a452408040a8042804ce9afa3d35",
+    "prompt": "State how E relates in size to F. F is not larger than E."
+  },
+  {
+    "id": "1aeab29dab7ba10226ab09448585e9f23b38c550358e6e9c83baf433945da627",
+    "prompt": "F is not larger than E. Taking F first, describe its size against E."
+  },
+  {
+    "id": "00af186222d2ad20a37f1f55d1919bc7a49ab8d719e818aa716cf391ef156bd6",
+    "prompt": "F is not larger than E. Taking E first, describe its size against F."
+  },
+  {
+    "id": "42cd5504ce24426d58440570dc4bd4a31ca793b1f3dd400293d43644c42db7b3",
+    "prompt": "Taking F first, describe its size against E. F is not larger than E."
+  },
+  {
+    "id": "590526480688e1a726a3ae08e63959b03ea06f246c9e2f1806f2ce3d779d8acd",
+    "prompt": "Taking E first, describe its size against F. F is not larger than E."
+  },
+  {
+    "id": "9a1c674a5c6df6974ef78b7423b4816a0c679c824b85ab44e861f0a2d5918ad0",
+    "prompt": "H is not smaller than G. State how H relates in size to G."
+  },
+  {
+    "id": "3cf2c1490448867c5578b51f12b7a5062094d0750e1dd74474a72bc38671963d",
+    "prompt": "H is not smaller than G. State how G relates in size to H."
+  },
+  {
+    "id": "ddfdcd4be84f8d65e840887e939d9d5f6217b402bfb41938629bf8304ff4b8f1",
+    "prompt": "State how H relates in size to G. H is not smaller than G."
+  },
+  {
+    "id": "3ffc1b5eb6ddae6d380e3c0d95d5fa1c5d1597751a109f456824cd94df721c63",
+    "prompt": "State how G relates in size to H. H is not smaller than G."
+  },
+  {
+    "id": "c91374e5e19c9a029cda6c8055f276971738629945fe995f9544c2bf3822ec73",
+    "prompt": "H is not smaller than G. Taking H first, describe its size against G."
+  },
+  {
+    "id": "1268252fe88c682d4d63cf2cc9a901cd1db5d197df274f53ad3236a54f788d2d",
+    "prompt": "H is not smaller than G. Taking G first, describe its size against H."
+  },
+  {
+    "id": "58428f9fcf6541a34bbdab66c2d919993070b34845aeddace3c7062ba29e84b2",
+    "prompt": "Taking H first, describe its size against G. H is not smaller than G."
+  },
+  {
+    "id": "5532b572899ea3f22c3fbd7838bd0d01d11da92248fb67d70328d310d6220ca2",
+    "prompt": "Taking G first, describe its size against H. H is not smaller than G."
+  }
+]

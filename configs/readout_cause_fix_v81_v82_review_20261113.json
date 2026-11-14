@@ -1,0 +1,10 @@
+{
+  "time": "2026-11-13T14:41:46.912007+09:00",
+  "learned_model": "V80 unchanged parameters, V75 reference preserved",
+  "precision_fix": "fixed full FP32 Commit readout verified on SAME64",
+  "automatic_global_promotion": false,
+  "whole_language_cycle_complete": false,
+  "next_SGD_authorized_by_this_record": false,
+  "reason": "Cause-first HUMAN instruction; retain useful historical states. FP32 fixes one reproduced byte; remaining output-boundary regressions require revised data and margin preservation, not blind repeated training.",
+  "result": "PROJECT_ROOT\\runs\\precision_fix_check_20261113_v82\\root_result.json"
+}

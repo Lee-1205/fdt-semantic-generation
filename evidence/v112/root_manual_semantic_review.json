@@ -1,0 +1,39 @@
+{
+  "scope": "ROOT read first110characters of all128positive outputs; full long tails preserved, not all manually read",
+  "high_confidence_recoverable_TRAIN_core_at_least": 1,
+  "not_certified_overall_accuracy": true,
+  "example": {
+    "input_id": "51edf859f297300c474097c8fb8ac0f934a064a8b5d9fab20ae35934574b31b7",
+    "split": "TRAIN_all",
+    "pair_key": "6f86b314d3379801822c2fd3360fec0e020da0e4240594fdd96fe95cda7f9492",
+    "phase": "final",
+    "expected": "H is larger than B.",
+    "label": "greater",
+    "output": "H is largeer hhn B.r",
+    "EOS": true,
+    "UTF8": true,
+    "exact": false,
+    "normalized_exact": false,
+    "expected_relation_present": false,
+    "contradictory_extractable_fact": false,
+    "partial_grammar_semantic_match": false,
+    "partial_grammar_NOT_general_semantic_judge": true,
+    "byte_NLL": 1.0443089008331299,
+    "body_MSE": 0.9132429361343384,
+    "tail_MSE": 0.38710591197013855,
+    "raw": {
+      "path": "evidence/v112\\raw\\final_51edf859f297300c474097c8fb8ac0f934a064a8b5d9fab20ae35934574b31b7.pt",
+      "SHA": "9ea574d935d5d4cd5fabbca2d02398d155e8bd2756df8d71cee9878014ae6bb7",
+      "bytes": 120789,
+      "algorithm_SHA": "6089098200e55093ac804be765edfdb036c71719d7d317dd356a40a299fb4207"
+    }
+  },
+  "ambiguous_ids": [
+    "2d83da26",
+    "30f094e1",
+    "6ab2f13f",
+    "e7e06486"
+  ],
+  "automatic_strict_grammar0_NOT_semantic0": true,
+  "DEV_positive_no_unambiguous_correct_core_observed": true
+}

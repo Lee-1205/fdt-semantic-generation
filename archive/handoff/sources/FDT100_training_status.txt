@@ -1,0 +1,101 @@
+{
+  "phase": "complete",
+  "phase_step": 0,
+  "optimizer_updates": 640,
+  "optimizer_attempts": 640,
+  "input_utf8_bytes": 342056,
+  "query_target_exposure": {
+    "UNRESOLVED": 22209,
+    "GREATER": 6467,
+    "LESS": 6320,
+    "CONFLICT": 40248
+  },
+  "ground_target_exposure": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "elapsed_seconds": 179.08860933799997,
+  "gates": [
+    {
+      "phase": "grounding",
+      "measured": 1.0,
+      "required": 0.9,
+      "passed": true
+    },
+    {
+      "phase": "semantic",
+      "measured": 1.0,
+      "required": 0.8,
+      "passed": true
+    },
+    {
+      "phase": "diffusion",
+      "measured": 1.0,
+      "required": 0.0,
+      "passed": true
+    }
+  ],
+  "parameters": 102237197,
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "peak_gpu_allocated_gib": 0.866182804107666,
+  "contract": {
+    "source": "de05e00dee06c3ad8ff026a2e890fc0adb2ac8e51424bf10bee24f294d055e79",
+    "config": {
+      "name": "fdt-variable-order-100m-v0.3",
+      "lang_dim": 768,
+      "lang_heads": 12,
+      "lang_ff": 2048,
+      "lang_layers": 9,
+      "meaning_views": 2,
+      "diffusion_role_condition": true,
+      "z_dim": 512,
+      "core_heads": 8,
+      "core_ff": 1536,
+      "init_layers": 2,
+      "diffusion_layers": 6,
+      "anchors": 64,
+      "key_dim": 128,
+      "value_dim": 256,
+      "top_k": 8,
+      "relations": 8,
+      "rank": 8,
+      "entities": 8,
+      "facts": 12,
+      "slots": 16,
+      "phrase_bytes": 48,
+      "window": 48,
+      "gradient_checkpointing": false
+    },
+    "plan": {
+      "seed": 19,
+      "phase_steps": [
+        0,
+        0,
+        640
+      ],
+      "micro_batch": 4,
+      "accumulation": 2,
+      "save_every": 100,
+      "log_every": 25,
+      "train_graphs": 4096,
+      "dev_graphs": 96,
+      "test_graphs": 128,
+      "eval_seed": 17,
+      "encoder_lr": 3e-05,
+      "ground_lr": 0.001,
+      "semantic_lr": 0.0003,
+      "diffusion_lr": 0.0003,
+      "ground_gate": 0.9,
+      "semantic_gate": 0.8
+    },
+    "data": "e04ca6238eb0774ba51985ed81d254a976ca01b627b6bc469cfb8fc0b48677ee",
+    "torch": "2.11.0+cu130",
+    "device": "cuda",
+    "gpu": "Tesla T4"
+  },
+  "weights_saved_to_drive": false,
+  "trained_path_optimizer_updates": 2240
+}

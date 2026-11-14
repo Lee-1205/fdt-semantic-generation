@@ -1,0 +1,40 @@
+stage: capability_completion_v19_copy_grounding
+parent: runs/fdt_v3_capability_completion_v18_calibrated_retention_20260815_r4_resume/latest.pt
+hard_reference: runs/fdt_v3_capability_completion_v17_balanced_20260814/latest.pt
+dataset: prepared_data/v3_capability_completion_v19_copy_grounding_5k_ctx512
+output: runs/fdt_v3_capability_completion_v19_copy_grounding_20260815
+conversational_sft: false
+max_length: 512
+rows: 5000
+batch_size: 10
+optimizer: AdamW
+learning_rate: 0.000000025
+weight_decay: 0.01
+lr_schedule: constant
+warmup_steps: 0
+epochs: 1
+steps: 500
+seed: 20260819
+freeze_routing: true
+prompt_lm_weight: 0.25
+eos_loss_weight: 2.0
+grounding_loss_weight: 2.0
+signature_loss_weight: 3.0
+category_objective_weights:
+  factual_qa: 0.25
+  retrieval: 0.20
+  python_code: 0.15
+  json: 0.10
+  natural_lm: 0.30
+smoke_step: 100
+smoke_gates:
+  broad_relative_regression_max: 0.003
+  capability_loss_regression_max: 0.0
+  dead_anchor_ratio_max: 0.01
+  python_structural_successes_min: parent_v18_smoke
+  retrieval_exact_successes_min: parent_v18_smoke
+  json_valid_successes_min: parent_v18_smoke
+  short_fact_accuracy_min: min_v17_v18
+  eos_accuracy_min: min_v17_v18
+repetition_smoke_role: diagnostic_only
+final_repetition_rows: 100

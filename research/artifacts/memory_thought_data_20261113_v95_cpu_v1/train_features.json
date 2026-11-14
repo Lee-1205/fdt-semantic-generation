@@ -1,0 +1,1538 @@
+[
+  {
+    "id": "6fba9e471be63dd03c2fbf75a547a89ea0d03d709784cf920c391f56e992a08b",
+    "prompt": "What is the size relation of A to B? A is larger than B."
+  },
+  {
+    "id": "7446395767e0f2b941c59c595fa3b17c210e43e3d03033d0cee98a34fdb91987",
+    "prompt": "What is the size relation of B to A? A is larger than B."
+  },
+  {
+    "id": "f3859beb214f6ce0f9192411364f534c22fdf7618bc15797723c35af33d2e286",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of A to B? A is larger than B."
+  },
+  {
+    "id": "8bb58a87243b5467a19009a41ff0e23077da542a4f4c32da3f40af2df75d744a",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of B to A? A is larger than B."
+  },
+  {
+    "id": "59ecb053c7b1fb9a84c20b47eb9ef7a664b233776fea85fd52e5fcd9afff73b7",
+    "prompt": "For A versus B, report their size relation. A is larger than B."
+  },
+  {
+    "id": "60973deadc1a026f96244e14df890c791124f9cb51970881b504594987d63901",
+    "prompt": "For B versus A, report their size relation. A is larger than B."
+  },
+  {
+    "id": "33f744084575ddaaca6e895d2a6368e6bf7b0780d6c34c6351458769fcbd2002",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is larger than B. For A versus B, report their size relation."
+  },
+  {
+    "id": "d59f3abc33b9df47cd9dce290724390ad1abd29d7b4d6c38d192239d22a8121e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is larger than B. For B versus A, report their size relation."
+  },
+  {
+    "id": "c93696270759a77de373ecb5577412aae38de463bd9e19783a062cdd881d0ce2",
+    "prompt": "A is larger than B. Compare the size of A relative to B."
+  },
+  {
+    "id": "594a661f61ca7c02b5ff5b4af930262ad06ad2f8879aabe026f0024877aa4965",
+    "prompt": "A is larger than B. Compare the size of B relative to A."
+  },
+  {
+    "id": "c2a934f48dc0b071882b3abc4c832d7bf3c05ab5423e88cb4850fc39a68f73ac",
+    "prompt": "Compare the size of A relative to B. A is larger than B."
+  },
+  {
+    "id": "4d469690fb77d30dfa4774218026efa56de4e02ad3a9c8ddf24146e0c9b7947d",
+    "prompt": "Compare the size of B relative to A. A is larger than B."
+  },
+  {
+    "id": "6ab2f13fb04c1d75dd8cd976206020f4458a95143d39efde74147a2ca2459638",
+    "prompt": "A is larger than B. Is A larger, smaller, or undetermined relative to B?"
+  },
+  {
+    "id": "ba39894ca20e40d2aa35dc3c5b5507b3b5dcb1a30ff8fb7f4a3135adb54d23d5",
+    "prompt": "A is larger than B. Is B larger, smaller, or undetermined relative to A?"
+  },
+  {
+    "id": "c3611a136a37e01b09fdd6b5f98b034138a78c4bf1f23d54fe12fa9e6654364c",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is larger than B. Is A larger, smaller, or undetermined relative to B?"
+  },
+  {
+    "id": "eb62822c114e631d92f80393ee13b22fb4f1d809acc1a0d8667786a2bbd9f339",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is larger than B. Is B larger, smaller, or undetermined relative to A?"
+  },
+  {
+    "id": "c3dac07b057477ed139596f7a46ad18b0faabc66765773c84dc35ad1847d1dd6",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than D. What is the size relation of H to D?"
+  },
+  {
+    "id": "16aa45d5ac4c16f139ac71d4a0f5cbb20f9cea3e0aa33adb4dc3a4e3a5e21515",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than D. What is the size relation of D to H?"
+  },
+  {
+    "id": "31db34631e871abae7a50b712e25dd2f303c0f05d38266d2a759cd880ee0a7d9",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of H to D? H is larger than D."
+  },
+  {
+    "id": "92c7f64b97e97c00e2617774078d7f740e0f71374c53ad06ee3e2c908b098f66",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of D to H? H is larger than D."
+  },
+  {
+    "id": "6cbf27bbdd188e6d8b7956c5c0a062c858bf3c74deb5113a4a4a484cb9df8b1e",
+    "prompt": "For H versus D, report their size relation. H is larger than D."
+  },
+  {
+    "id": "da99f3878fbe471b7457b2dbc922f5385d02ea31efe2da574f229b68ff7371fb",
+    "prompt": "For D versus H, report their size relation. H is larger than D."
+  },
+  {
+    "id": "5fc4a8cb38fbb447d101b6ef0a397c058de54db93978dc27d5c843e74f5edd41",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than D. For H versus D, report their size relation."
+  },
+  {
+    "id": "016aff0dd613cd3501ab042cb2c4a670fc7290f532591c8ea11af76925b8eb76",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than D. For D versus H, report their size relation."
+  },
+  {
+    "id": "d781b4df5b3afb2c294748ebc52f8b8f1422841dbf5309d42a8509518189c3cf",
+    "prompt": "H is larger than D. Compare the size of H relative to D."
+  },
+  {
+    "id": "326fe254f3c43cb8d99e9d8d17b5bc84813aef04515472dad73f5e698a15b346",
+    "prompt": "H is larger than D. Compare the size of D relative to H."
+  },
+  {
+    "id": "079c4a9c2c1ce24729f24d7f06228e905b63189b5a490c4b282f95b25392985c",
+    "prompt": "Compare the size of H relative to D. H is larger than D."
+  },
+  {
+    "id": "4079db8e2ded3a95bd2332aab417c3ce63c32c95654634f924a94352f6f72ffe",
+    "prompt": "Compare the size of D relative to H. H is larger than D."
+  },
+  {
+    "id": "a687532665b6d87999ec2e061602f372d61383d4faeb7476af92a8ce08b0b114",
+    "prompt": "Is H larger, smaller, or undetermined relative to D? H is larger than D."
+  },
+  {
+    "id": "5d94d5f5e5a6b3cd3ca521617c5bbc9608cbc2d52ca5eea68ad7c935817ad7a2",
+    "prompt": "Is D larger, smaller, or undetermined relative to H? H is larger than D."
+  },
+  {
+    "id": "d8eeaf64cdfc79ac23bc57b16abbdfa3b82581fe83248a19d7e521faf790fd44",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is H larger, smaller, or undetermined relative to D? H is larger than D."
+  },
+  {
+    "id": "816955999885e9b42876834414bbbb7db7fe152bb42103b2d76f5a7489eea5a2",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is D larger, smaller, or undetermined relative to H? H is larger than D."
+  },
+  {
+    "id": "da39e708b2ff2fa848c85a60248a6daa5419ee727bcbece4634b73bc7f05b881",
+    "prompt": "A is larger than G. What is the size relation of A to G?"
+  },
+  {
+    "id": "dad9305a8399e5feeb5d998fc2e14d72b339e7325597e2d0f5a5e37c436ff4ea",
+    "prompt": "A is larger than G. What is the size relation of G to A?"
+  },
+  {
+    "id": "e14f5194478ce7f225f6b8ad27ae6c101dbaf7672524258e81ad92636edc2b35",
+    "prompt": "What is the size relation of A to G? A is larger than G."
+  },
+  {
+    "id": "2e3564b6748dfc82ab2471749a7d983da23470b0a733d71c360179dd30f049d8",
+    "prompt": "What is the size relation of G to A? A is larger than G."
+  },
+  {
+    "id": "bdef5f9119615012ad40e30254b829a34024792ee86421f9fd5e0e6fb16cc23c",
+    "prompt": "For A versus G, report their size relation. A is larger than G."
+  },
+  {
+    "id": "5a858cee78980e9cc9773b1605e3ec06b5ecb5dc86228458d4ada36774ede27f",
+    "prompt": "For G versus A, report their size relation. A is larger than G."
+  },
+  {
+    "id": "5906b30fd87755d4c7a10907fb248c16979247e72ce45ccc72e050a08316d606",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For A versus G, report their size relation. A is larger than G."
+  },
+  {
+    "id": "68bbc44007e210165cbe05cb98031ff7d36444af3c155597f23cc554031b38d8",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For G versus A, report their size relation. A is larger than G."
+  },
+  {
+    "id": "8e3e3a1ae2f1e8b2779c86e322104b126824807eb93dd5851a6426556b1b1f79",
+    "prompt": "A is larger than G. Compare the size of A relative to G."
+  },
+  {
+    "id": "471018e291a494b4fe68c9b13f448f4b1f54b738238fbf028d38eebc0fa2b5b0",
+    "prompt": "A is larger than G. Compare the size of G relative to A."
+  },
+  {
+    "id": "f1fa6fc4f5b7611e5a67fe1fae5fd1bb561bc9cc70aa8b334040ecad19d4b633",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is larger than G. Compare the size of A relative to G."
+  },
+  {
+    "id": "20be3801ced0c9ec25b9e63f5875c49b206d6f21fd0d42d410af0f1a18a4f2ee",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is larger than G. Compare the size of G relative to A."
+  },
+  {
+    "id": "55bf931a628a52ece8d1890621ad5aca27ba9d11a46fe883773af7fa4003e710",
+    "prompt": "Is A larger, smaller, or undetermined relative to G? A is larger than G."
+  },
+  {
+    "id": "20f0686aaae8466123f1176d4d6acaf10377cdc06f5c4fbc0a17584d4bce8d17",
+    "prompt": "Is G larger, smaller, or undetermined relative to A? A is larger than G."
+  },
+  {
+    "id": "9cd037a6902049a7d91ee9c4eeb6aa1ef8176dba84ca754bfbdba891e1411497",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is larger than G. Is A larger, smaller, or undetermined relative to G?"
+  },
+  {
+    "id": "201ec60f61621bb6a47f44f659eb5ea48434e0ffa18ca4ff759dff9f59b29eee",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is larger than G. Is G larger, smaller, or undetermined relative to A?"
+  },
+  {
+    "id": "f9d176b8bcc79c9cb3fc7e15beb68575d25bbc073ce427805dd1074ee568be92",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than A. What is the size relation of H to A?"
+  },
+  {
+    "id": "f79808c62ede4124ed46562c323ff8687bb58a49caae1fabf305b116ecb3413b",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than A. What is the size relation of A to H?"
+  },
+  {
+    "id": "b2ddda68ae4bb1b367dda45a70a575bda3e835fa6c3921e1b3db2d51e131cf3b",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of H to A? H is larger than A."
+  },
+  {
+    "id": "d64ed2442f90a7e703e8b957d48f28d06d8938ce961c2f77feece45c3f21b79f",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of A to H? H is larger than A."
+  },
+  {
+    "id": "89ba793ebe5f78cede1c5d0cea5ee4422124296af11d0301b834eff6d4c396b0",
+    "prompt": "For H versus A, report their size relation. H is larger than A."
+  },
+  {
+    "id": "e3871d282ca6679c1529f7937b0ee8f2c3f1868a16c55e165ae071b74be9aaed",
+    "prompt": "For A versus H, report their size relation. H is larger than A."
+  },
+  {
+    "id": "74242d371189381a3798d7173050b433d43549fc47e746aaece68305120d0def",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than A. For H versus A, report their size relation."
+  },
+  {
+    "id": "0fac2fc009ecd98b91de6cc842c1412606e2d39851013754f55e939b698d627b",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than A. For A versus H, report their size relation."
+  },
+  {
+    "id": "744907514511ad9760affec94191533815f49d0b9e20aa198d18816886bd84e1",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than A. Compare the size of H relative to A."
+  },
+  {
+    "id": "cebf1ec5cba7247cf3e683d58d93240c0f6cf70b2a3632ba58993e2e9faef32e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than A. Compare the size of A relative to H."
+  },
+  {
+    "id": "6e5b5a209352acd2fdb028edb343f2dee505b4437fef06bcac33490a5171fc8a",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of H relative to A. H is larger than A."
+  },
+  {
+    "id": "c4464bc16c332ef85c6e64c4246cda2066ccea4ec25e837803188c3d59cace33",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of A relative to H. H is larger than A."
+  },
+  {
+    "id": "651965839db10b9b8cdbfd5ecc93640f4041c3761d483ae842df6d30a82c7520",
+    "prompt": "H is larger than A. Is H larger, smaller, or undetermined relative to A?"
+  },
+  {
+    "id": "1ae8fadf54bf15f83084bfc5fc0fecbaf63aca4e655c8236d449f4130ce19b9b",
+    "prompt": "H is larger than A. Is A larger, smaller, or undetermined relative to H?"
+  },
+  {
+    "id": "3d2b8d9b6c06207b452c88fed7ad15f1e1a27b2d57963d0cccec3995ff6f2757",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is H larger, smaller, or undetermined relative to A? H is larger than A."
+  },
+  {
+    "id": "a49037b5f3911b39d7d6ab2b4404998fe5a1177bf5741748b2f3254898be4ccf",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is A larger, smaller, or undetermined relative to H? H is larger than A."
+  },
+  {
+    "id": "f2fcd3bd3bd9cfe29374a2555cf6ebccc773db0c64485e6eef498699751b0e46",
+    "prompt": "What is the size relation of C to F? C is larger than F."
+  },
+  {
+    "id": "10c3a3ef12432c5f49aae8376162b8bc82a392c2fe85e0bcc7e9a5cb4b4e8cba",
+    "prompt": "What is the size relation of F to C? C is larger than F."
+  },
+  {
+    "id": "4d7fb50c43338693877e369610721ccae42a5d5cbc3e6c66cfb21e0a66bc544c",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx C is larger than F. What is the size relation of C to F?"
+  },
+  {
+    "id": "68cc4bf73defc80b5d22903fc42b326c64ea9c37626af7a5845cb70f06408da1",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx C is larger than F. What is the size relation of F to C?"
+  },
+  {
+    "id": "2d83da266e0596d6e5e0a0128b858fd94a0c1079d87f149446606915d6741f5f",
+    "prompt": "C is larger than F. For C versus F, report their size relation."
+  },
+  {
+    "id": "30f094e1c6d6572d2bd6c824dedd4ebec899a1b7a943f2f18d53c1ab1ea61098",
+    "prompt": "C is larger than F. For F versus C, report their size relation."
+  },
+  {
+    "id": "bdab9e377d88cd00f8f5eb5b1e165b6ccc00ebaa636ed6bcb55eada7abdd3dbe",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For C versus F, report their size relation. C is larger than F."
+  },
+  {
+    "id": "950fd0ea39075c7a5659451614d472841a5f5790867df8c573d429f6cb02c90e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For F versus C, report their size relation. C is larger than F."
+  },
+  {
+    "id": "034b11ff3d4939f302fec8f85999fb42cc1603c260a697b037a08034b999fd53",
+    "prompt": "Compare the size of C relative to F. C is larger than F."
+  },
+  {
+    "id": "0dd7fbed0f6be88cffcc516231ab60300f416385cdbb910713dcc8a57c274c14",
+    "prompt": "Compare the size of F relative to C. C is larger than F."
+  },
+  {
+    "id": "338df604d510cb35659db914badc4d69691eb85e8e85d1e1197b8bc8e05021e3",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx C is larger than F. Compare the size of C relative to F."
+  },
+  {
+    "id": "4758dfb0aa8a066c8d1d4325478093b2e07a42ba175611e277f65772340577b0",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx C is larger than F. Compare the size of F relative to C."
+  },
+  {
+    "id": "543883f441c9b87a8f4a24597e36a36fa5be934a3ea72bb1e0c44c444de2b4fb",
+    "prompt": "C is larger than F. Is C larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "d6e2d8e5d1f31103b88618c287df44096f388fbac621b0b73fec83bff3a1d9ec",
+    "prompt": "C is larger than F. Is F larger, smaller, or undetermined relative to C?"
+  },
+  {
+    "id": "508a92ae67cd6d79c63e326204ff8a0e2a0d3b62efe7d5fa37c0c9f3b100418a",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is C larger, smaller, or undetermined relative to F? C is larger than F."
+  },
+  {
+    "id": "9c14d8c5ff6a3f5f02b127089efbe9053377327ad8dbc99070120f359d18d6a5",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is F larger, smaller, or undetermined relative to C? C is larger than F."
+  },
+  {
+    "id": "53cf4462f1a3f0314569d3fe16c4c33bab05ab1a22eaf1622d41858ecd438120",
+    "prompt": "A is larger than F. What is the size relation of A to F?"
+  },
+  {
+    "id": "2ed576fa88e705b087da091823af2ca2bd7bdcdf32304293560d98de3c66abeb",
+    "prompt": "A is larger than F. What is the size relation of F to A?"
+  },
+  {
+    "id": "b1146b73062b6e8a6b8d8bc3ae04571c47818f06be7da20ba8c7fa016169712a",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of A to F? A is larger than F."
+  },
+  {
+    "id": "3f576d2b68034b57fb1e5deb449e29cdcc335be7ee091bace3b9eaa63f84ffca",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of F to A? A is larger than F."
+  },
+  {
+    "id": "a55904a95ea4d41ce96a95e5fc6d60f23d0b051bd68415f83d2039a6dc340205",
+    "prompt": "For A versus F, report their size relation. A is larger than F."
+  },
+  {
+    "id": "f51b51f529d6760241fcb57711f7f412aa6caaeac0a9f1d91d378078bb6a9da8",
+    "prompt": "For F versus A, report their size relation. A is larger than F."
+  },
+  {
+    "id": "308cbcea6cbdf727f44b34c80ecfcb2e6f25bfc17d93d77719d2ea9fd1095df3",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For A versus F, report their size relation. A is larger than F."
+  },
+  {
+    "id": "2058a095dd057e47e15f94ee52a8b179d1f0750cfc4540e1f7cc516f2b953d89",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For F versus A, report their size relation. A is larger than F."
+  },
+  {
+    "id": "79560e11d3b4deb7e8aa69760c6795b7c5aea9bf3f6747b2f5f77bda131408e3",
+    "prompt": "Compare the size of A relative to F. A is larger than F."
+  },
+  {
+    "id": "d982975e8ef4cc63650fdc55bfac59b19352866bd8774001c5740fb6b8149f4e",
+    "prompt": "Compare the size of F relative to A. A is larger than F."
+  },
+  {
+    "id": "a59208ac627c8abf47a17604f7eac890807bdf61e48955d60f820b9dc0b97f3e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is larger than F. Compare the size of A relative to F."
+  },
+  {
+    "id": "6341fa1b93ab4a534bec47b5368cb12cd94d28028abe2f1dbf3a75f3487b7c47",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is larger than F. Compare the size of F relative to A."
+  },
+  {
+    "id": "819a6b97fe7fe7634c0b3df8057affdc04f4b34ee23f91c1944425a888a5cd16",
+    "prompt": "A is larger than F. Is A larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "7443b83ba0b1bf0a0b2cd68f42a81d4460a9864097140c870c6f7b052b25b7c6",
+    "prompt": "A is larger than F. Is F larger, smaller, or undetermined relative to A?"
+  },
+  {
+    "id": "3b53dc13beffe65dc452d0429715adcae477fe8e5670d611e715e773e27ad89f",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is A larger, smaller, or undetermined relative to F? A is larger than F."
+  },
+  {
+    "id": "22fc456829d08c786998668097350c3ee2e98b996a6a24b468552059b455885e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is F larger, smaller, or undetermined relative to A? A is larger than F."
+  },
+  {
+    "id": "05460d74ed0962ff33b25be22d153e1398e18f87390a233a602ba917ac0866a0",
+    "prompt": "H is larger than B. What is the size relation of H to B?"
+  },
+  {
+    "id": "8bbc9c771be4c3158d71f5ed88c4a771d5d853da4b3e65b60e1c4b4d2d0cfa4e",
+    "prompt": "H is larger than B. What is the size relation of B to H?"
+  },
+  {
+    "id": "e7e06486dac6d6e91b973b5d0e238969c505a68164804ba17e3cdd473ad0dc85",
+    "prompt": "What is the size relation of H to B? H is larger than B."
+  },
+  {
+    "id": "4d9d906170c98f8e5c52a7920dd9002a1c40be176aac7b6de6cddb75c32f0629",
+    "prompt": "What is the size relation of B to H? H is larger than B."
+  },
+  {
+    "id": "c001cd130fb2cddcdd707aaac47f7ff12b716d75c902020bef485b1b042fc2e7",
+    "prompt": "H is larger than B. For H versus B, report their size relation."
+  },
+  {
+    "id": "1ab5a897e12904435d83408dc1e173391ca0ede1d39a5c253e517915877fab59",
+    "prompt": "H is larger than B. For B versus H, report their size relation."
+  },
+  {
+    "id": "8f2aebd61d84ea9254d6a4a2545fe597690baa0ca508b246b757b58741a5c285",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For H versus B, report their size relation. H is larger than B."
+  },
+  {
+    "id": "132090e0ba837891050315c7f5e7cc20c82c94d6b1b885192eec11f8df674c89",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For B versus H, report their size relation. H is larger than B."
+  },
+  {
+    "id": "ccab4eb796438040670d12163c110969f0ac8d15822da9450e0cf60e51a02c58",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than B. Compare the size of H relative to B."
+  },
+  {
+    "id": "bb2ca8b75f54aa80246671fed57584f99dda663efd0c56402c3dcf1dafeaac4c",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than B. Compare the size of B relative to H."
+  },
+  {
+    "id": "a7de32474f44a66084f40d8f00483665c4721b4d2f00b7dcd6927aba51f0997d",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of H relative to B. H is larger than B."
+  },
+  {
+    "id": "10c56b9c50d136b52fbb52184ac12b2ceb8ff3ece4bd85671b4da56178989cab",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of B relative to H. H is larger than B."
+  },
+  {
+    "id": "2fa424f3a6508bec474b92e2b0da68fb44d468cc848bac46061ab09892cdee59",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than B. Is H larger, smaller, or undetermined relative to B?"
+  },
+  {
+    "id": "73f802c5c2a3335f055a9502393905318dc8a23be07159ce9a6d280fda729d2b",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is larger than B. Is B larger, smaller, or undetermined relative to H?"
+  },
+  {
+    "id": "42097143e7696e8c5d6706e5c9a84ed24d03465d980dd188a9d2d13edecb11cf",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is H larger, smaller, or undetermined relative to B? H is larger than B."
+  },
+  {
+    "id": "3d9086a2eb6518f4795a47797672cabe82cd8f18bb1d8392bcdef509e6e5e1b8",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is B larger, smaller, or undetermined relative to H? H is larger than B."
+  },
+  {
+    "id": "87ec594a7ebbd28bffa4bd6c4ff91325217fa9b3bd893df948fe56fc64a140cd",
+    "prompt": "What is the size relation of F to A? F is larger than A."
+  },
+  {
+    "id": "61f7456d3ae40cbd2c3ec147a0c9d37414b8271d19114a91090984df4813b90e",
+    "prompt": "What is the size relation of A to F? F is larger than A."
+  },
+  {
+    "id": "7860eb98cb80a31e41c2e5adc9a54fb65515930843f4dbe84a4f4158bbb1c601",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of F to A? F is larger than A."
+  },
+  {
+    "id": "fb147dbbee45864365c1a07a002b7cb604df0baa48acc96b76fc76705b625609",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of A to F? F is larger than A."
+  },
+  {
+    "id": "b869b68f2287d1a81b087a59c49c6f9fa4a1987ede3b55eabeb82a9a44fae520",
+    "prompt": "For F versus A, report their size relation. F is larger than A."
+  },
+  {
+    "id": "650de0e50d039aa7cd86458e500006bef43c8b269a0492c0c78491a17f13ba97",
+    "prompt": "For A versus F, report their size relation. F is larger than A."
+  },
+  {
+    "id": "8622418b3ffb6481d7269e931d02df23095cef85a02128d44931ecf049427ad2",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For F versus A, report their size relation. F is larger than A."
+  },
+  {
+    "id": "6d84d10161efb348c8c13b56b9748f7b519ec161eea10edfbd19192a21503ede",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For A versus F, report their size relation. F is larger than A."
+  },
+  {
+    "id": "fe28b30f4e7ebf8008bcd6c1f97670167645180a5eb6ea29c87f1d3ed0d262ec",
+    "prompt": "F is larger than A. Compare the size of F relative to A."
+  },
+  {
+    "id": "ad29750ef447febf2740d3e63e6c809ae29b80d128ca1f01f467955e97c1729f",
+    "prompt": "F is larger than A. Compare the size of A relative to F."
+  },
+  {
+    "id": "e48bc42a1e77fbd4bd03ee0867dc79d319817298bdb9df2124a931b94ef66d28",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is larger than A. Compare the size of F relative to A."
+  },
+  {
+    "id": "ea1c9e6c760d3533801ac86c0622103c8a423961086459170150fbc98891fd69",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is larger than A. Compare the size of A relative to F."
+  },
+  {
+    "id": "e8f749b2f9e0be56114a8a8420c5ac31d8459db3fc4be30443602f24d6b06ce4",
+    "prompt": "F is larger than A. Is F larger, smaller, or undetermined relative to A?"
+  },
+  {
+    "id": "50cc8e899b2bc7947d58fb98d229dba73b50104cbfc86981e0e6513ee5f20f61",
+    "prompt": "F is larger than A. Is A larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "313dd2c0478da9aa18c5b095c31bcccae47ac062b7b7c4adcf9269b9f840d607",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is F larger, smaller, or undetermined relative to A? F is larger than A."
+  },
+  {
+    "id": "2ec1ea0eeba0a66c9258c7fd4d2d319a37bdbd09b40fbdaf75e53027f60b333e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is A larger, smaller, or undetermined relative to F? F is larger than A."
+  },
+  {
+    "id": "40029891885cca5274ed6a6858c923611b218e1871586815f4685ed712b0efe7",
+    "prompt": "What is the size relation of F to H? F is smaller than H."
+  },
+  {
+    "id": "1c0e9a1eaf455e86c0691ad8178d3f85a59b79a96a02669f7956c2c182e39e68",
+    "prompt": "What is the size relation of H to F? F is smaller than H."
+  },
+  {
+    "id": "8940a98b5d1e2decb5d8162bd932d4721695a7943e9ce03538f9245420c80419",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of F to H? F is smaller than H."
+  },
+  {
+    "id": "87d65dfbe2be86ab812e24ffed522df159d858f1d3dda88a6d5ef5d8f7a027f0",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of H to F? F is smaller than H."
+  },
+  {
+    "id": "68da323b4cbd9d45a37236db5481129c5c50460c6f28b40b4e7d440c12b7f4ce",
+    "prompt": "For F versus H, report their size relation. F is smaller than H."
+  },
+  {
+    "id": "346099b54ffcf607f3dc7aeaa1bebdbc0da60a159de51f0484d68fed5cdf0a63",
+    "prompt": "For H versus F, report their size relation. F is smaller than H."
+  },
+  {
+    "id": "fdfa82dc33a04048eb3f33eac27b4c0562d62b9cc359433ddbb18f1ac0478197",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For F versus H, report their size relation. F is smaller than H."
+  },
+  {
+    "id": "330cf6543f68ab5faaf0683c63f5e567de1e7ca6724b843c6c38604317890053",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For H versus F, report their size relation. F is smaller than H."
+  },
+  {
+    "id": "8cc7df7b9a464a09409793ca646708b1e3c43026e0238a20dc68dda387e6cc28",
+    "prompt": "F is smaller than H. Compare the size of F relative to H."
+  },
+  {
+    "id": "5d25e35856b33f230080ccf040bb52806a3a9b069290d2270f4508dcdfdd3cd8",
+    "prompt": "F is smaller than H. Compare the size of H relative to F."
+  },
+  {
+    "id": "99afacdfa501f68f83b12eb94c8f4ccf08bd06d7e14160ef9385f9b15e1e8310",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is smaller than H. Compare the size of F relative to H."
+  },
+  {
+    "id": "48f7de75b311c9f3927f6b44803b875274c255a5f4b0b3176a8a4a7f90262588",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is smaller than H. Compare the size of H relative to F."
+  },
+  {
+    "id": "7264bf9784776e7a936801ca0a31607a95108b7c68904f261452aee09e9dc9c5",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is smaller than H. Is F larger, smaller, or undetermined relative to H?"
+  },
+  {
+    "id": "89911e048e8a633dccead5c6007c1cc72e2ef15ef8ab8f495b9396c75ce90001",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is smaller than H. Is H larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "ef81912d92f9780afe047e810ca7ae28444bce30f2f6e86f10ad3931eea7cabb",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is F larger, smaller, or undetermined relative to H? F is smaller than H."
+  },
+  {
+    "id": "04b8269aca5329d2ac64c798c01445e4fc51f7b5c4415bc9b121de918e45feb9",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is H larger, smaller, or undetermined relative to F? F is smaller than H."
+  },
+  {
+    "id": "0e4b0d9e332a69febe7849e87fa2afdb744d410d2cc4f7a3ed6b5831630f6135",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is smaller than D. What is the size relation of A to D?"
+  },
+  {
+    "id": "7c2354f57b8ebcc025d33b3a79a1de446292df6e06a3633c39484893361891e3",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is smaller than D. What is the size relation of D to A?"
+  },
+  {
+    "id": "4f836e2150e2339f42df5d84ed6c063f3b49e853c003e176bfed86548940b82d",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of A to D? A is smaller than D."
+  },
+  {
+    "id": "b4e10f36977e8231f8870599d2223a07aa5b63dd8cf9cec12a68fe9498b03f88",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of D to A? A is smaller than D."
+  },
+  {
+    "id": "1855ba0dd397c02d7625e2b7554888c3764392bdd7a801011d3f59b574bcad97",
+    "prompt": "A is smaller than D. For A versus D, report their size relation."
+  },
+  {
+    "id": "e6d6f5e9f1bc0f8149c9810d812854e937ee697c393e25e9c5d70bc04fb993cd",
+    "prompt": "A is smaller than D. For D versus A, report their size relation."
+  },
+  {
+    "id": "1e0e99f708470c545b9433226dab010e68469dac8d8e1ea42cee836c9812a5f9",
+    "prompt": "For A versus D, report their size relation. A is smaller than D."
+  },
+  {
+    "id": "80ac55ddd1e20bfc7511b50d2a8b45c264c53dcae5ab7e9c15337d17ecc14f9d",
+    "prompt": "For D versus A, report their size relation. A is smaller than D."
+  },
+  {
+    "id": "8a7291ecb41910d2672a01028fce3ea205c454f2f69b6ce3145fb4a72d0f4488",
+    "prompt": "A is smaller than D. Compare the size of A relative to D."
+  },
+  {
+    "id": "d45b13fdb6c24989dcdcdcb7bf306d6e9949c1842a679c61ea9c382a75a6332e",
+    "prompt": "A is smaller than D. Compare the size of D relative to A."
+  },
+  {
+    "id": "7368d19aae3b7d8ea2bb3e95ee08f7968c98df39309c7cfbe0e9c714a2c4f81e",
+    "prompt": "Compare the size of A relative to D. A is smaller than D."
+  },
+  {
+    "id": "f723b77ae1c70bd6e0e4ee1d744f42ddbb650f595ad4450a65b703c9481b2ee4",
+    "prompt": "Compare the size of D relative to A. A is smaller than D."
+  },
+  {
+    "id": "a9169e67d13f517a8866cee8dc22e703f8555d232c7a005b09e941bbd859072d",
+    "prompt": "Is A larger, smaller, or undetermined relative to D? A is smaller than D."
+  },
+  {
+    "id": "0f785d01f8c3f13baf488e5622013d82b740f124aab2eb7895f0a9af6eba1092",
+    "prompt": "Is D larger, smaller, or undetermined relative to A? A is smaller than D."
+  },
+  {
+    "id": "5ab601c5bfca2636581bd1062deac213a998ff11dbaadf6494c93bb4b4863934",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is A larger, smaller, or undetermined relative to D? A is smaller than D."
+  },
+  {
+    "id": "0dc35e9d06f67d540fa3f0c612d344769517431260f047227d43b79f57b6b687",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is D larger, smaller, or undetermined relative to A? A is smaller than D."
+  },
+  {
+    "id": "5025fac7017b195d69502e0ad2910a9501aa91b431ce1d16ff488b26f69ae1b2",
+    "prompt": "What is the size relation of B to H? B is smaller than H."
+  },
+  {
+    "id": "ca07ca37b33f0414d3f19ec6b0dca03654c19d029b7aabac98bcc0fff51b84c6",
+    "prompt": "What is the size relation of H to B? B is smaller than H."
+  },
+  {
+    "id": "32fcd54c26bd17819328ee8dc99f264dd63e8405dd172a80ffe886c597a52f7d",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is smaller than H. What is the size relation of B to H?"
+  },
+  {
+    "id": "55a05b78b825e1574aac6437df48b9035e127ecd074d7a7bd123ec3baa4642ee",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is smaller than H. What is the size relation of H to B?"
+  },
+  {
+    "id": "a6cc05a41bb8262b1eba650e4c662377818fc3bbad50fd0f8a04708307fe09e8",
+    "prompt": "For B versus H, report their size relation. B is smaller than H."
+  },
+  {
+    "id": "a8c8e91b4a3880fc60ea58cf700f6282514eaedceba35d3d0aaa2064a6fe2bcc",
+    "prompt": "For H versus B, report their size relation. B is smaller than H."
+  },
+  {
+    "id": "711154fd397c18a5f35a551842a97413bace7cd335937c3700d4caeed7e87e49",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is smaller than H. For B versus H, report their size relation."
+  },
+  {
+    "id": "9d2db873c097fe73fce74e01c3868350d17c4e37915f65ab1555d14a501566b3",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is smaller than H. For H versus B, report their size relation."
+  },
+  {
+    "id": "b650c70b2f00d37acee87fdcf62ffe24fb88f74de57505cc8e54251e333eae9b",
+    "prompt": "B is smaller than H. Compare the size of B relative to H."
+  },
+  {
+    "id": "52bdf3b30bd9a705431ae598142f4965a7737ee5f5b3d3f1b5f1fc9fe1d3a84a",
+    "prompt": "B is smaller than H. Compare the size of H relative to B."
+  },
+  {
+    "id": "3f87d6d45e825ba404ea6e046bb2edeacdcd3bdcbd748f75e27b60dc5bccf802",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is smaller than H. Compare the size of B relative to H."
+  },
+  {
+    "id": "12c5978e207b79fb45d96766f9daf664e8f0ac79876011bb5441392b88024d4e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is smaller than H. Compare the size of H relative to B."
+  },
+  {
+    "id": "cdb40d221b75bb834acaf5f358aa2c7c00e36e37845409ce97aa16a418354235",
+    "prompt": "B is smaller than H. Is B larger, smaller, or undetermined relative to H?"
+  },
+  {
+    "id": "51edf859f297300c474097c8fb8ac0f934a064a8b5d9fab20ae35934574b31b7",
+    "prompt": "B is smaller than H. Is H larger, smaller, or undetermined relative to B?"
+  },
+  {
+    "id": "2283d8a9690e3f685e07d2154ee5724aa37dff9ae6ae91a2d4617baa5c9e1a99",
+    "prompt": "Is B larger, smaller, or undetermined relative to H? B is smaller than H."
+  },
+  {
+    "id": "a69ab5f49c9e11ac0af4e04287696b27fac05e32ea38208eebf910edbb3c1288",
+    "prompt": "Is H larger, smaller, or undetermined relative to B? B is smaller than H."
+  },
+  {
+    "id": "c19a1f528d552c428e70923646b6c5ead5a1df02534b9c481421c96591bff4b9",
+    "prompt": "A is smaller than F. What is the size relation of A to F?"
+  },
+  {
+    "id": "ad5fbaf9a252a468d0a4b763e9df5de00b9062a72206d3970b46265dc93826c1",
+    "prompt": "A is smaller than F. What is the size relation of F to A?"
+  },
+  {
+    "id": "0767d4eb4cda65e2d94c70c45b1dc8dad3751b6ff2d95b05ed65030f9aa159d6",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is smaller than F. What is the size relation of A to F?"
+  },
+  {
+    "id": "6fa188aac80f641b2865ed3fbe25b4d7cea08c2f12e83ca2e8acefe497160bbc",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is smaller than F. What is the size relation of F to A?"
+  },
+  {
+    "id": "fe7d292e1fb3a0010c38477359811deb8fad1d14355b7950c97e2c1a3ebb6d0a",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is smaller than F. For A versus F, report their size relation."
+  },
+  {
+    "id": "eee4c6b3aa8538dffb8c9f63115c6a562dd068299981a63a076a0766df3ac9f4",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is smaller than F. For F versus A, report their size relation."
+  },
+  {
+    "id": "8df759eae50beb015be6cfe413d85bbdb6a29a37e6c7536cc3f3cdf8af207c4f",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For A versus F, report their size relation. A is smaller than F."
+  },
+  {
+    "id": "9bee02ad5db6b0250e6083338b3b6c6264555d905309b037d031b30f3db90303",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For F versus A, report their size relation. A is smaller than F."
+  },
+  {
+    "id": "a04164a0c805b620311c2a9ce7c4c3e45bacbc007e2922e6a8861480f4d7bb8b",
+    "prompt": "Compare the size of A relative to F. A is smaller than F."
+  },
+  {
+    "id": "6066aa636f56a35bb923c4f762831f7182a1c63b5fddbee37d80e5fe270dd407",
+    "prompt": "Compare the size of F relative to A. A is smaller than F."
+  },
+  {
+    "id": "abdd2f22aee2d1978ed40e95015bc4af1d0c4b649075050e334b7d80ffda643c",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is smaller than F. Compare the size of A relative to F."
+  },
+  {
+    "id": "819b4e94e86b4f20b12573bd9c0dfd80dec3d06c35159187df1534d82148de32",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is smaller than F. Compare the size of F relative to A."
+  },
+  {
+    "id": "28e61d6458cde682051a28d4eec9fc7e7a9f9f128baa5ccd8f7e42724cd627a8",
+    "prompt": "Is A larger, smaller, or undetermined relative to F? A is smaller than F."
+  },
+  {
+    "id": "891240287be195cfa3ebd03bd85e9795782d4be0ed5ff2b038038b9d5543af67",
+    "prompt": "Is F larger, smaller, or undetermined relative to A? A is smaller than F."
+  },
+  {
+    "id": "601350c84086c0e587c4b8a1d4328bd0bf3775ad1ceecca9c2a4db9a6f599862",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is smaller than F. Is A larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "d149b95b434beb745069a797886d0014d337ebf178397b1d4762adb243bda7ef",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is smaller than F. Is F larger, smaller, or undetermined relative to A?"
+  },
+  {
+    "id": "468785b55f30d8191f02e1be4f11e54d4d02e8ab3a0a0ee8459c95407c8ac335",
+    "prompt": "H is smaller than F. What is the size relation of H to F?"
+  },
+  {
+    "id": "9aead29fd1b8901f312947a8b1d7652770dc409414eb854dcd80b9727be8dbb5",
+    "prompt": "H is smaller than F. What is the size relation of F to H?"
+  },
+  {
+    "id": "c059684b89e82c844f50ba30cb7fd88cbb69d682ab173d2fac4fb11fdde7db48",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of H to F? H is smaller than F."
+  },
+  {
+    "id": "636cae422cad684daf0abb9fab39943c67467adc8d75c462b6b9a6d9272e7d78",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of F to H? H is smaller than F."
+  },
+  {
+    "id": "6058cbcfe3c35443f1ee1e74ac288355fa35e1b1e0efc41bdc000d37912cf0e8",
+    "prompt": "For H versus F, report their size relation. H is smaller than F."
+  },
+  {
+    "id": "c5af8be863785d7851116e9a91794d163f9994e953e8b07e4f29f814a5e3e36b",
+    "prompt": "For F versus H, report their size relation. H is smaller than F."
+  },
+  {
+    "id": "87cf53995513ec29eedc86959143d1a725cc816d10b57cc201e9387b15c14179",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For H versus F, report their size relation. H is smaller than F."
+  },
+  {
+    "id": "48441e0d77ce73bd5e807c8e84322aa2f860858c5aa1dddad03ec8278bda274f",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For F versus H, report their size relation. H is smaller than F."
+  },
+  {
+    "id": "625bff1cae23094b23ee1cf5328263233dbabd716bc9fef69090be24fc8eefb3",
+    "prompt": "Compare the size of H relative to F. H is smaller than F."
+  },
+  {
+    "id": "2cc3b3d23cf556c08466b137548a1c736efb2adf80372573c952f8290561f872",
+    "prompt": "Compare the size of F relative to H. H is smaller than F."
+  },
+  {
+    "id": "feacf88898710a21cdf056ee430a52791094d9cb78019e6f2c1fe707972b988d",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of H relative to F. H is smaller than F."
+  },
+  {
+    "id": "9ea8e3e1110abc1a0b57eef36054ea6b305807a060848b43f690d864176cd84b",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of F relative to H. H is smaller than F."
+  },
+  {
+    "id": "e8681e6498b9f4b5be9a9f216b60dab411633f384ab0e58dbf80b2fc3ff06b65",
+    "prompt": "H is smaller than F. Is H larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "ef6df1a080d626792ea3f20a4701e3fb6fe11b6ca5507b4a7f9d4ecdc116e3d2",
+    "prompt": "H is smaller than F. Is F larger, smaller, or undetermined relative to H?"
+  },
+  {
+    "id": "2dc1e7961a1b9516f21ba35acf168174b018a8147000213edbbb5345e29970c2",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is smaller than F. Is H larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "6ea790146c39b64b4b118d1048c489898b20b015e589e85a8a732c5a0a49a8ea",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is smaller than F. Is F larger, smaller, or undetermined relative to H?"
+  },
+  {
+    "id": "8d63983da970c484f6d160d302594dcbd2e9ce10d1b0682770ae23478ebdb2a5",
+    "prompt": "F is smaller than C. What is the size relation of F to C?"
+  },
+  {
+    "id": "95c239ab0156b0c1e6f67b0f827002e5d7c6f0274a58e9b403e004dba828de8c",
+    "prompt": "F is smaller than C. What is the size relation of C to F?"
+  },
+  {
+    "id": "9ed69607622d36d8e5daebac28318ffb1d6a7d2fbd219536496977619c7c4ffd",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of F to C? F is smaller than C."
+  },
+  {
+    "id": "455bd7affaa9ba1e891cba5902359d9d7db9870e649505e0445add3f4d829f5f",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of C to F? F is smaller than C."
+  },
+  {
+    "id": "0b3bf0aec36a2af3ad36f345755b320c30bd44eaf59298bfd18a0ea2d1756983",
+    "prompt": "For F versus C, report their size relation. F is smaller than C."
+  },
+  {
+    "id": "3b20799823b40073a5281595bd2bb56231b7159cb00bec036fcd08e55b6ca986",
+    "prompt": "For C versus F, report their size relation. F is smaller than C."
+  },
+  {
+    "id": "efc70bcb150813ee3c9c1dc4f003968521e9249610f7833a8016232d4613a012",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is smaller than C. For F versus C, report their size relation."
+  },
+  {
+    "id": "0b499ab47db2ba170f37736decfe3fe0837de4b3fb2bb5c9148e35d7ecd2f868",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is smaller than C. For C versus F, report their size relation."
+  },
+  {
+    "id": "1cff17d2683855eeb7f8e0cfc26a4dca91bcdb8bd321226b961b469ca1caffd9",
+    "prompt": "F is smaller than C. Compare the size of F relative to C."
+  },
+  {
+    "id": "e642cb1e0d5458bf218a8a824bc5a802cf8c084abde9d8e50589d168581e7f57",
+    "prompt": "F is smaller than C. Compare the size of C relative to F."
+  },
+  {
+    "id": "68e0120fa98b8aab8644da60e983f25918b0e821172e2816034b6f37bb08d174",
+    "prompt": "Compare the size of F relative to C. F is smaller than C."
+  },
+  {
+    "id": "90aa7fed7873eceb0e66fdc2137b1417aaeae3208900667a65f8ef854d8f2d5a",
+    "prompt": "Compare the size of C relative to F. F is smaller than C."
+  },
+  {
+    "id": "fcfc60eb3319e24c88ab32b422fc5c3e49892761e530f4cddb7a0809e2de9048",
+    "prompt": "F is smaller than C. Is F larger, smaller, or undetermined relative to C?"
+  },
+  {
+    "id": "ff496514c89a0d900341942cb4c54d2f29f75a0dc0b627dad388785e10140853",
+    "prompt": "F is smaller than C. Is C larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "2d3757b9770af65e8bc6a652b1c5a828359dab179c86108d6ca86c6dd166b678",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is smaller than C. Is F larger, smaller, or undetermined relative to C?"
+  },
+  {
+    "id": "f82374e6fd9e5b18398a0d1fd3943fa6d1c1be3e75927834f5e823b0918e2cba",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is smaller than C. Is C larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "332099f06800d93d58780f6495d0940f445ded6c4d44be83cc6f2832a8394947",
+    "prompt": "H is smaller than D. What is the size relation of H to D?"
+  },
+  {
+    "id": "42d12404be5d4a091461d16ef120e853cd30e892001fdef2d449810d591a2298",
+    "prompt": "H is smaller than D. What is the size relation of D to H?"
+  },
+  {
+    "id": "e6d49357c7ab61d502d6d1c5bfea624328720fad12e62c03d96936d8c5bbdba0",
+    "prompt": "What is the size relation of H to D? H is smaller than D."
+  },
+  {
+    "id": "342a6728fcf31de55162aa306f9273a06a7c9b5351b10d77e517687ccf41f57b",
+    "prompt": "What is the size relation of D to H? H is smaller than D."
+  },
+  {
+    "id": "82b9056bcbacf4d23754b8efda78b5c6ad48ea9828952457c36f045d304be6ac",
+    "prompt": "H is smaller than D. For H versus D, report their size relation."
+  },
+  {
+    "id": "83dd1427cd7e68e5a8e2548aeee5ab36af6eca6188d486141157076f29fed28b",
+    "prompt": "H is smaller than D. For D versus H, report their size relation."
+  },
+  {
+    "id": "f7ace226ee6ed1bd90313fc25e9608f02a9ef70f422bfad802eb54932bc08e41",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For H versus D, report their size relation. H is smaller than D."
+  },
+  {
+    "id": "efb99459e15bc04bdc5b5aae3df77af408f91ad26eb66f0245e0dcc91a2fb504",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For D versus H, report their size relation. H is smaller than D."
+  },
+  {
+    "id": "34559190e67bd57da4d7e81ab2a63eb8fb2e6c7df0b528e279bff7de24c41b02",
+    "prompt": "Compare the size of H relative to D. H is smaller than D."
+  },
+  {
+    "id": "93eceb558d8e4ab9b26c081876f1a5a503ce08e4c28160ae2eecac0fba5cecab",
+    "prompt": "Compare the size of D relative to H. H is smaller than D."
+  },
+  {
+    "id": "0ba2ccd0178a494ca03fcbd3ce69887aa7d37192d0defd098146d066a27b2b77",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of H relative to D. H is smaller than D."
+  },
+  {
+    "id": "7b87987c6775819d69b0c61a9da8f07f48697e5aa6ed5c1cf9b63d4c7f006c74",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of D relative to H. H is smaller than D."
+  },
+  {
+    "id": "9466bb0d823f5075d25215827cfdba25bfbf9d5df01bc427b49139b4dd0a18e5",
+    "prompt": "H is smaller than D. Is H larger, smaller, or undetermined relative to D?"
+  },
+  {
+    "id": "91b5fbce89531fe844534cdb76e7732e6a58dac506a277e2272c0dd286fd9e26",
+    "prompt": "H is smaller than D. Is D larger, smaller, or undetermined relative to H?"
+  },
+  {
+    "id": "fd3ab20e0962c456c423f594cd6598daac3ea37641e12991bb312030bef15ba9",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is smaller than D. Is H larger, smaller, or undetermined relative to D?"
+  },
+  {
+    "id": "65ff69d09c97f7a7595b3d20fb8a561a179e6ae1f49b045356e20e01fd5b0e09",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is smaller than D. Is D larger, smaller, or undetermined relative to H?"
+  },
+  {
+    "id": "6ad74b9b20489cabd8b83aebad0a1e8b0c9f9025aa46ad05ed61029134bf5aa0",
+    "prompt": "What is the size relation of C to F? C is smaller than F."
+  },
+  {
+    "id": "54dca48b61379fb549d2c773af5ff961746a697195d90a028e416f97bdd59eb4",
+    "prompt": "What is the size relation of F to C? C is smaller than F."
+  },
+  {
+    "id": "82737416562f8232701770e894c419de4d041538caab656602c6514e56612b78",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx C is smaller than F. What is the size relation of C to F?"
+  },
+  {
+    "id": "44354fa644cd8f5b92c4e3687455eb74773876541f0f949415c6cb1dc09ef958",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx C is smaller than F. What is the size relation of F to C?"
+  },
+  {
+    "id": "015166eaf5be0e71ddd1d7d51e5c743ee846fae2274663ca333e325e71254312",
+    "prompt": "For C versus F, report their size relation. C is smaller than F."
+  },
+  {
+    "id": "b28b8e4301cac3fb7b3ad72c2358249e3027078d173d6455d8ca86946da243a1",
+    "prompt": "For F versus C, report their size relation. C is smaller than F."
+  },
+  {
+    "id": "b749b3689337e5ec8843e96b38ac6bff260cc3b1df31e10509d230cd5da0ca2e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For C versus F, report their size relation. C is smaller than F."
+  },
+  {
+    "id": "d657f6166298fe4f895e961f8d3c2ac88f4d87d5de61c914a065210ab741371e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For F versus C, report their size relation. C is smaller than F."
+  },
+  {
+    "id": "eedad0ce041a28519d5fb324a7bf6d66177648eae4d1bc5298f13ef28002e121",
+    "prompt": "C is smaller than F. Compare the size of C relative to F."
+  },
+  {
+    "id": "431f4f97f62cc6cb0fae907915ba24d5e8c5116816198a85cfc542933cc9cdfd",
+    "prompt": "C is smaller than F. Compare the size of F relative to C."
+  },
+  {
+    "id": "5cfc93f4ad6a316ec7c0a27c279d46b9c3aa864089d7f2ef3b606a5415602575",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of C relative to F. C is smaller than F."
+  },
+  {
+    "id": "cf0fe9e9e08f030025557e23e46f9ad661ab624dc89ab32997fcc6746735bc37",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of F relative to C. C is smaller than F."
+  },
+  {
+    "id": "248dabc5fc874abc0a778dcd12f6971440bb832e68962621040ba3218fa2a344",
+    "prompt": "C is smaller than F. Is C larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "3960bebac9a28235b797248195678e66e3df6636778f3cfa0dc28bae2173a43b",
+    "prompt": "C is smaller than F. Is F larger, smaller, or undetermined relative to C?"
+  },
+  {
+    "id": "687c24bb8371f35e71da72f07af8acd9d95aeb8b5f82e45239273a0b9c7bde7f",
+    "prompt": "Is C larger, smaller, or undetermined relative to F? C is smaller than F."
+  },
+  {
+    "id": "5fc2f36c70708bea7cd869ff22b912f8b2c2e59bc1545aa0be4462bacb47e25d",
+    "prompt": "Is F larger, smaller, or undetermined relative to C? C is smaller than F."
+  },
+  {
+    "id": "5a1fb482420d63ba3eb7f4e4d4ea24721b2fccf4a7cdc7060254482d833641cc",
+    "prompt": "What is the size relation of F to E? F is not larger than E."
+  },
+  {
+    "id": "dbe0bc5b632c553a02dfa30f049853368926434851da65866123edcd32697e62",
+    "prompt": "What is the size relation of E to F? F is not larger than E."
+  },
+  {
+    "id": "a329cd02e85a4a07f116bdbad52a080baf679806b9fc6a5b9ea96175cb6e1844",
+    "prompt": "For F versus E, report their size relation. F is not larger than E."
+  },
+  {
+    "id": "3bcb6a818e94cf2c5668a68ff46dc46a32e1a3a25e0c5e034a3e15d1f3020039",
+    "prompt": "For E versus F, report their size relation. F is not larger than E."
+  },
+  {
+    "id": "01f73825d35bbb2dd07e40091d3b89afe8457f49f16e0238c06b566e6e0ce570",
+    "prompt": "F is not larger than E. Compare the size of F relative to E."
+  },
+  {
+    "id": "d9e1afe467999234be05a8c211e9547f1d2eec985732a7fc8dcb2d2281f09b18",
+    "prompt": "F is not larger than E. Compare the size of E relative to F."
+  },
+  {
+    "id": "3c02e3d357a9966a1e09ce6ef03eb99b1b8586492476743d9d497bb3868e6698",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is not larger than E. Is F larger, smaller, or undetermined relative to E?"
+  },
+  {
+    "id": "9fc3da6f41529eb3565a8fd1727405fffb04012b9478ff1d4473eba971cbf805",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is not larger than E. Is E larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "e6dc53deb3c2bae19cad8790525639457d278f450659ea5fa860b96712a5a4a8",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of A to E? A is not larger than E."
+  },
+  {
+    "id": "e57619a814e4158e5798cf154aceadfde96c1314fbf66efd70d7b6e4d705bf93",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of E to A? A is not larger than E."
+  },
+  {
+    "id": "8625a3295623b61ce8763ed358fad36b1e490aca6fa81bbf85aa749496a80663",
+    "prompt": "For A versus E, report their size relation. A is not larger than E."
+  },
+  {
+    "id": "466d3e3b9a44c1594549488bf270e0ac7fe3139b06cf46499d21d971aea7f458",
+    "prompt": "For E versus A, report their size relation. A is not larger than E."
+  },
+  {
+    "id": "6ba3e4953b56f6165b526b13014c735336dd2b199846d551e82612a2f8a17888",
+    "prompt": "A is not larger than E. Compare the size of A relative to E."
+  },
+  {
+    "id": "f2caa68ee85bdd22ca2de8bc37009d2c1e8840261146147fcc2b0f1f6e8bc39e",
+    "prompt": "A is not larger than E. Compare the size of E relative to A."
+  },
+  {
+    "id": "50821e45e3f1a8467e042ab559b1384cd805b749fd095ecf3cd56c75ea7a7428",
+    "prompt": "Is A larger, smaller, or undetermined relative to E? A is not larger than E."
+  },
+  {
+    "id": "5afd6eeeddaa92023b2fdec90fb36fe58767fe59da4087aba78755b2e5a7cb16",
+    "prompt": "Is E larger, smaller, or undetermined relative to A? A is not larger than E."
+  },
+  {
+    "id": "cf6bf426f59b34af4b18f36b9b327ff6db95e49adf8a5aba30f69d114266efc2",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of A to B? A is not larger than B."
+  },
+  {
+    "id": "d7a06969dde33d05057636c0d0a9364c19958dbf1bac88434f7c56297bae55a7",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of B to A? A is not larger than B."
+  },
+  {
+    "id": "2d9c82095dbd90ebf6d6a15160a7fe598cdb1fdb5fb741de7867654d4e815345",
+    "prompt": "A is not larger than B. For A versus B, report their size relation."
+  },
+  {
+    "id": "217df89bb77e996e677b51917f178274ff9d9e0a1dc73b0ec20cf70969ed0467",
+    "prompt": "A is not larger than B. For B versus A, report their size relation."
+  },
+  {
+    "id": "350bc930b5f7dbba3e8740d11bf343c43a92ffd6b66f7c355990399b8963448b",
+    "prompt": "A is not larger than B. Compare the size of A relative to B."
+  },
+  {
+    "id": "c6aa052b81cb3018b8f4a5ee3eeff5d1d9645d8b9ccca673d3c6081a0079438e",
+    "prompt": "A is not larger than B. Compare the size of B relative to A."
+  },
+  {
+    "id": "df55531a7a49e97708768c4295615f4e86038966087bc9a19f195eeef408f382",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is not larger than B. Is A larger, smaller, or undetermined relative to B?"
+  },
+  {
+    "id": "6b99dd643504c08e7397c1f1cc796161dbc1137d0f02da19270807d1d1619c29",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is not larger than B. Is B larger, smaller, or undetermined relative to A?"
+  },
+  {
+    "id": "38167885e4417c836a91d116750d5c2b57fd78f39d078824ac969de6c628dcae",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of B to A? B is not larger than A."
+  },
+  {
+    "id": "04b7b41f76e5341ea42bfa0ae9ca1baf0fc654c0b797a428967d3732a235384a",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of A to B? B is not larger than A."
+  },
+  {
+    "id": "7cdc545230af58693e888432e75ee617b037f989fc7fbed30227284d317c4bbb",
+    "prompt": "For B versus A, report their size relation. B is not larger than A."
+  },
+  {
+    "id": "d3d0c3663db4a20eb17f800b14c104bf4efadabc530988879101dd2eaeeb6457",
+    "prompt": "For A versus B, report their size relation. B is not larger than A."
+  },
+  {
+    "id": "ee928eab7731e6efaf6cdec44c64744b9073507536cc48c79a0e635ebc4aa7c7",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is not larger than A. Compare the size of B relative to A."
+  },
+  {
+    "id": "4581408ca4ff310aa67cff787bfb308a0e9e22d9eff771335bc584a92617c301",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is not larger than A. Compare the size of A relative to B."
+  },
+  {
+    "id": "30cfb15409424a3905003ddead5cf731f39632681cec4125d3777d681be92379",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is B larger, smaller, or undetermined relative to A? B is not larger than A."
+  },
+  {
+    "id": "603fd7a0a594d1d878210f1e07aa32b4b836760355a6910980d88050c47b6fa1",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is A larger, smaller, or undetermined relative to B? B is not larger than A."
+  },
+  {
+    "id": "b6b3d366f09b9d8661ecb53f7e005938e461b91b90886591ac7de2adcd54233f",
+    "prompt": "What is the size relation of F to G? F is not larger than G."
+  },
+  {
+    "id": "d08a1cc8fb826eb4eaa3743fbc5a8b118d8e6c0bfa1560117d54ab71611c08cb",
+    "prompt": "What is the size relation of G to F? F is not larger than G."
+  },
+  {
+    "id": "50920d51073a12eaa184cda645b8d125a919cfa70927124ff4a6b8228c6c22db",
+    "prompt": "F is not larger than G. For F versus G, report their size relation."
+  },
+  {
+    "id": "0c5bb408fc5aeae553065fab54725624b699ee843c77ce72e75e7753f2739454",
+    "prompt": "F is not larger than G. For G versus F, report their size relation."
+  },
+  {
+    "id": "16142ee74550283f4d80fef959724d8d619a2dc67c3fe9a51f77081514c53a31",
+    "prompt": "Compare the size of F relative to G. F is not larger than G."
+  },
+  {
+    "id": "cd917f3a7ec71a8c596e1f0e1ee91bb671839d7fe9bca0c74c028f87ac6f06a8",
+    "prompt": "Compare the size of G relative to F. F is not larger than G."
+  },
+  {
+    "id": "13d336bbe163d1450f56832df5dca2c07ec50c4297316f8c89ae9c2eb1b04cc5",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is not larger than G. Is F larger, smaller, or undetermined relative to G?"
+  },
+  {
+    "id": "3db851d4222062f03f0c6cc7606581a198891b0e79d0c57734e0446526aaac46",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is not larger than G. Is G larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "278bca16b4ff50cf5b5ce53f4e08a58d1027ba2ba0eff4f2dd71f9fdf1008ff6",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of B to E? B is not larger than E."
+  },
+  {
+    "id": "f5b61ce4523ae77f0b2d9c41b2c498d840a71fe03ba769a5fae1ad58f96b44ea",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of E to B? B is not larger than E."
+  },
+  {
+    "id": "403d4249786263220ed1131654e33f6bd54d76852174f86aabe62b75869fd446",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is not larger than E. For B versus E, report their size relation."
+  },
+  {
+    "id": "966adf86220e8f23e75be0a530e2d80796c614d818e1ca59ffd06204b2632d11",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is not larger than E. For E versus B, report their size relation."
+  },
+  {
+    "id": "45e437a52d93e0ec39a6a6d9dfee4c4436c46e2d613b763e819cede6d06bb53e",
+    "prompt": "B is not larger than E. Compare the size of B relative to E."
+  },
+  {
+    "id": "5ada1b40928d4054728a94013085524006ca14bd9bddbe0ee47c8b2700510e16",
+    "prompt": "B is not larger than E. Compare the size of E relative to B."
+  },
+  {
+    "id": "4592506395e49f64d1dfb76193af05a6e50315d2a05eb001bce4101a83243fc0",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is not larger than E. Is B larger, smaller, or undetermined relative to E?"
+  },
+  {
+    "id": "c9334fc82a083fd0cece8cc9d50e9669f55f5c140ab3b21f74bffe088a4662af",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx B is not larger than E. Is E larger, smaller, or undetermined relative to B?"
+  },
+  {
+    "id": "b5de24aa3af2638dbbb8dacb2cf21bad02277b1bdd6ac3f764f11491462f1c6c",
+    "prompt": "F is not larger than C. What is the size relation of F to C?"
+  },
+  {
+    "id": "a7676f1ac1b246616a79b53690f8b1b9805858f11c6209b41748f310ce2a604f",
+    "prompt": "F is not larger than C. What is the size relation of C to F?"
+  },
+  {
+    "id": "fbea29f8dcc06ba1a6634202c8fe27c6ccf8a31ab9567b68828296e1a703798e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For F versus C, report their size relation. F is not larger than C."
+  },
+  {
+    "id": "9104bb95355a7644c372a33ee8249031592d0fa065cfc1001a4935336f14aaf2",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For C versus F, report their size relation. F is not larger than C."
+  },
+  {
+    "id": "ec8f21037e85d07435f8fc6301e4ea60926633027930d0dd2c8c874844901ca1",
+    "prompt": "F is not larger than C. Compare the size of F relative to C."
+  },
+  {
+    "id": "bc9dbe3da5fe01377030999b8961ef2d4f7cfefa9f04670f15fdfd69e2b56f13",
+    "prompt": "F is not larger than C. Compare the size of C relative to F."
+  },
+  {
+    "id": "8204246150675248781f293382d7c35efa48054865cc14925b39a65275c030e7",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is not larger than C. Is F larger, smaller, or undetermined relative to C?"
+  },
+  {
+    "id": "b1e564306cccc3e7808ed18362c2080950f89f64f1aa00ab672f1b17474990ce",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is not larger than C. Is C larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "c6f36a3bba7839b108020c0413c91b10a854dc6578ae8f0263c8f94f67b0bf44",
+    "prompt": "H is not larger than D. What is the size relation of H to D?"
+  },
+  {
+    "id": "7f3bf5577f774b0a3cb67b36bd09fc3dd4c1edf5cdc840def921f7dd25f011fb",
+    "prompt": "H is not larger than D. What is the size relation of D to H?"
+  },
+  {
+    "id": "5f8eff097856b4c7403e22abb9d7fd8abd5df5910b25ede10e81f1a57e117185",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For H versus D, report their size relation. H is not larger than D."
+  },
+  {
+    "id": "3d77ed232dc3332447e1c3a31d68978d533d52446babdf1d2a2e951e9d4096b5",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For D versus H, report their size relation. H is not larger than D."
+  },
+  {
+    "id": "7947a2dd8236b7b1d7ed791fb0a8cfc9f086d727baed28a3ff09b17a66ae3b47",
+    "prompt": "Compare the size of H relative to D. H is not larger than D."
+  },
+  {
+    "id": "98a0a2d736e0cf444f86abf21f3457b8600de6bfdd25783874a230a79c4c264c",
+    "prompt": "Compare the size of D relative to H. H is not larger than D."
+  },
+  {
+    "id": "981f5988f9fb15b65ed4ccc117e8795bbf6951f265e04b9fb7fb8d709766ecf2",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is not larger than D. Is H larger, smaller, or undetermined relative to D?"
+  },
+  {
+    "id": "f646d8ff4178eac5a9a7c88ed40e3d8f3400da290f4809dc1f3a4ec2195f73ca",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is not larger than D. Is D larger, smaller, or undetermined relative to H?"
+  },
+  {
+    "id": "db02a53a1d187054f129f14c26260aaa3e1b0aeb52389305b7dbad8bd376850b",
+    "prompt": "What is the size relation of H to G? H is not smaller than G."
+  },
+  {
+    "id": "1c35ea8a2ae46b33e7df8faba926cc9e1970786112aa0fb9d0d167dfadaa1240",
+    "prompt": "What is the size relation of G to H? H is not smaller than G."
+  },
+  {
+    "id": "bdc93b58e90105f169975832d7dcafd4bd9c2bbd823682b1897b66511a94b243",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is not smaller than G. For H versus G, report their size relation."
+  },
+  {
+    "id": "615b0d1e926f6c68cf0f1f275e98155d5b455d9ee2cb650280b7df6fdeb732e2",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is not smaller than G. For G versus H, report their size relation."
+  },
+  {
+    "id": "dbd19cb1738d321d5b7814569793cb6e9573697fd27c6c77355fa17d61ae7eba",
+    "prompt": "Compare the size of H relative to G. H is not smaller than G."
+  },
+  {
+    "id": "d5157bda5ed75b177faa4fd1ba5821ce60fa230d3fa9835c0ea813ee990bf0c6",
+    "prompt": "Compare the size of G relative to H. H is not smaller than G."
+  },
+  {
+    "id": "b5b3966c023b74ffd1d8a5da0dcfd36dc5381be15e89d052cd0bb93939a84a37",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is H larger, smaller, or undetermined relative to G? H is not smaller than G."
+  },
+  {
+    "id": "6e01ef42125a2fc02f7597e46e791a9977b6012dc5a84a8a5339b43d3a0f71c4",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is G larger, smaller, or undetermined relative to H? H is not smaller than G."
+  },
+  {
+    "id": "81803ffcbc607deda5f3b2f11b8fbeef4a1d759fda0335b0692e49cf5f99982a",
+    "prompt": "A is not smaller than E. What is the size relation of A to E?"
+  },
+  {
+    "id": "376443987b6a4ae4a448b029e57c8a804195a36d4f012f14df8cc4bcc4993233",
+    "prompt": "A is not smaller than E. What is the size relation of E to A?"
+  },
+  {
+    "id": "f648706844fe43d9b6fd57c979853569320374747a204fbe732653e6f4e2a6b2",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For A versus E, report their size relation. A is not smaller than E."
+  },
+  {
+    "id": "ad89240a845bbc899f5f5e8052d6de2ea9933a611b09cfee9a917f989077c2be",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For E versus A, report their size relation. A is not smaller than E."
+  },
+  {
+    "id": "dcf4c364152d476d57eb766b8e6b871ab75a4e4068defbc649ad90f08eb4126e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is not smaller than E. Compare the size of A relative to E."
+  },
+  {
+    "id": "905bca6442de5c35e40b3ca2b961679d6d0c5d802f73675084d4174801e97b69",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx A is not smaller than E. Compare the size of E relative to A."
+  },
+  {
+    "id": "f30076d030f87b27459a126dfd21e11e050cfe633e6cce12ad27890fbe29c5c1",
+    "prompt": "Is A larger, smaller, or undetermined relative to E? A is not smaller than E."
+  },
+  {
+    "id": "ed9efb3f26d24fcfdf076baf7d1137a6524b145785896f78fc00b67de3c1ec59",
+    "prompt": "Is E larger, smaller, or undetermined relative to A? A is not smaller than E."
+  },
+  {
+    "id": "52cac37a1b8b795b1ceb84001b84d862a76f31c7f5d8898cd38b634d5c88a2bb",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of G to D? G is not smaller than D."
+  },
+  {
+    "id": "88ced2952c16f1e52f535bbe95708084d34e5f0b4b80594695d37f255748f2d6",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of D to G? G is not smaller than D."
+  },
+  {
+    "id": "f372252b7a798ee84f07baa7347af2971a22c464b26060c8aafa4ad889fd3d68",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For G versus D, report their size relation. G is not smaller than D."
+  },
+  {
+    "id": "aa8318a4f8e09e9c123b32af0bf3ca3fcbb5b9f60fe83e4461876376bbba3284",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx For D versus G, report their size relation. G is not smaller than D."
+  },
+  {
+    "id": "fc3b6b9d9ae8993b9ef95f81f0b14fc86c0e41e44e26b82c95ea4d2c9d712d93",
+    "prompt": "Compare the size of G relative to D. G is not smaller than D."
+  },
+  {
+    "id": "3a89f4df1a6ae9c3e4e56411184a0177090bf4589aae921ebe9d109e4b1e9eba",
+    "prompt": "Compare the size of D relative to G. G is not smaller than D."
+  },
+  {
+    "id": "7dc8e27be8335e9de65e44cb9efa73ac10ddeb4aeef9d189b77b4a426a390344",
+    "prompt": "Is G larger, smaller, or undetermined relative to D? G is not smaller than D."
+  },
+  {
+    "id": "997f8ed42f5a0c1a676321c9c95cc907e5bf7c434299038d4c96583406bacee6",
+    "prompt": "Is D larger, smaller, or undetermined relative to G? G is not smaller than D."
+  },
+  {
+    "id": "cc6c908535ccbbae69c713e924eecc5c5a00ee5f30da03b039eef3d3de42108b",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx D is not smaller than F. What is the size relation of D to F?"
+  },
+  {
+    "id": "992a9f8c302184ef026a80db560cbbdd131ebfdda14b26d8bc6f22796a056413",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx D is not smaller than F. What is the size relation of F to D?"
+  },
+  {
+    "id": "ad06afb6fbbd1bf9c425221102cd7acefff38d743bbcdc2987c170954221718e",
+    "prompt": "For D versus F, report their size relation. D is not smaller than F."
+  },
+  {
+    "id": "f3e16d0dd04cc279424e407fba2a444a6132de4dc8f746a93267f13ce574a982",
+    "prompt": "For F versus D, report their size relation. D is not smaller than F."
+  },
+  {
+    "id": "019530da247553b39d16a083c4643e5696c4cd40aeb40896a7651ab5ea49fd87",
+    "prompt": "D is not smaller than F. Compare the size of D relative to F."
+  },
+  {
+    "id": "3bb81b9bad438d1932e19b01d0c58c38f64c9f4c961ad75663624d05a10bbf93",
+    "prompt": "D is not smaller than F. Compare the size of F relative to D."
+  },
+  {
+    "id": "524bda742d24e55aed6f9d1d3b1c9f7917d63d322e15f7d29117e30664cb1b23",
+    "prompt": "D is not smaller than F. Is D larger, smaller, or undetermined relative to F?"
+  },
+  {
+    "id": "9eb2ff25fc5850c6156f542502cf5a40a438577a865d5bafb8a61fbaa8755d5e",
+    "prompt": "D is not smaller than F. Is F larger, smaller, or undetermined relative to D?"
+  },
+  {
+    "id": "03ce29a44ad4ee83d3ddd900a1324765626e2f0b279445fa029daa5565f075a4",
+    "prompt": "What is the size relation of E to C? E is not smaller than C."
+  },
+  {
+    "id": "34df82039ace56d52543be6c5469cedd5fbe6017ab0be49496b468c6babb3526",
+    "prompt": "What is the size relation of C to E? E is not smaller than C."
+  },
+  {
+    "id": "e5f82e46ac705165791db7e1934a1a3b692322f2a01f5a53d46eee663b96c7c9",
+    "prompt": "For E versus C, report their size relation. E is not smaller than C."
+  },
+  {
+    "id": "dc2f418a7b92c4938596c18af7ad3c19dc13957c98a06f502946ddba6829e2ce",
+    "prompt": "For C versus E, report their size relation. E is not smaller than C."
+  },
+  {
+    "id": "20391b244e0fbbb558f4101d0a7d972c556e47a4440b2da16e2ae466704bbf66",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of E relative to C. E is not smaller than C."
+  },
+  {
+    "id": "50ceadab13f130022aa5274df378655ee9ea0f6dd27461e1024a554f9ad1c097",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Compare the size of C relative to E. E is not smaller than C."
+  },
+  {
+    "id": "fdd06c7bdfa47ecc3390a190e122afd61eec7292c6091111b325ecaaf36f2ac3",
+    "prompt": "Is E larger, smaller, or undetermined relative to C? E is not smaller than C."
+  },
+  {
+    "id": "231b2149db30602314a49851f09a1a37eac2c3aeeab666965cdf67670ecd408e",
+    "prompt": "Is C larger, smaller, or undetermined relative to E? E is not smaller than C."
+  },
+  {
+    "id": "b54d1c3dcd217a7d2f029de85626a10fe3701afcc0c168e10d760d3529af1d88",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of H to C? H is not smaller than C."
+  },
+  {
+    "id": "f61db1769c2e71f92c688a3a4c7c2d55d6f25d3302448f68fb787a29e05b297e",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx What is the size relation of C to H? H is not smaller than C."
+  },
+  {
+    "id": "d06fc78e59cd5f632d7943200f4eaf859ccf73b8fbe61908e114ce2dd7ceb581",
+    "prompt": "H is not smaller than C. For H versus C, report their size relation."
+  },
+  {
+    "id": "fb4a0564c10886c97f906b1053bd3637d7e7cb8b103958490b33dd99ebc3fd70",
+    "prompt": "H is not smaller than C. For C versus H, report their size relation."
+  },
+  {
+    "id": "63fdf0d396338cae25072af99a1132c4bec56e500e9da8d0b850f8a31f6c2c5f",
+    "prompt": "Compare the size of H relative to C. H is not smaller than C."
+  },
+  {
+    "id": "21fc7e66e73523e184e3646105970214324a995e1feacd18d5aba98a674a1b64",
+    "prompt": "Compare the size of C relative to H. H is not smaller than C."
+  },
+  {
+    "id": "5896cb7bae842594cdf2fc14a9f487c3ff79f49d5eacce8b3af2e2be77af1899",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is H larger, smaller, or undetermined relative to C? H is not smaller than C."
+  },
+  {
+    "id": "75633d5a98b735710b80980bedd4959d91e7e5a638aef4c433d06dfbd9491fcd",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is C larger, smaller, or undetermined relative to H? H is not smaller than C."
+  },
+  {
+    "id": "fca31d29d44c58618c7030b548845f18913b2946db9e6dc4a86f213af5363d1d",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is not smaller than B. What is the size relation of F to B?"
+  },
+  {
+    "id": "36a9ebea264d5981a6f7968a78a2ed4ace0d3aec79e2a1178705ed0fe9f3cce1",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx F is not smaller than B. What is the size relation of B to F?"
+  },
+  {
+    "id": "8204fccb9ca0dff7050b9bc58ad52bb5db385ab6dc5c6d4e388d66ee5f868c97",
+    "prompt": "For F versus B, report their size relation. F is not smaller than B."
+  },
+  {
+    "id": "c80ec8c73f433bd4b2d175a39ce48c952afc96d4b3017bc03332003347aa3a3a",
+    "prompt": "For B versus F, report their size relation. F is not smaller than B."
+  },
+  {
+    "id": "794c31f34797d48c682dec7cb1bbdf2c32e77c199deab4e28f0f7551a5122df2",
+    "prompt": "Compare the size of F relative to B. F is not smaller than B."
+  },
+  {
+    "id": "56334b5cae4b40a00230ceab16ab28f1d2d7c6b54ab47e13f2a9323f03588b45",
+    "prompt": "Compare the size of B relative to F. F is not smaller than B."
+  },
+  {
+    "id": "13272d605c3f9d8fda623c9ffe4a454783192b0c1c18a70b437bbfe2a3f34f00",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is F larger, smaller, or undetermined relative to B? F is not smaller than B."
+  },
+  {
+    "id": "ec98384f305095ee084e81bea12661fb69c5ab5d3c4a651666ef90e1e969f449",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Is B larger, smaller, or undetermined relative to F? F is not smaller than B."
+  },
+  {
+    "id": "5cb45f2b1887320652739a98b197437de2a4a60aeadc5d8bf398c222c13af529",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is not smaller than A. What is the size relation of H to A?"
+  },
+  {
+    "id": "4178a040132c7d0a172cb1f17b9594ef7128b470a973c75d361fc10bc6eed20a",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is not smaller than A. What is the size relation of A to H?"
+  },
+  {
+    "id": "995aeca67dcab6d717ae353b3455800af08f52c7a1e9a52dd88181fac46c0797",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is not smaller than A. For H versus A, report their size relation."
+  },
+  {
+    "id": "72d449c2d3a412170d318c52287ba25ea404ac0fd0b0128e177753f880397511",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is not smaller than A. For A versus H, report their size relation."
+  },
+  {
+    "id": "7d1ba7db2931a34efd297ecb6161c618ccdce1fa03ebffcb3b912f4234c3ea3a",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is not smaller than A. Compare the size of H relative to A."
+  },
+  {
+    "id": "87c0fab176aadd9bf323520ce7f9f9a7075f067c1d04d7c56f1c5766ca7997f6",
+    "prompt": "Note C H. xxxxxxxxxxxxxxxx H is not smaller than A. Compare the size of A relative to H."
+  },
+  {
+    "id": "1e73881706191ab02ab9a177b2a84050998559a39b40df616dfa9b4259fbce85",
+    "prompt": "H is not smaller than A. Is H larger, smaller, or undetermined relative to A?"
+  },
+  {
+    "id": "29f73eafa943f6ff0545b01855f021339e267a43d6f247472568d791894830a9",
+    "prompt": "H is not smaller than A. Is A larger, smaller, or undetermined relative to H?"
+  }
+]

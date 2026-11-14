@@ -1,0 +1,21 @@
+{
+  "status": "READY_FOR_PRIVATE_GITHUB_UPLOAD",
+  "snapshot_date": "2026-11-14",
+  "source_files": 2297,
+  "bytes": 22205184,
+  "export_manifest_all_files_verified": true,
+  "source_originals_preserved": true,
+  "focused_CPU_tests_passed": 18,
+  "pytest_seconds": 3.16,
+  "tested_import_from_export_copy": true,
+  "known_credential_patterns_remaining": 0,
+  "credential_literal_candidates": 0,
+  "credential_like_string_redacted_in_export_only": 1,
+  "binary_files_in_export": 0,
+  "pretrained_weights_and_raw_tensor_payloads_uploaded": false,
+  "third_party_corpora_uploaded": false,
+  "final_holdout_and_registry_accessed": false,
+  "new_fullsize_research_training": false,
+  "legacy_full_test_suite_NOT_run": true,
+  "fullsize_reproduction_requires_omitted_local_assets": true
+}

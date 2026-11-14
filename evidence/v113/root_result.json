@@ -1,0 +1,25 @@
+{
+  "status": "PARTIAL_TRAIN_TRANSFORMATION_LEARNED_DEV_UNRESOLVED",
+  "actual_updates": 268,
+  "new_research_updates_this_turn536": true,
+  "checkpoint": {
+    "path": "evidence/v113\\checkpoints\\state_0268.pt",
+    "SHA": "a01c4f1170ab8a2428a61ac239858436db67229293a2056dfc417fc9bbe386e3",
+    "bytes": 115653629,
+    "algorithm_SHA": "802deafac70f4e30b3f52ef69c5c42114896e8a5ca21760aee86945e1e000891"
+  },
+  "training_D_calls": 2144,
+  "D_weights_frozen": true,
+  "E_and_memory_extractors_frozen": true,
+  "TRAIN_positive_normal_relation_core34_of80": true,
+  "manual_readable_positive_core_lower_bound": 35,
+  "positive_whole_exact": 0,
+  "DEV_positive_correct_observed": 0,
+  "DEV_positive_total": 48,
+  "TRAIN_positive_pair_bothcorrect": 8,
+  "TRAIN_positive_pairs": 32,
+  "automatic_promotion": false,
+  "all_old_assets_preserved": true,
+  "closed_budget": true,
+  "next_goal": "New TRAIN-only role/composition/surface coverage; no blind repeats"
+}

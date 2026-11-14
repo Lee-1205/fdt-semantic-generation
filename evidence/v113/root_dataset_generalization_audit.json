@@ -1,0 +1,238 @@
+{
+  "TRAIN134": true,
+  "fact_keys": 31,
+  "answer_types": 27,
+  "family_counts": {
+    "0": 23,
+    "1": 31,
+    "2": 50,
+    "3": 30
+  },
+  "layout_counts": {
+    "1": 78,
+    "0": 56
+  },
+  "label_counts": {
+    "greater": 38,
+    "less": 42,
+    "unknown": 54
+  },
+  "source_keys": [
+    "A|B|greater|en",
+    "A|B|not greater|en",
+    "A|D|less|en",
+    "A|E|not greater|en",
+    "A|E|not less|en",
+    "A|F|greater|en",
+    "A|F|less|en",
+    "A|G|greater|en",
+    "B|A|not greater|en",
+    "B|E|not greater|en",
+    "B|H|less|en",
+    "C|F|greater|en",
+    "C|F|less|en",
+    "D|F|not less|en",
+    "E|C|not less|en",
+    "F|A|greater|en",
+    "F|B|not less|en",
+    "F|C|less|en",
+    "F|C|not greater|en",
+    "F|E|not greater|en",
+    "F|G|not greater|en",
+    "F|H|less|en",
+    "G|D|not less|en",
+    "H|A|greater|en",
+    "H|B|greater|en",
+    "H|C|not less|en",
+    "H|D|greater|en",
+    "H|D|less|en",
+    "H|D|not greater|en",
+    "H|F|less|en",
+    "H|G|not less|en"
+  ],
+  "answer_counts": {
+    "A is larger than B.": 5,
+    "B is smaller than A.": 4,
+    "H is larger than D.": 3,
+    "D is smaller than H.": 3,
+    "A is larger than G.": 3,
+    "G is smaller than A.": 3,
+    "H is larger than A.": 1,
+    "A is smaller than H.": 2,
+    "C is larger than F.": 8,
+    "F is smaller than C.": 6,
+    "F is smaller than A.": 2,
+    "A is larger than F.": 2,
+    "H is larger than B.": 3,
+    "B is smaller than H.": 5,
+    "F is larger than A.": 3,
+    "A is smaller than F.": 5,
+    "F is smaller than H.": 2,
+    "H is larger than F.": 1,
+    "A is smaller than D.": 2,
+    "D is larger than A.": 2,
+    "H is smaller than F.": 2,
+    "F is larger than H.": 2,
+    "H is smaller than D.": 2,
+    "D is larger than H.": 1,
+    "C is smaller than F.": 4,
+    "F is larger than C.": 4,
+    "It is unknown.": 54
+  },
+  "DEV": {
+    "dev_pair": {
+      "rows": 32,
+      "positive_rows": 16,
+      "fact_seen": 0,
+      "answer_seen": 16,
+      "positive_answer_seen": 0,
+      "group_seen": 0,
+      "families": {
+        "0": 8,
+        "1": 8,
+        "2": 8,
+        "3": 8
+      }
+    },
+    "dev_surface": {
+      "rows": 32,
+      "positive_rows": 16,
+      "fact_seen": 32,
+      "answer_seen": 32,
+      "positive_answer_seen": 16,
+      "group_seen": 32,
+      "families": {
+        "4": 16,
+        "5": 16
+      }
+    },
+    "dev_position": {
+      "rows": 32,
+      "positive_rows": 16,
+      "fact_seen": 32,
+      "answer_seen": 32,
+      "positive_answer_seen": 16,
+      "group_seen": 32,
+      "families": {
+        "0": 16,
+        "1": 16
+      }
+    }
+  },
+  "DEVpair_positive_predictions": [
+    {
+      "id": "76a2e9d0195ebfe5213a9820553c3478a3105506d06cf546675301420c437967",
+      "expected": "C is larger than D.",
+      "output": "D is garger th n D.SC fnffo",
+      "recognizable_core": null,
+      "core_is_training_answer": false
+    },
+    {
+      "id": "dc20d9e50f8da9b89d2e9f68dd2c7835a2f019001637bab5006624130bff8732",
+      "expected": "D is smaller than C.",
+      "output": "F is smaller than C.C A  o. a    ",
+      "recognizable_core": "F is smaller than C.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "024f337c3d66c3fb785cb26b6e1cd412aa9490e20a0d6e96ebbd45d4b535ff0b",
+      "expected": "C is larger than D.",
+      "output": "F is smaller than C.CCaaa a liCa ",
+      "recognizable_core": "F is smaller than C.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "523948ac12c9bddff95b44aaa9246b624390f8e5ab17c37dbd3714c0eae4404c",
+      "expected": "D is smaller than C.",
+      "output": "F is smaller than C.CA a  .rn  ak",
+      "recognizable_core": "F is smaller than C.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "0c69a7fb6d38e54d0a40d5144ed3baf75b86971baf4f94f6e305aeefff1273f8",
+      "expected": "C is larger than D.",
+      "output": "H is larger than D.Smer iemana",
+      "recognizable_core": "H is larger than D.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "e8addfcc88809f420f9877c7875fd33e6668f407983e75efb3fb49b2c98ca296",
+      "expected": "D is smaller than C.",
+      "output": "F is smaller than C.Ansa  a an",
+      "recognizable_core": "F is smaller than C.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "cc1d33170dcc97a8c8dc035d2bb8c7375412ce4eef014540d95ec1fa3afa3d98",
+      "expected": "C is larger than D.",
+      "output": "A is larger than B.JC2r rnnrt n  ",
+      "recognizable_core": "A is larger than B.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "c2702d070666f0293c42ba1d323b97f6be9d05379da7e370030d59e05255169e",
+      "expected": "D is smaller than C.",
+      "output": "A is smaller than H.C  aa .ry ",
+      "recognizable_core": "A is smaller than H.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "b4faf1b17406d883e4073f42fc17434f6759ec6a23a4b01cba26c6fa897080ea",
+      "expected": "G is smaller than B.",
+      "output": "H is larger than B.rlark ",
+      "recognizable_core": "H is larger than B.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "f0502b3568240b93ac842953411fcfb94a0fe2ba37f21e511dea0bfffbe9b5a9",
+      "expected": "B is larger than G.",
+      "output": "C is larger than B.wryra  n le lg",
+      "recognizable_core": "C is larger than B.",
+      "core_is_training_answer": false
+    },
+    {
+      "id": "819ab9db7cdfd56f7e8c2775393d508c70e155bc9275ec5df880762e64564f7e",
+      "expected": "G is smaller than B.",
+      "output": "A is smaller than D.",
+      "recognizable_core": "A is smaller than D.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "420a21c4cb2e7a9e7fefafc9c610cf553f28691a0b1f9fa309324af55bfe83b0",
+      "expected": "B is larger than G.",
+      "output": "F is smaller than D.CT aa  hy  2 ",
+      "recognizable_core": "F is smaller than D.",
+      "core_is_training_answer": false
+    },
+    {
+      "id": "bb66c0fa4993ce6343bb4b40fe5a1ca340db451d95a215397a2f1fbe63351af9",
+      "expected": "G is smaller than B.",
+      "output": "D is larger than B.ws tnwhrhht l\neers3_o rsrws w\nnew ers osut a,pat",
+      "recognizable_core": "D is larger than B.",
+      "core_is_training_answer": false
+    },
+    {
+      "id": "37e78bd4527619235f67d77655e4a36f17a664602c773ea8e2c66f88354e218b",
+      "expected": "B is larger than G.",
+      "output": "H is larger than B.Cry",
+      "recognizable_core": "H is larger than B.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "b1749edfc408b25f6c167ffd16cc3eb191acd858b3f44b4a2185e3b981e2de94",
+      "expected": "G is smaller than B.",
+      "output": "H is larger than B.Smyrkinnan sldud ",
+      "recognizable_core": "H is larger than B.",
+      "core_is_training_answer": true
+    },
+    {
+      "id": "e0710444540cd7922d2900a4bfebfaa756fe79d441e5cf44860a780548f7b15d",
+      "expected": "B is larger than G.",
+      "output": "C is larger than F.Clyiy  a ia l Y",
+      "recognizable_core": "C is larger than F.",
+      "core_is_training_answer": true
+    }
+  ],
+  "DEVpair_positive_full_core_in_TRAIN": 12,
+  "scope": "saved dataset/output audit only; no E/R/D forward or training; observed DEV reused, not blind"
+}

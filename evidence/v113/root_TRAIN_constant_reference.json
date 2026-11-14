@@ -1,0 +1,7 @@
+{
+  "TRAIN_only_fitted_constant_body_MSE": 0.7685825980421322,
+  "current_allTRAIN_body_MSE": 0.5823787984563343,
+  "reference_fit_used_DEV0": true,
+  "neural_calls0": true,
+  "not_semantic_accuracy": true
+}

@@ -1,0 +1,75 @@
+data:
+  dataset_dir: prepared_data/v3_general_growth_v6_scale_30m_ctx2048
+  tokenizer_name: tokenizers/fdt_v3_bpe_24k
+  interleave_sources: true
+
+model:
+  model_type: fdt_v3
+  dim: 1216
+  n_layers: 20
+  n_heads: 19
+  mlp_ratio: 4
+  max_seq_len: 2048
+  dropout: 0.0
+  use_rope: false
+  tie_embeddings: true
+  use_self_attention: false
+  anchor_layer_pattern: alternate
+  anchor_layer_indices: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+  num_anchors: 256
+  top_k: 8
+  local_attention_window: 64
+  router_dim: 256
+  anchor_scan_chunk_size: 64
+  anchor_recency_bias: 4.0
+  anchor_recency_reference_len: 512
+
+fdt:
+  routing_type: cosine
+  cosine_temperature: 0.25
+  routing_backend: matmul
+  aggregation_impl: sparse_chunked_scan
+  enable_anchor_metrics: true
+  compute_anchor_metrics_every: 4
+  enable_diagnostics: false
+  use_cached_normalized_anchors: true
+  use_incremental_anchor_state: true
+  detach_diagnostics: true
+
+train:
+  output_dir: runs/fdt_v3_scaled_1216_20l_550m_general_growth_v6_scale
+  target_tokens: 549945344
+  max_steps: 1830
+  batch_size: 1
+  grad_accum_steps: 8
+  learning_rate: 0.0000005
+  lr_schedule: constant
+  lr_schedule_start_step: 31736
+  lr_warmup_steps: 0
+  lr_decay_steps: 0
+  lr_min_ratio: 1.0
+  lr_resume_max_ratio: 1.26
+  weight_decay: 0.1
+  precision: bf16
+  grad_clip: 0.7
+  log_every: 5
+  save_every: 500
+  eval_every: 500
+  eval_batches: 20
+  eval_sampling: evenly_spaced
+  loss_ema_beta: 0.98
+  stop_file: STOP_REQUESTED
+  step_checkpoint_retention: 1
+  reset_data_cursor_on_dataset_change: true
+  diversity_every: 8
+  cluster_weight: 0.005
+  diversity_weight: 0.15
+  usage_weight: 0.015
+  entropy_weight: 0.0035
+  entropy_over_weight: 0.25
+  entropy_target_ratio_start: 0.55
+  entropy_target_ratio_end: 0.46
+  auto_onk: false
+  onk_min_entropy_normalized: 0.25
+  onk_max_entropy_normalized: 0.85
+  onk_max_dead_anchor_ratio: 0.10

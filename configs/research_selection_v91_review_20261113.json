@@ -1,0 +1,12 @@
+{
+  "time": "2026-11-13T20:58:28.477502+09:00",
+  "decision": "DO_NOT_PROMOTE_V91_KEEP_V75_BALANCED_V80_FP32_REFERENCES_PRESERVE_V88_AND_V91",
+  "candidate_V91": "PROJECT_ROOT\\runs\\feasible_repair_20261113_v91\\emergency\\runtime.pt",
+  "candidate_SHA": "31a9cc4e02aabdb834917b208470306612ead06aa0cb786386faf84ab7571069",
+  "source_algorithm_SHA": "96e31a299c01f25f748c882d6a0bab4855d6d4f58130798c1922402083b51e89",
+  "prospective_next_warm": "V88 preferred over V91 for numerically-consistent repair, after new CPU/code/cost/owner review; no restart",
+  "rationale": "Short proper-name case1fixed; long3newtypos49to52; source values/order unchanged; no catastrophic collapse or model completion.",
+  "all_old_weights_Adam_RNG_preserved": true,
+  "default_or_registry_changed": false,
+  "new_training_launched_after_terminal": false
+}

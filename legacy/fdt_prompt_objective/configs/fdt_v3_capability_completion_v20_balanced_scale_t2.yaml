@@ -1,0 +1,58 @@
+stage: capability_completion_v20_balanced_scale_tranche_2
+parent: runs/fdt_v3_capability_completion_v20_balanced_scale_t1_20260816_r2/latest.pt
+hard_reference: runs/fdt_v3_capability_completion_v17_balanced_20260814/latest.pt
+dataset: prepared_data/v3_capability_completion_v20_balanced_scale_t2_22k5_ctx512
+output: runs/fdt_v3_capability_completion_v20_balanced_scale_t2_20260816
+conversational_sft: false
+max_length: 512
+rows: 22500
+planned_total_tranches: 4
+completed_tranches_before_stage: 1
+planned_total_active_tokens: 20000000
+effective_batch_size: 10
+micro_batch_size: 5
+gradient_accumulation_steps: 2
+optimizer: AdamW
+optimizer_eval_placement: cpu
+release_gradients_before_evaluation: true
+pre_smoke_atomic_recovery: true
+periodic_recovery_step: null
+learning_rate: 0.0000000125
+weight_decay: 0.01
+lr_schedule: constant
+warmup_steps: 0
+epochs: 1
+steps: 2250
+seed: 20260821
+freeze_routing: true
+prompt_lm_weight: 0.35
+eos_loss_weight: 2.0
+category_grounding_loss_weights:
+  factual_qa: 1.25
+  retrieval: 2.25
+  json: 2.25
+signature_loss_weight: 1.25
+category_objective_weights:
+  factual_qa: 0.15
+  retrieval: 0.25
+  python_code: 0.15
+  json: 0.20
+  natural_lm: 0.25
+factual_length_quotas:
+  short_1_4: 1800
+  medium_5_7: 1350
+  long_8_plus: 1350
+max_natural_repeated_4gram_rate: 0.025
+smoke_step: 500
+smoke_gates:
+  broad_relative_regression_max: 0.003
+  capability_loss_regression_max: 0.0
+  dead_anchor_ratio_max: 0.01
+  python_structural_successes_min: parent_v20_smoke
+  retrieval_exact_successes_min: max_parent_v20_reference_v17_smoke
+  json_valid_successes_min: max_parent_v20_reference_v17_smoke
+  short_fact_accuracy_min: max_parent_v20_reference_v17
+  eos_accuracy_min: max_parent_v20_reference_v17
+repetition_smoke_role: diagnostic_only
+final_repetition_rows: 100
+continuation_policy: later tranches require corrected strict evidence preserving V18 structural capability and recovering V17 retrieval and JSON behavior

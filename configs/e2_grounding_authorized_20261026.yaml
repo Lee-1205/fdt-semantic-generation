@@ -1,0 +1,25 @@
+schema: fdt_local_plan_v1
+profile: full
+variant: masked
+plan:
+  seed: 20
+  phase_steps:
+  - 128
+  - 320
+  - 640
+  micro_batch: 4
+  accumulation: 2
+  save_every: 1
+  log_every: 1
+  train_graphs: 512
+  dev_graphs: 96
+  test_graphs: 128
+  eval_seed: 17
+  encoder_lr: 1.0e-05
+  ground_lr: 0.0003
+  semantic_lr: 0.0003
+  diffusion_lr: 0.0003
+  ground_gate: 0.9
+  semantic_gate: 0.8
+research_stage: E2 grounding only; full parent model warmstart; fresh optimizer; original
+  dev96 cached for retention

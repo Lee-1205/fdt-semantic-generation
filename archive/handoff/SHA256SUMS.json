@@ -1,0 +1,67 @@
+{
+  "schema": "fdt_handoff_file_sha256_v1",
+  "prepared_date": "2026-10-26",
+  "scope": "Handoff file bytes only; not model checkpoint commit evidence",
+  "files": [
+    {
+      "path": "EVIDENCE_NOTES.md",
+      "bytes": 4189,
+      "sha256": "6cba13816d69703a6789bc1c901c11248617a2ba29560a927139b175bc23f95a"
+    },
+    {
+      "path": "FDT_Codex_Local_Prompt_2026_10_26.md",
+      "bytes": 51374,
+      "sha256": "2ab61eff24d386bba37cecd08b872bd1ff6561f3c9e5ba2dac66ab89b6cf195a"
+    },
+    {
+      "path": "START_HERE_KR.md",
+      "bytes": 1852,
+      "sha256": "d33f9343cdc8b47944004f61022a539cedee2ce3862c0a0096af02fb1b648fc4"
+    },
+    {
+      "path": "original_source_bundle/FDT_T4_100M_Durable_Recovery_v2.zip",
+      "bytes": 78371,
+      "sha256": "57e854be4e946e966ab2165df350c81538a9f322f7d4c14329422f83883d09ba"
+    },
+    {
+      "path": "sources/FDT100_experiment_summary.json",
+      "bytes": 55058,
+      "sha256": "6da144c672799dca8310df395850f43cbe0ea5b71ed705fc4e997a84c95fbcff"
+    },
+    {
+      "path": "sources/FDT100_training_status.txt",
+      "bytes": 2225,
+      "sha256": "e59beeafc4f8e72238135d2401e5a4845be9b7680e241d28b4a4e0e3b9b8ac68"
+    },
+    {
+      "path": "sources/FDT_Code_Audit_2026_10_06_v2.md",
+      "bytes": 11421,
+      "sha256": "a85962d7ca4506ef1f8a6afb8661af468779da76fff68fa3deb9302ff281160d"
+    },
+    {
+      "path": "sources/FDT_Codex_Handover_2026_10_07.md",
+      "bytes": 14189,
+      "sha256": "003d21bd01d14f37cd39333f2f6ad650321adcc15621f7f73db942984b91fda8"
+    },
+    {
+      "path": "sources/FDT_Integrated_Research_Paper_2026-10-06_READABLE.pdf",
+      "bytes": 347022,
+      "sha256": "49e9fff9d5e6bf67819608067ec3fb8477714cc75789c81e7d73bc6151b61fb4"
+    },
+    {
+      "path": "sources/FDT_vNext_Formal_Architecture_Spec_KR.md",
+      "bytes": 94291,
+      "sha256": "941dc5735719ca8c99d76da833a13c3f97fd5ef8fdd0970b3aaeb056f6b16fb1"
+    },
+    {
+      "path": "sources/fdt_data_mix_evidence_20261001.json",
+      "bytes": 3761,
+      "sha256": "79817be0ecc640d4558440bb6c41fe3a3bea21d682e993c9ac727e579b968e6f"
+    },
+    {
+      "path": "sources/fdt_data_mix_revision_20261001.yaml",
+      "bytes": 6358,
+      "sha256": "e2b61ce06ce24b4a754dfe0af26eb0459bd5ea567eb7da6941772f4d4b6a7ee0"
+    }
+  ]
+}

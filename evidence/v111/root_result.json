@@ -1,0 +1,26 @@
+{
+  "status": "TRIAL_COMPLETE_TRANSFORMATION_NOT_ESTABLISHED",
+  "actual_updates": 268,
+  "actual_training_D_calls": 0,
+  "observed_TRAIN_positive_correct": 0,
+  "observed_TRAIN_positive_total": 80,
+  "observed_DEV_positive_correct": 0,
+  "observed_DEV_positive_total": 48,
+  "observed_positive_pairs_both_correct": 0,
+  "observed_positive_pairs_total": 32,
+  "automatic_unknown_substring_NOT_semantic_accuracy": true,
+  "loss_reduction_NOT_success": true,
+  "inferred_primary_bottleneck": "Conditional/query-role separation and basic latent fit; decoder termination also imperfect.",
+  "no_new_training_after_terminal": true,
+  "all_old_assets_preserved": true,
+  "latest_checkpoint": {
+    "path": "evidence/v111\\checkpoints\\state_0268.pt",
+    "SHA": "e905927d288dff3f91dcb0c4eb53257503fd92929bbd50248b371db183fb7f76",
+    "bytes": 115324221,
+    "algorithm_SHA": "4977b0169b0dd98ee603b09e720a84083edd43ab6cc14a17691e3bef076b9650"
+  },
+  "main_model_calls": 40256,
+  "separate_final_readonly_calls": 2278,
+  "separate_preflight_calls": 660,
+  "scientific_updates_exclude_fixture_updates": true
+}

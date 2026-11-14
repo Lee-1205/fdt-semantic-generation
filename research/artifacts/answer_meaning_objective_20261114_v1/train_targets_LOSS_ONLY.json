@@ -1,0 +1,2012 @@
+[
+  {
+    "id": "6fba9e471be63dd03c2fbf75a547a89ea0d03d709784cf920c391f56e992a08b",
+    "answer_SHA": "9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a.pt",
+      "SHA": "3fc58c9242accb65e98bddde11bc818bc6edb8d6d2c93f1da7fc43e3239324a2",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is larger than B.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a.pt",
+      "SHA": "011a31dba47b733e65656cf2661d348a438db0760b53c1b1bf75d5b074c85296",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "7446395767e0f2b941c59c595fa3b17c210e43e3d03033d0cee98a34fdb91987",
+    "answer_SHA": "4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71.pt",
+      "SHA": "35c51ec0b7ebc0755fc565b693ada2cc28740be9ba0ec1a082c8860cb8497287",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "B is smaller than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71.pt",
+      "SHA": "3cec9fe7c7271c7207498f16cbb0c53282c8685eacd3b2fffbb1bcda5e4fb17d",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "59ecb053c7b1fb9a84c20b47eb9ef7a664b233776fea85fd52e5fcd9afff73b7",
+    "answer_SHA": "9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a.pt",
+      "SHA": "3fc58c9242accb65e98bddde11bc818bc6edb8d6d2c93f1da7fc43e3239324a2",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is larger than B.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a.pt",
+      "SHA": "011a31dba47b733e65656cf2661d348a438db0760b53c1b1bf75d5b074c85296",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "60973deadc1a026f96244e14df890c791124f9cb51970881b504594987d63901",
+    "answer_SHA": "4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71.pt",
+      "SHA": "35c51ec0b7ebc0755fc565b693ada2cc28740be9ba0ec1a082c8860cb8497287",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "B is smaller than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71.pt",
+      "SHA": "3cec9fe7c7271c7207498f16cbb0c53282c8685eacd3b2fffbb1bcda5e4fb17d",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "c93696270759a77de373ecb5577412aae38de463bd9e19783a062cdd881d0ce2",
+    "answer_SHA": "9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a.pt",
+      "SHA": "3fc58c9242accb65e98bddde11bc818bc6edb8d6d2c93f1da7fc43e3239324a2",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is larger than B.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a.pt",
+      "SHA": "011a31dba47b733e65656cf2661d348a438db0760b53c1b1bf75d5b074c85296",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "594a661f61ca7c02b5ff5b4af930262ad06ad2f8879aabe026f0024877aa4965",
+    "answer_SHA": "4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71.pt",
+      "SHA": "35c51ec0b7ebc0755fc565b693ada2cc28740be9ba0ec1a082c8860cb8497287",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "B is smaller than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71.pt",
+      "SHA": "3cec9fe7c7271c7207498f16cbb0c53282c8685eacd3b2fffbb1bcda5e4fb17d",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "c2a934f48dc0b071882b3abc4c832d7bf3c05ab5423e88cb4850fc39a68f73ac",
+    "answer_SHA": "9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a.pt",
+      "SHA": "3fc58c9242accb65e98bddde11bc818bc6edb8d6d2c93f1da7fc43e3239324a2",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is larger than B.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a.pt",
+      "SHA": "011a31dba47b733e65656cf2661d348a438db0760b53c1b1bf75d5b074c85296",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "4d469690fb77d30dfa4774218026efa56de4e02ad3a9c8ddf24146e0c9b7947d",
+    "answer_SHA": "4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71.pt",
+      "SHA": "35c51ec0b7ebc0755fc565b693ada2cc28740be9ba0ec1a082c8860cb8497287",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "B is smaller than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\4a4f2871ce1edc79016aeb14ac552e2a191a7ff3017e5146733c21aef0bccb71.pt",
+      "SHA": "3cec9fe7c7271c7207498f16cbb0c53282c8685eacd3b2fffbb1bcda5e4fb17d",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "6ab2f13fb04c1d75dd8cd976206020f4458a95143d39efde74147a2ca2459638",
+    "answer_SHA": "9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a.pt",
+      "SHA": "3fc58c9242accb65e98bddde11bc818bc6edb8d6d2c93f1da7fc43e3239324a2",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is larger than B.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\9624e6818ebb5639b143452f0e7803be03898097cffb6a1a8868c0949d982f5a.pt",
+      "SHA": "011a31dba47b733e65656cf2661d348a438db0760b53c1b1bf75d5b074c85296",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "d781b4df5b3afb2c294748ebc52f8b8f1422841dbf5309d42a8509518189c3cf",
+    "answer_SHA": "8a69fabed448ac6e2118fcdf70aec3f2c277b011a07983ef13638ef40c4a2ea4",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\8a69fabed448ac6e2118fcdf70aec3f2c277b011a07983ef13638ef40c4a2ea4.pt",
+      "SHA": "bd71b19d955458ffb4c36c331aa2e341d508f35308fe32c24f281c8a5dfbe38b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is larger than D.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\8a69fabed448ac6e2118fcdf70aec3f2c277b011a07983ef13638ef40c4a2ea4.pt",
+      "SHA": "393ff4d8e613e731df1ef5e02570da60d9d8c44e1383b2c82ce23af0ab207598",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "326fe254f3c43cb8d99e9d8d17b5bc84813aef04515472dad73f5e698a15b346",
+    "answer_SHA": "59912cb8e4ab1d2dbfeb76a033743ae68040fe1ecb69ee79e20f072207093ed1",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\59912cb8e4ab1d2dbfeb76a033743ae68040fe1ecb69ee79e20f072207093ed1.pt",
+      "SHA": "b87d8298bec05a8af7f0187bf30d1631794767d9ffc10683743bf9520ae50da5",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "D is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\59912cb8e4ab1d2dbfeb76a033743ae68040fe1ecb69ee79e20f072207093ed1.pt",
+      "SHA": "451a97a1c74b9510513a72e6aeeae9faa6562998ccf4b1282f3e8fc4d98f0532",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "079c4a9c2c1ce24729f24d7f06228e905b63189b5a490c4b282f95b25392985c",
+    "answer_SHA": "8a69fabed448ac6e2118fcdf70aec3f2c277b011a07983ef13638ef40c4a2ea4",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\8a69fabed448ac6e2118fcdf70aec3f2c277b011a07983ef13638ef40c4a2ea4.pt",
+      "SHA": "bd71b19d955458ffb4c36c331aa2e341d508f35308fe32c24f281c8a5dfbe38b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is larger than D.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\8a69fabed448ac6e2118fcdf70aec3f2c277b011a07983ef13638ef40c4a2ea4.pt",
+      "SHA": "393ff4d8e613e731df1ef5e02570da60d9d8c44e1383b2c82ce23af0ab207598",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "4079db8e2ded3a95bd2332aab417c3ce63c32c95654634f924a94352f6f72ffe",
+    "answer_SHA": "59912cb8e4ab1d2dbfeb76a033743ae68040fe1ecb69ee79e20f072207093ed1",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\59912cb8e4ab1d2dbfeb76a033743ae68040fe1ecb69ee79e20f072207093ed1.pt",
+      "SHA": "b87d8298bec05a8af7f0187bf30d1631794767d9ffc10683743bf9520ae50da5",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "D is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\59912cb8e4ab1d2dbfeb76a033743ae68040fe1ecb69ee79e20f072207093ed1.pt",
+      "SHA": "451a97a1c74b9510513a72e6aeeae9faa6562998ccf4b1282f3e8fc4d98f0532",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "a687532665b6d87999ec2e061602f372d61383d4faeb7476af92a8ce08b0b114",
+    "answer_SHA": "8a69fabed448ac6e2118fcdf70aec3f2c277b011a07983ef13638ef40c4a2ea4",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\8a69fabed448ac6e2118fcdf70aec3f2c277b011a07983ef13638ef40c4a2ea4.pt",
+      "SHA": "bd71b19d955458ffb4c36c331aa2e341d508f35308fe32c24f281c8a5dfbe38b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is larger than D.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\8a69fabed448ac6e2118fcdf70aec3f2c277b011a07983ef13638ef40c4a2ea4.pt",
+      "SHA": "393ff4d8e613e731df1ef5e02570da60d9d8c44e1383b2c82ce23af0ab207598",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "5d94d5f5e5a6b3cd3ca521617c5bbc9608cbc2d52ca5eea68ad7c935817ad7a2",
+    "answer_SHA": "59912cb8e4ab1d2dbfeb76a033743ae68040fe1ecb69ee79e20f072207093ed1",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\59912cb8e4ab1d2dbfeb76a033743ae68040fe1ecb69ee79e20f072207093ed1.pt",
+      "SHA": "b87d8298bec05a8af7f0187bf30d1631794767d9ffc10683743bf9520ae50da5",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "D is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\59912cb8e4ab1d2dbfeb76a033743ae68040fe1ecb69ee79e20f072207093ed1.pt",
+      "SHA": "451a97a1c74b9510513a72e6aeeae9faa6562998ccf4b1282f3e8fc4d98f0532",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "e14f5194478ce7f225f6b8ad27ae6c101dbaf7672524258e81ad92636edc2b35",
+    "answer_SHA": "cf3e4e95ef215bbbb8174240bc6d75f7a27c54577460d7451049a97001c727bf",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\cf3e4e95ef215bbbb8174240bc6d75f7a27c54577460d7451049a97001c727bf.pt",
+      "SHA": "73dbadc59fe93399fbd9aa239fa651a01a9176784699c2d188d188f2c32adbee",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is larger than G.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\cf3e4e95ef215bbbb8174240bc6d75f7a27c54577460d7451049a97001c727bf.pt",
+      "SHA": "3a0c7bbc379c3320a85653944be34fcd60b3197a1b8b7c0cdea8fef2ef178dba",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "2e3564b6748dfc82ab2471749a7d983da23470b0a733d71c360179dd30f049d8",
+    "answer_SHA": "29ca69bd4a83f4cd5fa564458904c23c233309930eea3a38f7525318ed0051d8",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\29ca69bd4a83f4cd5fa564458904c23c233309930eea3a38f7525318ed0051d8.pt",
+      "SHA": "1ddc9d1ce392271aff15f7e06696405b1c2bdc85fe3c2bcf9198dfe3b3f4c3e3",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "G is smaller than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\29ca69bd4a83f4cd5fa564458904c23c233309930eea3a38f7525318ed0051d8.pt",
+      "SHA": "287a792ca38ee07bcdd547766c86a8322b1cd987dd0510940c785599cee5c4f6",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "8e3e3a1ae2f1e8b2779c86e322104b126824807eb93dd5851a6426556b1b1f79",
+    "answer_SHA": "cf3e4e95ef215bbbb8174240bc6d75f7a27c54577460d7451049a97001c727bf",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\cf3e4e95ef215bbbb8174240bc6d75f7a27c54577460d7451049a97001c727bf.pt",
+      "SHA": "73dbadc59fe93399fbd9aa239fa651a01a9176784699c2d188d188f2c32adbee",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is larger than G.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\cf3e4e95ef215bbbb8174240bc6d75f7a27c54577460d7451049a97001c727bf.pt",
+      "SHA": "3a0c7bbc379c3320a85653944be34fcd60b3197a1b8b7c0cdea8fef2ef178dba",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "471018e291a494b4fe68c9b13f448f4b1f54b738238fbf028d38eebc0fa2b5b0",
+    "answer_SHA": "29ca69bd4a83f4cd5fa564458904c23c233309930eea3a38f7525318ed0051d8",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\29ca69bd4a83f4cd5fa564458904c23c233309930eea3a38f7525318ed0051d8.pt",
+      "SHA": "1ddc9d1ce392271aff15f7e06696405b1c2bdc85fe3c2bcf9198dfe3b3f4c3e3",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "G is smaller than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\29ca69bd4a83f4cd5fa564458904c23c233309930eea3a38f7525318ed0051d8.pt",
+      "SHA": "287a792ca38ee07bcdd547766c86a8322b1cd987dd0510940c785599cee5c4f6",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "55bf931a628a52ece8d1890621ad5aca27ba9d11a46fe883773af7fa4003e710",
+    "answer_SHA": "cf3e4e95ef215bbbb8174240bc6d75f7a27c54577460d7451049a97001c727bf",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\cf3e4e95ef215bbbb8174240bc6d75f7a27c54577460d7451049a97001c727bf.pt",
+      "SHA": "73dbadc59fe93399fbd9aa239fa651a01a9176784699c2d188d188f2c32adbee",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is larger than G.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\cf3e4e95ef215bbbb8174240bc6d75f7a27c54577460d7451049a97001c727bf.pt",
+      "SHA": "3a0c7bbc379c3320a85653944be34fcd60b3197a1b8b7c0cdea8fef2ef178dba",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "20f0686aaae8466123f1176d4d6acaf10377cdc06f5c4fbc0a17584d4bce8d17",
+    "answer_SHA": "29ca69bd4a83f4cd5fa564458904c23c233309930eea3a38f7525318ed0051d8",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\29ca69bd4a83f4cd5fa564458904c23c233309930eea3a38f7525318ed0051d8.pt",
+      "SHA": "1ddc9d1ce392271aff15f7e06696405b1c2bdc85fe3c2bcf9198dfe3b3f4c3e3",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "G is smaller than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\29ca69bd4a83f4cd5fa564458904c23c233309930eea3a38f7525318ed0051d8.pt",
+      "SHA": "287a792ca38ee07bcdd547766c86a8322b1cd987dd0510940c785599cee5c4f6",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "89ba793ebe5f78cede1c5d0cea5ee4422124296af11d0301b834eff6d4c396b0",
+    "answer_SHA": "ad8f8edfe81ee33ded90ef90844e0368cdb2d4a2d404826caa34249df57f195f",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\ad8f8edfe81ee33ded90ef90844e0368cdb2d4a2d404826caa34249df57f195f.pt",
+      "SHA": "2ff59a8cd2f3e9a13dea562cf480deae2746b19b40599ac32cf6f325e2caceca",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is larger than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\ad8f8edfe81ee33ded90ef90844e0368cdb2d4a2d404826caa34249df57f195f.pt",
+      "SHA": "3f4acd6793846a721e98dee19858d54654cb357355eb298a937f098e65bd2bcb",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "e3871d282ca6679c1529f7937b0ee8f2c3f1868a16c55e165ae071b74be9aaed",
+    "answer_SHA": "e481ce89b5afe9a1f429fd4f7b33499694d3bf6cbfc89ebae4c17ddd4d4904cc",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\e481ce89b5afe9a1f429fd4f7b33499694d3bf6cbfc89ebae4c17ddd4d4904cc.pt",
+      "SHA": "0c6b6da240aeea080da49f579e3c8a685352caf8b5e148497472a2235b18b486",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\e481ce89b5afe9a1f429fd4f7b33499694d3bf6cbfc89ebae4c17ddd4d4904cc.pt",
+      "SHA": "77742bf3a6b5d36755a8c711a082547f94e11e598f83aaa2e7ae88308bd6b2b5",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "1ae8fadf54bf15f83084bfc5fc0fecbaf63aca4e655c8236d449f4130ce19b9b",
+    "answer_SHA": "e481ce89b5afe9a1f429fd4f7b33499694d3bf6cbfc89ebae4c17ddd4d4904cc",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\e481ce89b5afe9a1f429fd4f7b33499694d3bf6cbfc89ebae4c17ddd4d4904cc.pt",
+      "SHA": "0c6b6da240aeea080da49f579e3c8a685352caf8b5e148497472a2235b18b486",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\e481ce89b5afe9a1f429fd4f7b33499694d3bf6cbfc89ebae4c17ddd4d4904cc.pt",
+      "SHA": "77742bf3a6b5d36755a8c711a082547f94e11e598f83aaa2e7ae88308bd6b2b5",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "f2fcd3bd3bd9cfe29374a2555cf6ebccc773db0c64485e6eef498699751b0e46",
+    "answer_SHA": "a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "b6e5749b34088e79348e373390c305634a351089e48e8b1a152576213074f8d6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "e45aef7e56419b541949a085e55a2d6c75a8ca7529e450276cbcfd031a87a33c",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "10c3a3ef12432c5f49aae8376162b8bc82a392c2fe85e0bcc7e9a5cb4b4e8cba",
+    "answer_SHA": "92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "25af4a32caa105738a9139cfa8782cf50efa7ecb8f3d25ebd4ae2ec86bcb7bc7",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is smaller than C.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "26f0d05912785c114db4f9d82a57f986b724fc1e9467aecb5e06cdcc13e6dfbd",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "2d83da266e0596d6e5e0a0128b858fd94a0c1079d87f149446606915d6741f5f",
+    "answer_SHA": "a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "b6e5749b34088e79348e373390c305634a351089e48e8b1a152576213074f8d6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "e45aef7e56419b541949a085e55a2d6c75a8ca7529e450276cbcfd031a87a33c",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "30f094e1c6d6572d2bd6c824dedd4ebec899a1b7a943f2f18d53c1ab1ea61098",
+    "answer_SHA": "92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "25af4a32caa105738a9139cfa8782cf50efa7ecb8f3d25ebd4ae2ec86bcb7bc7",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is smaller than C.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "26f0d05912785c114db4f9d82a57f986b724fc1e9467aecb5e06cdcc13e6dfbd",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "034b11ff3d4939f302fec8f85999fb42cc1603c260a697b037a08034b999fd53",
+    "answer_SHA": "a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "b6e5749b34088e79348e373390c305634a351089e48e8b1a152576213074f8d6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "e45aef7e56419b541949a085e55a2d6c75a8ca7529e450276cbcfd031a87a33c",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "0dd7fbed0f6be88cffcc516231ab60300f416385cdbb910713dcc8a57c274c14",
+    "answer_SHA": "92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "25af4a32caa105738a9139cfa8782cf50efa7ecb8f3d25ebd4ae2ec86bcb7bc7",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is smaller than C.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "26f0d05912785c114db4f9d82a57f986b724fc1e9467aecb5e06cdcc13e6dfbd",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "543883f441c9b87a8f4a24597e36a36fa5be934a3ea72bb1e0c44c444de2b4fb",
+    "answer_SHA": "a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "b6e5749b34088e79348e373390c305634a351089e48e8b1a152576213074f8d6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "e45aef7e56419b541949a085e55a2d6c75a8ca7529e450276cbcfd031a87a33c",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "d6e2d8e5d1f31103b88618c287df44096f388fbac621b0b73fec83bff3a1d9ec",
+    "answer_SHA": "92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "25af4a32caa105738a9139cfa8782cf50efa7ecb8f3d25ebd4ae2ec86bcb7bc7",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is smaller than C.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "26f0d05912785c114db4f9d82a57f986b724fc1e9467aecb5e06cdcc13e6dfbd",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "f51b51f529d6760241fcb57711f7f412aa6caaeac0a9f1d91d378078bb6a9da8",
+    "answer_SHA": "3f2db08e5b95129987cca5850f28a6ca956bf980f2c82867ac214c95bc6203a2",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\3f2db08e5b95129987cca5850f28a6ca956bf980f2c82867ac214c95bc6203a2.pt",
+      "SHA": "eebc1b3604023d92a1fda1b306d6931eb7f1abecb7defa6101fe12f21c48bfc6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is smaller than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\3f2db08e5b95129987cca5850f28a6ca956bf980f2c82867ac214c95bc6203a2.pt",
+      "SHA": "b2e22e60002262822acce44b550de97df1f8f83db4cffe247496313099d3ec78",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "79560e11d3b4deb7e8aa69760c6795b7c5aea9bf3f6747b2f5f77bda131408e3",
+    "answer_SHA": "19f2d63bc6d2418d6f0b9b406097187de9013e5f03c4b284e34cb0d4ee8b760d",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\19f2d63bc6d2418d6f0b9b406097187de9013e5f03c4b284e34cb0d4ee8b760d.pt",
+      "SHA": "852eb5437b6f4994082ec3eade6f58fa2b14121e3e0f855a50a30b70722cef93",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\19f2d63bc6d2418d6f0b9b406097187de9013e5f03c4b284e34cb0d4ee8b760d.pt",
+      "SHA": "d49d880112f6c5cef92f17d2d9a9cb41d38eee9247498ccd599a6e04c5714b37",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "d982975e8ef4cc63650fdc55bfac59b19352866bd8774001c5740fb6b8149f4e",
+    "answer_SHA": "3f2db08e5b95129987cca5850f28a6ca956bf980f2c82867ac214c95bc6203a2",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\3f2db08e5b95129987cca5850f28a6ca956bf980f2c82867ac214c95bc6203a2.pt",
+      "SHA": "eebc1b3604023d92a1fda1b306d6931eb7f1abecb7defa6101fe12f21c48bfc6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is smaller than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\3f2db08e5b95129987cca5850f28a6ca956bf980f2c82867ac214c95bc6203a2.pt",
+      "SHA": "b2e22e60002262822acce44b550de97df1f8f83db4cffe247496313099d3ec78",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "819a6b97fe7fe7634c0b3df8057affdc04f4b34ee23f91c1944425a888a5cd16",
+    "answer_SHA": "19f2d63bc6d2418d6f0b9b406097187de9013e5f03c4b284e34cb0d4ee8b760d",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\19f2d63bc6d2418d6f0b9b406097187de9013e5f03c4b284e34cb0d4ee8b760d.pt",
+      "SHA": "852eb5437b6f4994082ec3eade6f58fa2b14121e3e0f855a50a30b70722cef93",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\19f2d63bc6d2418d6f0b9b406097187de9013e5f03c4b284e34cb0d4ee8b760d.pt",
+      "SHA": "d49d880112f6c5cef92f17d2d9a9cb41d38eee9247498ccd599a6e04c5714b37",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "e7e06486dac6d6e91b973b5d0e238969c505a68164804ba17e3cdd473ad0dc85",
+    "answer_SHA": "1dfde5fec103d51ed071d4f6812e622734ca2c6aaed14e2b6ad3e985c1a9efeb",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\1dfde5fec103d51ed071d4f6812e622734ca2c6aaed14e2b6ad3e985c1a9efeb.pt",
+      "SHA": "4e9502bcbf871fadd66c053196cead400ec25e7a5eac5ab0ecc1329359ef5653",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is larger than B.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\1dfde5fec103d51ed071d4f6812e622734ca2c6aaed14e2b6ad3e985c1a9efeb.pt",
+      "SHA": "fade3483fb1ffe303f2bfb854a04fe5f963ce4ea6c6d401f1073c1c0b123137d",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "4d9d906170c98f8e5c52a7920dd9002a1c40be176aac7b6de6cddb75c32f0629",
+    "answer_SHA": "9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433.pt",
+      "SHA": "444dcefe825422f2e86dda941753655c13568cfe93d70be1ab874971baaf6f88",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "B is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433.pt",
+      "SHA": "ad37b1aeef2e0337ef421517a229751215a8af1d21aeb76fafd9ccfb081baafb",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "87ec594a7ebbd28bffa4bd6c4ff91325217fa9b3bd893df948fe56fc64a140cd",
+    "answer_SHA": "b28ce2db29bdcb8dd5aef9284260737de8940f9058831187e0296d2b48e862e4",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\b28ce2db29bdcb8dd5aef9284260737de8940f9058831187e0296d2b48e862e4.pt",
+      "SHA": "eb3e02ad29dd59f8611188ff1521f775a477b1aa4c3bf83d2d27a9c5090d6817",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is larger than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\b28ce2db29bdcb8dd5aef9284260737de8940f9058831187e0296d2b48e862e4.pt",
+      "SHA": "9df70e8667ae7812d8436366e4b5e5a34b3ca5109ad372352c118998d7919fc2",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "61f7456d3ae40cbd2c3ec147a0c9d37414b8271d19114a91090984df4813b90e",
+    "answer_SHA": "5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d.pt",
+      "SHA": "d290fbccab71db37725c456d4dad3d79c63442497405f1bccc627bdb6eac9b8e",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d.pt",
+      "SHA": "d247be9bc7ff2510f85878e95101cafc2a63cf560b711f452af21f1f41de52e3",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "fe28b30f4e7ebf8008bcd6c1f97670167645180a5eb6ea29c87f1d3ed0d262ec",
+    "answer_SHA": "b28ce2db29bdcb8dd5aef9284260737de8940f9058831187e0296d2b48e862e4",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\b28ce2db29bdcb8dd5aef9284260737de8940f9058831187e0296d2b48e862e4.pt",
+      "SHA": "eb3e02ad29dd59f8611188ff1521f775a477b1aa4c3bf83d2d27a9c5090d6817",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is larger than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\b28ce2db29bdcb8dd5aef9284260737de8940f9058831187e0296d2b48e862e4.pt",
+      "SHA": "9df70e8667ae7812d8436366e4b5e5a34b3ca5109ad372352c118998d7919fc2",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "ad29750ef447febf2740d3e63e6c809ae29b80d128ca1f01f467955e97c1729f",
+    "answer_SHA": "5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d.pt",
+      "SHA": "d290fbccab71db37725c456d4dad3d79c63442497405f1bccc627bdb6eac9b8e",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d.pt",
+      "SHA": "d247be9bc7ff2510f85878e95101cafc2a63cf560b711f452af21f1f41de52e3",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "50cc8e899b2bc7947d58fb98d229dba73b50104cbfc86981e0e6513ee5f20f61",
+    "answer_SHA": "5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d.pt",
+      "SHA": "d290fbccab71db37725c456d4dad3d79c63442497405f1bccc627bdb6eac9b8e",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d.pt",
+      "SHA": "d247be9bc7ff2510f85878e95101cafc2a63cf560b711f452af21f1f41de52e3",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "68da323b4cbd9d45a37236db5481129c5c50460c6f28b40b4e7d440c12b7f4ce",
+    "answer_SHA": "d13701194105fbd4e391b34594d97ea0bc7c70fe89d07651ea98ed1132e31d9d",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\d13701194105fbd4e391b34594d97ea0bc7c70fe89d07651ea98ed1132e31d9d.pt",
+      "SHA": "2f3978de168232f50cf2a540c7898b3996fef8dda538ac0f7d74a29cd3181072",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\d13701194105fbd4e391b34594d97ea0bc7c70fe89d07651ea98ed1132e31d9d.pt",
+      "SHA": "a9bb6cf35965f1e549c5f0c0b2c3e0c25c23245ef7d1e208df76b330f8d36b81",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "8cc7df7b9a464a09409793ca646708b1e3c43026e0238a20dc68dda387e6cc28",
+    "answer_SHA": "d13701194105fbd4e391b34594d97ea0bc7c70fe89d07651ea98ed1132e31d9d",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\d13701194105fbd4e391b34594d97ea0bc7c70fe89d07651ea98ed1132e31d9d.pt",
+      "SHA": "2f3978de168232f50cf2a540c7898b3996fef8dda538ac0f7d74a29cd3181072",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\d13701194105fbd4e391b34594d97ea0bc7c70fe89d07651ea98ed1132e31d9d.pt",
+      "SHA": "a9bb6cf35965f1e549c5f0c0b2c3e0c25c23245ef7d1e208df76b330f8d36b81",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "5d25e35856b33f230080ccf040bb52806a3a9b069290d2270f4508dcdfdd3cd8",
+    "answer_SHA": "bc7e5e438a7fd744e39bf4349ddaed2a92bfacf58b8ef5afeb87b94b0ccb31ab",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\bc7e5e438a7fd744e39bf4349ddaed2a92bfacf58b8ef5afeb87b94b0ccb31ab.pt",
+      "SHA": "39976f4330fbde547590ee60d8510fedf685ae3934cc3cc41b4c2abd51064117",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\bc7e5e438a7fd744e39bf4349ddaed2a92bfacf58b8ef5afeb87b94b0ccb31ab.pt",
+      "SHA": "8ad43a1bed2cecb1dd39a9808ff1275d935d784811c72168ad7322bec775f932",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "1855ba0dd397c02d7625e2b7554888c3764392bdd7a801011d3f59b574bcad97",
+    "answer_SHA": "6c9c971e957e0b79003cd656d63d9e30d07374830eac754ad31f7e66052fc696",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\6c9c971e957e0b79003cd656d63d9e30d07374830eac754ad31f7e66052fc696.pt",
+      "SHA": "a684e121886fcc639a9330af2b571c252af261623c6d6f78e54311d523710b9f",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is smaller than D.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\6c9c971e957e0b79003cd656d63d9e30d07374830eac754ad31f7e66052fc696.pt",
+      "SHA": "0cfb7e2c06b3cba5419f4f716eb59a04152ff5ff9bc1429d9bcd92b8e277b229",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "1e0e99f708470c545b9433226dab010e68469dac8d8e1ea42cee836c9812a5f9",
+    "answer_SHA": "6c9c971e957e0b79003cd656d63d9e30d07374830eac754ad31f7e66052fc696",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\6c9c971e957e0b79003cd656d63d9e30d07374830eac754ad31f7e66052fc696.pt",
+      "SHA": "a684e121886fcc639a9330af2b571c252af261623c6d6f78e54311d523710b9f",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is smaller than D.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\6c9c971e957e0b79003cd656d63d9e30d07374830eac754ad31f7e66052fc696.pt",
+      "SHA": "0cfb7e2c06b3cba5419f4f716eb59a04152ff5ff9bc1429d9bcd92b8e277b229",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "80ac55ddd1e20bfc7511b50d2a8b45c264c53dcae5ab7e9c15337d17ecc14f9d",
+    "answer_SHA": "3f5170238a4ead534a3b6f23ba7163fd4f9ece10d039b4cd0300c5c8a13ea327",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\3f5170238a4ead534a3b6f23ba7163fd4f9ece10d039b4cd0300c5c8a13ea327.pt",
+      "SHA": "3c1534e631142aa9ddc0ab2662bdae49be176ed79d3a4e7dd22b3a9a1b4556a8",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "D is larger than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\3f5170238a4ead534a3b6f23ba7163fd4f9ece10d039b4cd0300c5c8a13ea327.pt",
+      "SHA": "e3e6c2cb55afc939088249a210cd613575716940433ac15c1a8fff62a1fe30f8",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "d45b13fdb6c24989dcdcdcb7bf306d6e9949c1842a679c61ea9c382a75a6332e",
+    "answer_SHA": "3f5170238a4ead534a3b6f23ba7163fd4f9ece10d039b4cd0300c5c8a13ea327",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\3f5170238a4ead534a3b6f23ba7163fd4f9ece10d039b4cd0300c5c8a13ea327.pt",
+      "SHA": "3c1534e631142aa9ddc0ab2662bdae49be176ed79d3a4e7dd22b3a9a1b4556a8",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "D is larger than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\3f5170238a4ead534a3b6f23ba7163fd4f9ece10d039b4cd0300c5c8a13ea327.pt",
+      "SHA": "e3e6c2cb55afc939088249a210cd613575716940433ac15c1a8fff62a1fe30f8",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "a6cc05a41bb8262b1eba650e4c662377818fc3bbad50fd0f8a04708307fe09e8",
+    "answer_SHA": "9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433.pt",
+      "SHA": "444dcefe825422f2e86dda941753655c13568cfe93d70be1ab874971baaf6f88",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "B is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433.pt",
+      "SHA": "ad37b1aeef2e0337ef421517a229751215a8af1d21aeb76fafd9ccfb081baafb",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "b650c70b2f00d37acee87fdcf62ffe24fb88f74de57505cc8e54251e333eae9b",
+    "answer_SHA": "9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433.pt",
+      "SHA": "444dcefe825422f2e86dda941753655c13568cfe93d70be1ab874971baaf6f88",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "B is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433.pt",
+      "SHA": "ad37b1aeef2e0337ef421517a229751215a8af1d21aeb76fafd9ccfb081baafb",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "52bdf3b30bd9a705431ae598142f4965a7737ee5f5b3d3f1b5f1fc9fe1d3a84a",
+    "answer_SHA": "1dfde5fec103d51ed071d4f6812e622734ca2c6aaed14e2b6ad3e985c1a9efeb",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\1dfde5fec103d51ed071d4f6812e622734ca2c6aaed14e2b6ad3e985c1a9efeb.pt",
+      "SHA": "4e9502bcbf871fadd66c053196cead400ec25e7a5eac5ab0ecc1329359ef5653",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is larger than B.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\1dfde5fec103d51ed071d4f6812e622734ca2c6aaed14e2b6ad3e985c1a9efeb.pt",
+      "SHA": "fade3483fb1ffe303f2bfb854a04fe5f963ce4ea6c6d401f1073c1c0b123137d",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "cdb40d221b75bb834acaf5f358aa2c7c00e36e37845409ce97aa16a418354235",
+    "answer_SHA": "9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433.pt",
+      "SHA": "444dcefe825422f2e86dda941753655c13568cfe93d70be1ab874971baaf6f88",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "B is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433.pt",
+      "SHA": "ad37b1aeef2e0337ef421517a229751215a8af1d21aeb76fafd9ccfb081baafb",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "51edf859f297300c474097c8fb8ac0f934a064a8b5d9fab20ae35934574b31b7",
+    "answer_SHA": "1dfde5fec103d51ed071d4f6812e622734ca2c6aaed14e2b6ad3e985c1a9efeb",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\1dfde5fec103d51ed071d4f6812e622734ca2c6aaed14e2b6ad3e985c1a9efeb.pt",
+      "SHA": "4e9502bcbf871fadd66c053196cead400ec25e7a5eac5ab0ecc1329359ef5653",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is larger than B.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\1dfde5fec103d51ed071d4f6812e622734ca2c6aaed14e2b6ad3e985c1a9efeb.pt",
+      "SHA": "fade3483fb1ffe303f2bfb854a04fe5f963ce4ea6c6d401f1073c1c0b123137d",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "2283d8a9690e3f685e07d2154ee5724aa37dff9ae6ae91a2d4617baa5c9e1a99",
+    "answer_SHA": "9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433.pt",
+      "SHA": "444dcefe825422f2e86dda941753655c13568cfe93d70be1ab874971baaf6f88",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "B is smaller than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\9ff63143322e32f850367144a61d904a987e33c3082ae9351efe3528ab46a433.pt",
+      "SHA": "ad37b1aeef2e0337ef421517a229751215a8af1d21aeb76fafd9ccfb081baafb",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "a04164a0c805b620311c2a9ce7c4c3e45bacbc007e2922e6a8861480f4d7bb8b",
+    "answer_SHA": "5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d.pt",
+      "SHA": "d290fbccab71db37725c456d4dad3d79c63442497405f1bccc627bdb6eac9b8e",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d.pt",
+      "SHA": "d247be9bc7ff2510f85878e95101cafc2a63cf560b711f452af21f1f41de52e3",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "28e61d6458cde682051a28d4eec9fc7e7a9f9f128baa5ccd8f7e42724cd627a8",
+    "answer_SHA": "5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d.pt",
+      "SHA": "d290fbccab71db37725c456d4dad3d79c63442497405f1bccc627bdb6eac9b8e",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "A is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\5f6297c55aaca94a3ce5a42b112c4fe8ed1c141ddb9fc420feea508099bc893d.pt",
+      "SHA": "d247be9bc7ff2510f85878e95101cafc2a63cf560b711f452af21f1f41de52e3",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "891240287be195cfa3ebd03bd85e9795782d4be0ed5ff2b038038b9d5543af67",
+    "answer_SHA": "b28ce2db29bdcb8dd5aef9284260737de8940f9058831187e0296d2b48e862e4",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\b28ce2db29bdcb8dd5aef9284260737de8940f9058831187e0296d2b48e862e4.pt",
+      "SHA": "eb3e02ad29dd59f8611188ff1521f775a477b1aa4c3bf83d2d27a9c5090d6817",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is larger than A.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\b28ce2db29bdcb8dd5aef9284260737de8940f9058831187e0296d2b48e862e4.pt",
+      "SHA": "9df70e8667ae7812d8436366e4b5e5a34b3ca5109ad372352c118998d7919fc2",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "468785b55f30d8191f02e1be4f11e54d4d02e8ab3a0a0ee8459c95407c8ac335",
+    "answer_SHA": "35a880357bbd25da7accdb8d64fbfb25eb7ff7bd329e67bc4bde2b88ae2886ca",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\35a880357bbd25da7accdb8d64fbfb25eb7ff7bd329e67bc4bde2b88ae2886ca.pt",
+      "SHA": "ad1a162e714541a9eb1726d2808de77e45f6587a68d6e8eec2d3cf39ad8345cd",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\35a880357bbd25da7accdb8d64fbfb25eb7ff7bd329e67bc4bde2b88ae2886ca.pt",
+      "SHA": "478aa865d60bcc93e9a2c826a5f1d3332f4033d8215817af24528fb3b2614196",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "c5af8be863785d7851116e9a91794d163f9994e953e8b07e4f29f814a5e3e36b",
+    "answer_SHA": "77b9c262284596e9ce56d80ecad27b07bdc6b6fdd6ec38f41a10e2e4d825a3a6",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\77b9c262284596e9ce56d80ecad27b07bdc6b6fdd6ec38f41a10e2e4d825a3a6.pt",
+      "SHA": "49b23fa1937fe334bf633b72867897b88b74ccd829b17f9ed2181c8234c07992",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is larger than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\77b9c262284596e9ce56d80ecad27b07bdc6b6fdd6ec38f41a10e2e4d825a3a6.pt",
+      "SHA": "6b44e7b04139486b57ef2e97f3bb42121c55d01acc1e8bf3779a9b9aecc6bef4",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "e8681e6498b9f4b5be9a9f216b60dab411633f384ab0e58dbf80b2fc3ff06b65",
+    "answer_SHA": "35a880357bbd25da7accdb8d64fbfb25eb7ff7bd329e67bc4bde2b88ae2886ca",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\35a880357bbd25da7accdb8d64fbfb25eb7ff7bd329e67bc4bde2b88ae2886ca.pt",
+      "SHA": "ad1a162e714541a9eb1726d2808de77e45f6587a68d6e8eec2d3cf39ad8345cd",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\35a880357bbd25da7accdb8d64fbfb25eb7ff7bd329e67bc4bde2b88ae2886ca.pt",
+      "SHA": "478aa865d60bcc93e9a2c826a5f1d3332f4033d8215817af24528fb3b2614196",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "ef6df1a080d626792ea3f20a4701e3fb6fe11b6ca5507b4a7f9d4ecdc116e3d2",
+    "answer_SHA": "77b9c262284596e9ce56d80ecad27b07bdc6b6fdd6ec38f41a10e2e4d825a3a6",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\77b9c262284596e9ce56d80ecad27b07bdc6b6fdd6ec38f41a10e2e4d825a3a6.pt",
+      "SHA": "49b23fa1937fe334bf633b72867897b88b74ccd829b17f9ed2181c8234c07992",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is larger than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\77b9c262284596e9ce56d80ecad27b07bdc6b6fdd6ec38f41a10e2e4d825a3a6.pt",
+      "SHA": "6b44e7b04139486b57ef2e97f3bb42121c55d01acc1e8bf3779a9b9aecc6bef4",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "95c239ab0156b0c1e6f67b0f827002e5d7c6f0274a58e9b403e004dba828de8c",
+    "answer_SHA": "a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "b6e5749b34088e79348e373390c305634a351089e48e8b1a152576213074f8d6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "e45aef7e56419b541949a085e55a2d6c75a8ca7529e450276cbcfd031a87a33c",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "3b20799823b40073a5281595bd2bb56231b7159cb00bec036fcd08e55b6ca986",
+    "answer_SHA": "a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "b6e5749b34088e79348e373390c305634a351089e48e8b1a152576213074f8d6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "e45aef7e56419b541949a085e55a2d6c75a8ca7529e450276cbcfd031a87a33c",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "1cff17d2683855eeb7f8e0cfc26a4dca91bcdb8bd321226b961b469ca1caffd9",
+    "answer_SHA": "92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "25af4a32caa105738a9139cfa8782cf50efa7ecb8f3d25ebd4ae2ec86bcb7bc7",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is smaller than C.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "26f0d05912785c114db4f9d82a57f986b724fc1e9467aecb5e06cdcc13e6dfbd",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "e642cb1e0d5458bf218a8a824bc5a802cf8c084abde9d8e50589d168581e7f57",
+    "answer_SHA": "a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "b6e5749b34088e79348e373390c305634a351089e48e8b1a152576213074f8d6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "e45aef7e56419b541949a085e55a2d6c75a8ca7529e450276cbcfd031a87a33c",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "fcfc60eb3319e24c88ab32b422fc5c3e49892761e530f4cddb7a0809e2de9048",
+    "answer_SHA": "92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "25af4a32caa105738a9139cfa8782cf50efa7ecb8f3d25ebd4ae2ec86bcb7bc7",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is smaller than C.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\92269605d80a72a7fd2bcfc7e156398aa068aaec9f5b9048b2b6a3e7bf5bd756.pt",
+      "SHA": "26f0d05912785c114db4f9d82a57f986b724fc1e9467aecb5e06cdcc13e6dfbd",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "ff496514c89a0d900341942cb4c54d2f29f75a0dc0b627dad388785e10140853",
+    "answer_SHA": "a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "b6e5749b34088e79348e373390c305634a351089e48e8b1a152576213074f8d6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is larger than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\a5be37fe488b431029efff33f8667f0ed03d779c68f3473799f9ba10462a8b5e.pt",
+      "SHA": "e45aef7e56419b541949a085e55a2d6c75a8ca7529e450276cbcfd031a87a33c",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "82b9056bcbacf4d23754b8efda78b5c6ad48ea9828952457c36f045d304be6ac",
+    "answer_SHA": "cecf54a314e73e1075f26ed1ed2b679457a70c6672b42c458e4d84611b9310ec",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\cecf54a314e73e1075f26ed1ed2b679457a70c6672b42c458e4d84611b9310ec.pt",
+      "SHA": "6b75f802b554cce9f878bf818ca64e1af6f79a9aa8114c867181d2ce052f95b6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is smaller than D.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\cecf54a314e73e1075f26ed1ed2b679457a70c6672b42c458e4d84611b9310ec.pt",
+      "SHA": "48b499348ee6f1b432808475fd1209e27ebe067cf1dcad40d72cb25b4a78e9de",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "9466bb0d823f5075d25215827cfdba25bfbf9d5df01bc427b49139b4dd0a18e5",
+    "answer_SHA": "cecf54a314e73e1075f26ed1ed2b679457a70c6672b42c458e4d84611b9310ec",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\cecf54a314e73e1075f26ed1ed2b679457a70c6672b42c458e4d84611b9310ec.pt",
+      "SHA": "6b75f802b554cce9f878bf818ca64e1af6f79a9aa8114c867181d2ce052f95b6",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "H is smaller than D.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\cecf54a314e73e1075f26ed1ed2b679457a70c6672b42c458e4d84611b9310ec.pt",
+      "SHA": "48b499348ee6f1b432808475fd1209e27ebe067cf1dcad40d72cb25b4a78e9de",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "91b5fbce89531fe844534cdb76e7732e6a58dac506a277e2272c0dd286fd9e26",
+    "answer_SHA": "f9520b61037b27ec48849f93252fd729b23f28ecf4e7178fad06112bc00b93a6",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\f9520b61037b27ec48849f93252fd729b23f28ecf4e7178fad06112bc00b93a6.pt",
+      "SHA": "da3de0e6f2d96e5cfabda9be1a46cddc342936b756f0b540f4c454cb64bf0b4a",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "D is larger than H.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\f9520b61037b27ec48849f93252fd729b23f28ecf4e7178fad06112bc00b93a6.pt",
+      "SHA": "7de29339e3b6990b06f89e66d0e3fb03a92fcb249f6f2d89401f955f62dc5466",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "6ad74b9b20489cabd8b83aebad0a1e8b0c9f9025aa46ad05ed61029134bf5aa0",
+    "answer_SHA": "393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4.pt",
+      "SHA": "22c118c18c115ad81e01417cab275da25408288a98f341abf456fdb16d4ff7cf",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4.pt",
+      "SHA": "0515bdf0433b72e72876bc896f712adc87a584d35f5bbb1aa1d2f9d7372c14d5",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "54dca48b61379fb549d2c773af5ff961746a697195d90a028e416f97bdd59eb4",
+    "answer_SHA": "8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f.pt",
+      "SHA": "7c7b119ab62be3955c968d65ebdfae06a06c23c33d915a6456644c43b5e233b1",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is larger than C.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f.pt",
+      "SHA": "c523602a8b0fdaa92c14d81d70307d20f348b1a61d5d5913341f6d00ab57d1ee",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "015166eaf5be0e71ddd1d7d51e5c743ee846fae2274663ca333e325e71254312",
+    "answer_SHA": "393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4.pt",
+      "SHA": "22c118c18c115ad81e01417cab275da25408288a98f341abf456fdb16d4ff7cf",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4.pt",
+      "SHA": "0515bdf0433b72e72876bc896f712adc87a584d35f5bbb1aa1d2f9d7372c14d5",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "b28b8e4301cac3fb7b3ad72c2358249e3027078d173d6455d8ca86946da243a1",
+    "answer_SHA": "8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f.pt",
+      "SHA": "7c7b119ab62be3955c968d65ebdfae06a06c23c33d915a6456644c43b5e233b1",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is larger than C.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f.pt",
+      "SHA": "c523602a8b0fdaa92c14d81d70307d20f348b1a61d5d5913341f6d00ab57d1ee",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "eedad0ce041a28519d5fb324a7bf6d66177648eae4d1bc5298f13ef28002e121",
+    "answer_SHA": "393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4.pt",
+      "SHA": "22c118c18c115ad81e01417cab275da25408288a98f341abf456fdb16d4ff7cf",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4.pt",
+      "SHA": "0515bdf0433b72e72876bc896f712adc87a584d35f5bbb1aa1d2f9d7372c14d5",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "431f4f97f62cc6cb0fae907915ba24d5e8c5116816198a85cfc542933cc9cdfd",
+    "answer_SHA": "8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f.pt",
+      "SHA": "7c7b119ab62be3955c968d65ebdfae06a06c23c33d915a6456644c43b5e233b1",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is larger than C.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f.pt",
+      "SHA": "c523602a8b0fdaa92c14d81d70307d20f348b1a61d5d5913341f6d00ab57d1ee",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "687c24bb8371f35e71da72f07af8acd9d95aeb8b5f82e45239273a0b9c7bde7f",
+    "answer_SHA": "393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4.pt",
+      "SHA": "22c118c18c115ad81e01417cab275da25408288a98f341abf456fdb16d4ff7cf",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "C is smaller than F.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\393540df3dd0d8791e2b3383f894f66f4d24209603f96c5df9dff3ef481c16c4.pt",
+      "SHA": "0515bdf0433b72e72876bc896f712adc87a584d35f5bbb1aa1d2f9d7372c14d5",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "5fc2f36c70708bea7cd869ff22b912f8b2c2e59bc1545aa0be4462bacb47e25d",
+    "answer_SHA": "8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f.pt",
+      "SHA": "7c7b119ab62be3955c968d65ebdfae06a06c23c33d915a6456644c43b5e233b1",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "F is larger than C.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\8c8d1c27ea462c3a71cff215e8646e7d7abb2b9f316333b89c61d8b7b5119e2f.pt",
+      "SHA": "c523602a8b0fdaa92c14d81d70307d20f348b1a61d5d5913341f6d00ab57d1ee",
+      "bytes": 48665
+    }
+  },
+  {
+    "id": "5a1fb482420d63ba3eb7f4e4d4ea24721b2fccf4a7cdc7060254482d833641cc",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "dbe0bc5b632c553a02dfa30f049853368926434851da65866123edcd32697e62",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "01f73825d35bbb2dd07e40091d3b89afe8457f49f16e0238c06b566e6e0ce570",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "d9e1afe467999234be05a8c211e9547f1d2eec985732a7fc8dcb2d2281f09b18",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "8625a3295623b61ce8763ed358fad36b1e490aca6fa81bbf85aa749496a80663",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "466d3e3b9a44c1594549488bf270e0ac7fe3139b06cf46499d21d971aea7f458",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "6ba3e4953b56f6165b526b13014c735336dd2b199846d551e82612a2f8a17888",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "f2caa68ee85bdd22ca2de8bc37009d2c1e8840261146147fcc2b0f1f6e8bc39e",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "50821e45e3f1a8467e042ab559b1384cd805b749fd095ecf3cd56c75ea7a7428",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "5afd6eeeddaa92023b2fdec90fb36fe58767fe59da4087aba78755b2e5a7cb16",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "2d9c82095dbd90ebf6d6a15160a7fe598cdb1fdb5fb741de7867654d4e815345",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "217df89bb77e996e677b51917f178274ff9d9e0a1dc73b0ec20cf70969ed0467",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "350bc930b5f7dbba3e8740d11bf343c43a92ffd6b66f7c355990399b8963448b",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "c6aa052b81cb3018b8f4a5ee3eeff5d1d9645d8b9ccca673d3c6081a0079438e",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "7cdc545230af58693e888432e75ee617b037f989fc7fbed30227284d317c4bbb",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "d3d0c3663db4a20eb17f800b14c104bf4efadabc530988879101dd2eaeeb6457",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "b6b3d366f09b9d8661ecb53f7e005938e461b91b90886591ac7de2adcd54233f",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "d08a1cc8fb826eb4eaa3743fbc5a8b118d8e6c0bfa1560117d54ab71611c08cb",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "50920d51073a12eaa184cda645b8d125a919cfa70927124ff4a6b8228c6c22db",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "0c5bb408fc5aeae553065fab54725624b699ee843c77ce72e75e7753f2739454",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "16142ee74550283f4d80fef959724d8d619a2dc67c3fe9a51f77081514c53a31",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "cd917f3a7ec71a8c596e1f0e1ee91bb671839d7fe9bca0c74c028f87ac6f06a8",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "45e437a52d93e0ec39a6a6d9dfee4c4436c46e2d613b763e819cede6d06bb53e",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "5ada1b40928d4054728a94013085524006ca14bd9bddbe0ee47c8b2700510e16",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "ec8f21037e85d07435f8fc6301e4ea60926633027930d0dd2c8c874844901ca1",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "bc9dbe3da5fe01377030999b8961ef2d4f7cfefa9f04670f15fdfd69e2b56f13",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "7f3bf5577f774b0a3cb67b36bd09fc3dd4c1edf5cdc840def921f7dd25f011fb",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "7947a2dd8236b7b1d7ed791fb0a8cfc9f086d727baed28a3ff09b17a66ae3b47",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "98a0a2d736e0cf444f86abf21f3457b8600de6bfdd25783874a230a79c4c264c",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "db02a53a1d187054f129f14c26260aaa3e1b0aeb52389305b7dbad8bd376850b",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "1c35ea8a2ae46b33e7df8faba926cc9e1970786112aa0fb9d0d167dfadaa1240",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "dbd19cb1738d321d5b7814569793cb6e9573697fd27c6c77355fa17d61ae7eba",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "d5157bda5ed75b177faa4fd1ba5821ce60fa230d3fa9835c0ea813ee990bf0c6",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "f30076d030f87b27459a126dfd21e11e050cfe633e6cce12ad27890fbe29c5c1",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "ed9efb3f26d24fcfdf076baf7d1137a6524b145785896f78fc00b67de3c1ec59",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "fc3b6b9d9ae8993b9ef95f81f0b14fc86c0e41e44e26b82c95ea4d2c9d712d93",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "3a89f4df1a6ae9c3e4e56411184a0177090bf4589aae921ebe9d109e4b1e9eba",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "7dc8e27be8335e9de65e44cb9efa73ac10ddeb4aeef9d189b77b4a426a390344",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "997f8ed42f5a0c1a676321c9c95cc907e5bf7c434299038d4c96583406bacee6",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "ad06afb6fbbd1bf9c425221102cd7acefff38d743bbcdc2987c170954221718e",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "f3e16d0dd04cc279424e407fba2a444a6132de4dc8f746a93267f13ce574a982",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "019530da247553b39d16a083c4643e5696c4cd40aeb40896a7651ab5ea49fd87",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "3bb81b9bad438d1932e19b01d0c58c38f64c9f4c961ad75663624d05a10bbf93",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "03ce29a44ad4ee83d3ddd900a1324765626e2f0b279445fa029daa5565f075a4",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "34df82039ace56d52543be6c5469cedd5fbe6017ab0be49496b468c6babb3526",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "e5f82e46ac705165791db7e1934a1a3b692322f2a01f5a53d46eee663b96c7c9",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "dc2f418a7b92c4938596c18af7ad3c19dc13957c98a06f502946ddba6829e2ce",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "231b2149db30602314a49851f09a1a37eac2c3aeeab666965cdf67670ecd408e",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "d06fc78e59cd5f632d7943200f4eaf859ccf73b8fbe61908e114ce2dd7ceb581",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "fb4a0564c10886c97f906b1053bd3637d7e7cb8b103958490b33dd99ebc3fd70",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "63fdf0d396338cae25072af99a1132c4bec56e500e9da8d0b850f8a31f6c2c5f",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "21fc7e66e73523e184e3646105970214324a995e1feacd18d5aba98a674a1b64",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "794c31f34797d48c682dec7cb1bbdf2c32e77c199deab4e28f0f7551a5122df2",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  },
+  {
+    "id": "56334b5cae4b40a00230ceab16ab28f1d2d7c6b54ab47e13f2a9323f03588b45",
+    "answer_SHA": "acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440",
+    "answer_meaning_loss_only": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\targets\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "41380ec178a4351aa67b8d77fa2420018259ea8fb1410a269ff8b77f67c28b6b",
+      "bytes": 78497
+    },
+    "answer_text_offline_only": "It is unknown.",
+    "original_answer_readout_trace": {
+      "path": "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\ceiling\\acdd720c83aebd3cedc7962b3bf994fbca8fd20493cf0fe54340ea4903676440.pt",
+      "SHA": "7016afb80b6b6cdb12515c27e3de560d8d6fe031048e1447c6b5b637de31aadd",
+      "bytes": 32153
+    }
+  }
+]

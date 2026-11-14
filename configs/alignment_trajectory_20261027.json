@@ -1,0 +1,22 @@
+{
+  "schema": "fdt_alignment_trajectory_readonly_v1",
+  "models": ["FDT100", "QueryBoundRefiner"],
+  "parent_payload_sha256": "a877f316d0d97f2c497497fd9b941184463238055906d7109d3300db4c253b36",
+  "source_transfer_plan_sha256": "732efc57fb07b5524604762d94748601c1b259b582241f11112614179e589f63",
+  "source_transfer_result_sha256": "4ca65f7ce7384a40304160468b041fb5ace619af310c3e65181f28134c624a4b",
+  "source_noise_sha256": "254688fce9a8471e8e2251f26fbed5031f8b0af7310616766d1099a14f56b55c",
+  "graph_indices": [8, 9, 10, 11],
+  "query_counts": [4, 8, 16],
+  "rollout_schedule": [1.0, 0.75, 0.5, 0.25, 0.0],
+  "seed": 17,
+  "actual_encode_denoise_calls": 30,
+  "max_actual_encode_denoise_calls": 40,
+  "readout_head_calls_separate": 6,
+  "wall_seconds_including_startup": 90,
+  "shutdown_reserve_seconds": 20,
+  "trace_cap_bytes": 134217728,
+  "optimizer_allowed": false,
+  "checkpoint_write_allowed": false,
+  "e2_final_files_accessed": false,
+  "purpose": "Passive post-observation trace of a fixed Q4 miss and its same-query Q8/Q16 counterparts; record when initializer, noisy latent, predicted clean, epsilon, and next-state readout projection change. This is a narrow diagnostic, not a fresh benchmark or causal proof."
+}

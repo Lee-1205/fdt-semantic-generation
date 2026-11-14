@@ -1,0 +1,18 @@
+model:
+  model_type: transformer
+  dim: 384
+  n_layers: 6
+  n_heads: 6
+  mlp_ratio: 4
+  max_seq_len: 512
+  dropout: 0.1
+
+training:
+  tokenizer_name: tokenizers/fdt_bpe
+  dataset_dir: prepared_data/fdt_rlm_10m
+  output_dir: runs/micro_transformer
+  batch_size: 1
+  grad_accum_steps: 8
+  max_steps: 1000
+  learning_rate: 0.0003
+  precision: bf16

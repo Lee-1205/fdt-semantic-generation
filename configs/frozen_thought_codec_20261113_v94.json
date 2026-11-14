@@ -1,0 +1,27 @@
+{
+  "schema": "frozen_codec_for_separate_memory_thought_v94",
+  "selected_version": "V88_frozen_codec_research_endpoint",
+  "selected_runtime": "PROJECT_ROOT\\runs\\critical_repair_20261113_v88\\model\\runtime.pt",
+  "selected_SHA": "ebe939a6c14b205bd92a6cad772b33cf2ee462473bb77daadcc6ba48926c84d7",
+  "source_algorithm_SHA": "bd3edf2d661231a571d6c0af8c45a2f725545793128ad114b263a9e2c06765dd",
+  "mandatory_standalone_base": "PROJECT_ROOT\\runs\\context_verbalizer_20261112_v74\\model\\checkpoints\\state_0640.pt",
+  "mandatory_base_SHA": "734a2eed6526f86526f203d6389f6b1a778b50f9273ae9aaf90d4c801998dab7",
+  "source_model_SHA": "42a2032db3137ffb9f876585cf26979854d2555e19639fa5c2f1e8d61201b96a",
+  "embedding_SHA": "3ea6672a445e984751fc0489b1e2067eaf6858c704291bc8848f0f81f5c4805c",
+  "precision_policy": "fixed_full_FP32_Commit_readout_no_Gold_no_Exact_v81",
+  "freeze": "ENTIREcodec123497080parameters+ALLbuffers+allthreeMemoryweights+binding+output+legacybranches",
+  "trainable": "NEWMemoryThoughtDiffusion ONLY; exact optimizer allowlist; no shared storage",
+  "resolution": "DiscardV91asendpoint, reusecompleteV88head, so3newlongregressionsremoved; capitalization-onlyV91gainalsoforegone.",
+  "V91weights_Adam_RNG_preserved": true,
+  "no_checkpoint_rewritten": true,
+  "global_model_registry_changed": false,
+  "known_codec_limits": {
+    "long_errors": 49,
+    "long_source_bytes": 524071,
+    "numeric_value_clear64": 52,
+    "clear_wrong_numeric64": 4,
+    "nonstandard_prefix_uncertified64": 8,
+    "whole_semantic_codec_complete": false
+  },
+  "source_selection_scope": "Frozen research endpoint for preparation. Does not certify arbitrary meanings or untrained diffusion ability."
+}

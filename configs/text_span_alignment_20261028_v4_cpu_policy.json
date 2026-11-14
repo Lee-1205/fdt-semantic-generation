@@ -1,0 +1,62 @@
+{
+  "schema": "fdt_text_span_alignment_v4_CPU_POLICY_NOT_EXECUTABLE",
+  "authorized": false,
+  "status": "CPU_CANDIDATE_ONLY_NO_WORKER_NO_PLAN_NO_LAUNCH",
+  "artifact": "PROJECT_ROOT\\research\\artifacts\\text_span_alignment_20261028_v4_cpu_v2",
+  "manifest_file_sha256": "dff9d3f73a6d8039d3b6bdfeca67e29afff7c9155a735d4534ceed6b9e379cce",
+  "candidate_sha256": "e8b46ba3a715daa4f09c758188e3b3fb45535eff167aa1c3ec744b70a29af37b",
+  "parent_checkpoint_sha256": "a5e1c0e774c89a22dde794d2cffd138926ae961fd8cde592bf466d25d63a71b3",
+  "frozen_cache_sha256": "c0fe127015ddd17319e46d352be526264ffec0693990679585916051bca3fce9",
+  "prospective_limits": {
+    "reader_attempts": 512,
+    "realizer_attempts": 512,
+    "max_total_attempts": 1024,
+    "batch": 8,
+    "each_phase_finite_epochs": 4,
+    "each_phase_row_exposures": 4096,
+    "max_total_row_selections": 8192,
+    "wall_seconds": 900,
+    "shutdown_reserve_seconds": 90,
+    "max_actual_reader_decoder_calls": 2800,
+    "expected_max_actual_calls": 2520,
+    "max_output_bytes": 8589934592,
+    "min_start_free_bytes": 38654705664,
+    "min_gpu_free_mib": 12288
+  },
+  "prospective_actual_call_derivation": {
+    "reader_training": 512,
+    "matched_transition_reader": 256,
+    "realizer_training_decoder": 512,
+    "baseline_reader_decoder_max": 410,
+    "reader_phase_headcheck": 10,
+    "final_reader_decoder_max": 410,
+    "zero_latent_reader_decoder_max": 410
+  },
+  "phase_reader": {
+    "train": "reader queries/blocks/pointers/byte positions/semantic heads",
+    "freeze": "decoder + factor value embeddings/types + VP",
+    "objective": "spanCE+relationCE+.25languageCE+.1paired_probability_consistency",
+    "gold_inputs": "only loss, never model feature",
+    "order": "reader_order.json",
+    "seed": 31
+  },
+  "phase_realizer": {
+    "train": "decoder only",
+    "freeze": "entire reader + factor embeddings/types + VP",
+    "attempts_1_to_256": "teacher semantic conditions, training-only",
+    "attempts_257_to_512": "predicted soft conditions only for exact4factor matches; teacher fallback for other training rows",
+    "eval": "ALL rows, predicted factors only; no oracle/teacher filtering",
+    "order": "realizer_order.json",
+    "seed": 32
+  },
+  "optimizer_policy": "fresh phase-specific AdamW; preserve both states at phase2, no import of old optimization trajectory",
+  "checkpoint_policy": "reader0/256/512 and realizer global512/768/1024 in separate directories; full model, both optimizer states, scaler, all used RNG, phase counters/order/cursor/history/exposure/call budget; no rotation/deletion",
+  "teacher_predicted_counts": "log actual matched/predicted/teacher fallback rows; all selected batches consume attempts/cursor even AMP skip",
+  "exposure_caveat": "VP/language encode/denoise0 via immutable cache reuse. Reader training4096 cache rows + matched phase2048 cache rows; teacher-only first2048 realizer rows do not imply prompt encoder forwards. Realizer target bytes80632 expected.",
+  "evaluation": "same80 observed dev/probe; classify positive exact, semantic equivalence, wrong generation with correct factors, span/head accuracy, UTF8/EOS and unknown baseline",
+  "no_GPU_yet": true,
+  "E2_final_accessed": false,
+  "no_agents": true,
+  "deadline": null,
+  "next_required": "Implement actual bounded worker/owned OS supervisor/phase restore and full real-schema CPU tests; actual preflight/independent validate/root review/resources/new SHA fixed seal BEFORE ONE launch"
+}

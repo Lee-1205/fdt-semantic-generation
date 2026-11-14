@@ -1,0 +1,23 @@
+status: PROPOSED_NOT_EXECUTED
+E2:
+  query_target_fraction:
+  - 0.25
+  - 0.25
+  - 0.25
+  - 0.25
+  grounding_target_fraction:
+  - 0.25
+  - 0.25
+  - 0.25
+  - 0.25
+  expression_family_split: true
+  balance_via: typed-graph buckets + query selection + bounded reject sampling; never
+    relabel oracle
+E4:
+  phase_update_hypothesis:
+  - 0.6
+  - 0.15
+  - 0.25
+  updates: 1000
+  execution_authorized: false
+  not_the_existing_recovery_plan: true

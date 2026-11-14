@@ -1,0 +1,32 @@
+model:
+  model_type: fdt
+  dim: 384
+  n_layers: 6
+  n_heads: 6
+  mlp_ratio: 4
+  max_seq_len: 512
+  dropout: 0.1
+  use_self_attention: false
+  num_anchors: 128
+  top_k: 8
+  routing_type: cosine
+  cosine_temperature: 0.25
+  aggregation_impl: dense_gather_first
+  diversity_margin: 0.2
+  diversity_max_weight: 2.0
+
+training:
+  tokenizer_name: tokenizers/fdt_bpe
+  dataset_dir: prepared_data/fdt_rlm_10m
+  output_dir: runs/micro_fdt
+  batch_size: 1
+  grad_accum_steps: 8
+  max_steps: 1000
+  learning_rate: 0.0003
+  precision: bf16
+  diversity_every: 4
+  usage_weight: 0.005
+  entropy_weight: 0.003
+  entropy_target_ratio_start: 0.65
+  entropy_target_ratio_end: 0.45
+  entropy_over_weight: 0.2

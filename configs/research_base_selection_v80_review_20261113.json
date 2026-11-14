@@ -1,0 +1,21 @@
+{
+  "time": "2026-11-13T14:07:54.238922+09:00",
+  "decision": "PRESERVE_V75_REFERENCE_USE_V80_ONLY_AS_NEXT_BOUNDED_LANGUAGE_REPAIR_RESEARCH_CANDIDATE",
+  "selected_version": "V80_RESEARCH_CANDIDATE_NOT_COMPLETE_CODEC",
+  "selected_runtime": "PROJECT_ROOT\\runs\\update_retention_20261113_v80\\model\\runtime.pt",
+  "selected_SHA": "588ceaad4a94dde38ae56e42239497534d69387814a4fa66a4fbcea974db3cd2",
+  "selected_algorithm_SHA": "1c67b342a0df81aa993f97043f50b57d1d057858ed70c0750f3dfa1bb11b727c",
+  "mandatory_standalone_base": "PROJECT_ROOT\\runs\\context_verbalizer_20261112_v74\\model\\checkpoints\\state_0640.pt",
+  "mandatory_base_SHA": "734a2eed6526f86526f203d6389f6b1a778b50f9273ae9aaf90d4c801998dab7",
+  "balanced_reference_version": "V75",
+  "balanced_reference_runtime": "PROJECT_ROOT\\runs\\critical_retention_20261112_v75\\model\\runtime.pt",
+  "balanced_reference_SHA": "f01e851284df0bd971498ee709b81158abb4ce157bf7e19578c146614411c124",
+  "reason": "V80 recovers long quantities15 vs V7516/V7929,episodes8 vs10/22,decoded52 vs58/77 and some ordinary English retention. Preserve learned progress for further repair. Short two-value clear51 vs54 and new digit/prefix risks prevent universal promotion.",
+  "global_model_promoted": false,
+  "language_cycle_complete": false,
+  "deployed_registry_changed": false,
+  "all_V75_V76_V77_V78_V79_V80_weights_Adam_RNG_raw_preserved": true,
+  "old_trial_resumed": false,
+  "automatic_extra_training": false,
+  "next_trial_requires_NEW_specific_plan_and_budget": true
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "76a2e9d0195ebfe5213a9820553c3478a3105506d06cf546675301420c437967",
+    "prompt": "C is larger than D. What is the size relation of C to D?"
+  },
+  {
+    "id": "dc20d9e50f8da9b89d2e9f68dd2c7835a2f019001637bab5006624130bff8732",
+    "prompt": "C is larger than D. What is the size relation of D to C?"
+  },
+  {
+    "id": "024f337c3d66c3fb785cb26b6e1cd412aa9490e20a0d6e96ebbd45d4b535ff0b",
+    "prompt": "C is larger than D. For C versus D, report their size relation."
+  },
+  {
+    "id": "523948ac12c9bddff95b44aaa9246b624390f8e5ab17c37dbd3714c0eae4404c",
+    "prompt": "C is larger than D. For D versus C, report their size relation."
+  },
+  {
+    "id": "0c69a7fb6d38e54d0a40d5144ed3baf75b86971baf4f94f6e305aeefff1273f8",
+    "prompt": "C is larger than D. Compare the size of C relative to D."
+  },
+  {
+    "id": "e8addfcc88809f420f9877c7875fd33e6668f407983e75efb3fb49b2c98ca296",
+    "prompt": "C is larger than D. Compare the size of D relative to C."
+  },
+  {
+    "id": "cc1d33170dcc97a8c8dc035d2bb8c7375412ce4eef014540d95ec1fa3afa3d98",
+    "prompt": "C is larger than D. Is C larger, smaller, or undetermined relative to D?"
+  },
+  {
+    "id": "c2702d070666f0293c42ba1d323b97f6be9d05379da7e370030d59e05255169e",
+    "prompt": "C is larger than D. Is D larger, smaller, or undetermined relative to C?"
+  },
+  {
+    "id": "b4faf1b17406d883e4073f42fc17434f6759ec6a23a4b01cba26c6fa897080ea",
+    "prompt": "G is smaller than B. What is the size relation of G to B?"
+  },
+  {
+    "id": "f0502b3568240b93ac842953411fcfb94a0fe2ba37f21e511dea0bfffbe9b5a9",
+    "prompt": "G is smaller than B. What is the size relation of B to G?"
+  },
+  {
+    "id": "819ab9db7cdfd56f7e8c2775393d508c70e155bc9275ec5df880762e64564f7e",
+    "prompt": "G is smaller than B. For G versus B, report their size relation."
+  },
+  {
+    "id": "420a21c4cb2e7a9e7fefafc9c610cf553f28691a0b1f9fa309324af55bfe83b0",
+    "prompt": "G is smaller than B. For B versus G, report their size relation."
+  },
+  {
+    "id": "bb66c0fa4993ce6343bb4b40fe5a1ca340db451d95a215397a2f1fbe63351af9",
+    "prompt": "G is smaller than B. Compare the size of G relative to B."
+  },
+  {
+    "id": "37e78bd4527619235f67d77655e4a36f17a664602c773ea8e2c66f88354e218b",
+    "prompt": "G is smaller than B. Compare the size of B relative to G."
+  },
+  {
+    "id": "b1749edfc408b25f6c167ffd16cc3eb191acd858b3f44b4a2185e3b981e2de94",
+    "prompt": "G is smaller than B. Is G larger, smaller, or undetermined relative to B?"
+  },
+  {
+    "id": "e0710444540cd7922d2900a4bfebfaa756fe79d441e5cf44860a780548f7b15d",
+    "prompt": "G is smaller than B. Is B larger, smaller, or undetermined relative to G?"
+  },
+  {
+    "id": "23fc12f41985a69ad41a6ccfb54948b6e7645a3e21b1875ef63c082075373fa4",
+    "prompt": "E is not larger than D. What is the size relation of E to D?"
+  },
+  {
+    "id": "98d6ef04289c3b9400f14ec674cd0b0c3b0097b5c172b6bb28e6f1956692c53c",
+    "prompt": "E is not larger than D. What is the size relation of D to E?"
+  },
+  {
+    "id": "7356579978b96f7d0811ccbd4bbd055a9486286a2912f617f7d4d42511e5f1b0",
+    "prompt": "E is not larger than D. For E versus D, report their size relation."
+  },
+  {
+    "id": "eef0ec06df494935e80a2823d10e1da7274d4dbc058d33d22b6544de2e42fd60",
+    "prompt": "E is not larger than D. For D versus E, report their size relation."
+  },
+  {
+    "id": "67d34f554d8b5669aa72ff9ca06afee5a8c4bf1c868fa0a4b6d383bec173f8b5",
+    "prompt": "E is not larger than D. Compare the size of E relative to D."
+  },
+  {
+    "id": "1ac3f9b946a6b4cd80861640376d084111cdbe27c62e1444efdca7a6d3edaae4",
+    "prompt": "E is not larger than D. Compare the size of D relative to E."
+  },
+  {
+    "id": "f1e7c9858229505b7ce905742238dda767e6f4f0d4af6de1d6c7cf5b078195eb",
+    "prompt": "E is not larger than D. Is E larger, smaller, or undetermined relative to D?"
+  },
+  {
+    "id": "e900c6d27a2565b8e2454c182f1a1fb4c478c87117a53a0ed920ac74986bd313",
+    "prompt": "E is not larger than D. Is D larger, smaller, or undetermined relative to E?"
+  },
+  {
+    "id": "3d1320adde47e038063eb57bac18d6e01d9d6e0c0ec42ec323eb9593545d75a8",
+    "prompt": "B is not smaller than G. What is the size relation of B to G?"
+  },
+  {
+    "id": "9b80fb953a45b4138734c383702ac7e5ee9df4c6f20e8aa7ed0d282ee5204606",
+    "prompt": "B is not smaller than G. What is the size relation of G to B?"
+  },
+  {
+    "id": "fdf4bf1b406a0509b12160b837deaa79e7b65c8d0c41c184fb4d3095370ed0b6",
+    "prompt": "B is not smaller than G. For B versus G, report their size relation."
+  },
+  {
+    "id": "46f4d990538da4ebc63e01f70b93b326ea26a31bd1e4b62e098fe2a43588944d",
+    "prompt": "B is not smaller than G. For G versus B, report their size relation."
+  },
+  {
+    "id": "53a6f78f2376d2b58f4d11ed2284b84f88a216d915efc232b4732834c3d45271",
+    "prompt": "B is not smaller than G. Compare the size of B relative to G."
+  },
+  {
+    "id": "5c1863d402ae2d9a6c0c9ee710be25c5ba6ad35bcaeb444769ad8824ca9103f9",
+    "prompt": "B is not smaller than G. Compare the size of G relative to B."
+  },
+  {
+    "id": "359753cc94c39cf36e4dd640f2d4e15065371bc5c4f06c5ce66f3d0b2affd044",
+    "prompt": "B is not smaller than G. Is B larger, smaller, or undetermined relative to G?"
+  },
+  {
+    "id": "c68af07b382474ad260174735a2995891b39deae37a37ac8261379d025ac6200",
+    "prompt": "B is not smaller than G. Is G larger, smaller, or undetermined relative to B?"
+  }
+]

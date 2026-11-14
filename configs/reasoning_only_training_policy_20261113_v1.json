@@ -1,0 +1,58 @@
+{
+  "schema": "fdt_reasoning_only_future_training_policy_v1",
+  "created": "2026-11-13T08:56:07.262511+09:00",
+  "human_instruction": "언어 입력 및 출력은 고정하고, 사고 디퓨전 부분 가중치만 학습한다. 먼저 상세 점검하며 디퓨전은 천천히 계획한다.",
+  "phase": "DESIGN_ONLY_NO_DIFFUSION_TRIAL",
+  "actual_diffusion_runner_or_plan": false,
+  "language_stabilization_still_in_progress": true,
+  "provisional_language_codec": {
+    "version": "V75",
+    "linked_path": "PROJECT_ROOT\\runs\\critical_retention_20261112_v75\\model\\runtime.pt",
+    "SHA": "f01e851284df0bd971498ee709b81158abb4ce157bf7e19578c146614411c124",
+    "mandatory_standalone_path": "PROJECT_ROOT\\runs\\context_verbalizer_20261112_v74\\model\\checkpoints\\state_0640.pt",
+    "mandatory_SHA": "734a2eed6526f86526f203d6389f6b1a778b50f9273ae9aaf90d4c801998dab7",
+    "current_endpoint_digest": "bdcc74d6d4c50097559ae62957b21c84cfa9e6ed07c47a1f194a75b32e9fa9b2",
+    "replace_with_new_explicit_pinned_revision_if_codec_is_improved": true
+  },
+  "frozen_scope": "ENTIRE codec including every input/memory/binding/output/unused parameter and every buffer; no shared storage with trainable reasoner",
+  "optimizer_scope": {
+    "namespace": "separate_reasoner_only",
+    "explicit_complete_parameter_name_allowlist_required": true,
+    "parameter_identity_and_storage_disjointness_required": true,
+    "old_codec_optimizers_untouched": true,
+    "no_encoder_decoder_adapter_LoRA_or_memory_parameter_updates": true
+  },
+  "memory_policy": {
+    "K_P": "frozen canonical anchors/prior; no certified writer/consolidation implemented",
+    "K_C": "input-derived long/recent N/D snapshot varies by episode but is read-only during reasoning",
+    "K_E": "dormant NULL/content0/copy0 until separate explicit internal copy-request policy is implemented",
+    "gold_answer_memory_must_not_condition_reasoner": true
+  },
+  "gradient_policy": {
+    "frozen_encoder_eval": true,
+    "target_answer_encoder_frozen_eval": true,
+    "frozen_decoder_eval": true,
+    "decoder_parameter_gradient_None": true,
+    "language_loss_gradient_to_reasoner_through_decoder_if_used": true,
+    "no_no_grad_around_decoder_when_language_loss_is_used": true,
+    "latent_targets_detached": true,
+    "language_loss_alone_not_semantic_reasoning_certificate": true,
+    "reasoner_query_gradient_through_readonly_memory_reads": true,
+    "do_not_train_or_share_original_extraction_router": true
+  },
+  "target_policy": "Frozen E(X) input meaning + task + permitted input memories -> Rtheta denoising -> predicted answer meaning; frozen E(Y) train target only, never inference feature.",
+  "schema_work_required": [
+    "typed21field basis is not current512dim Commit schema",
+    "reasoner-owned memory-read/query adapters with frozen anchors and input snapshots",
+    "answer Commit slot count/stop predicted without gold length",
+    "explicit answer Commit type-phase-epoch-source compatibility",
+    "no raw H/byte/regex/gold-role route to language realizer"
+  ],
+  "assessment_policy": "Separate E/D target-language ceiling, predicted semantic facts/relations/counterfactual changes, and final language fidelity; use untrained sentences and long inputs; literal exact match auxiliary.",
+  "required_future_execution": "New explicit canonical schema/pins/purpose/budget/CPU full worker/scaler/ALLRNG restore/preflight/ROOT independent validation/owned OS supervision; no old budget reuse or automatic phase transition.",
+  "protected_C_bytes": 107374182400,
+  "start_headroom_bytes": 8589934592,
+  "old_weights_Adam_scaler_RNG_raw_failures_source_unchanged": true,
+  "CPU_contract_scope": "11 tiny fixtures + one fullsize random-latent decoder gradient fixture/probe optimizer1; not actual reasoning model training",
+  "evidence": "PROJECT_ROOT\\research\\artifacts\\language_reasoning_boundary_20261113_v1_cpu\\root_independent_review.json"
+}

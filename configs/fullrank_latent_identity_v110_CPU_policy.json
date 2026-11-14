@@ -1,0 +1,15 @@
+{
+  "schema": "prospective_fullrank_latent_identity_v110_NOT_EXECUTION_PLAN",
+  "authorized": false,
+  "hidden": 520,
+  "latent_dimension": 512,
+  "trainable": "NEWthoughtONLY",
+  "source_codec": "V88+mandatoryV74 entirely frozen",
+  "selected_TRAIN": 134,
+  "train_language_loss": false,
+  "train_decoder_forward": false,
+  "train_encoder_forward": false,
+  "task": "identity meaning denoising, not relation reasoning",
+  "actual_worker_or_clock_or_seal_exists": false,
+  "needs": "actual fullsize pure-latent worker/restore/preflight/cost caps/ownedOS before any trial"
+}

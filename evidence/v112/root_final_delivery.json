@@ -1,0 +1,13 @@
+{
+  "status": "PAIR_RESPONSE_IMPROVED_TRANSFORMATION_UNRESOLVED",
+  "new_D_output0": true,
+  "all_owned_gone": true,
+  "model_calls_by_review0": true,
+  "files": {
+    "evidence/v112\\RESULT_AND_NEXT_KR.md": "53a599dcd5e7aae1c2f3a5a7dc083bbc480b50c34a732c36659e4d3f92171d3f",
+    "evidence/v112\\root_result.json": "ea7ab9350106da3df358454937b8bcf9621d033910c50ac0e69443a9f2792f07",
+    "evidence/v112\\root_saved_review.json": "70fad299eaf7d476f27e727e5ef583753fd5871859d22b720f8344cd2ee99318",
+    "evidence/v112\\root_manual_semantic_review.json": "8efe43898aebdc2e7f216f30f7e3a98b3f017f71ffd2a62c2b6321a2d79ef74e",
+    "evidence/v112\\root_pair_response.json": "e7a453d5cd61da5dec4a4925206c9a2142fc97e87ac69eae6a572b06e2e4b1a3"
+  }
+}

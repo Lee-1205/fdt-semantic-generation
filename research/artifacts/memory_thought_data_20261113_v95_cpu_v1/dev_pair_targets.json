@@ -1,0 +1,578 @@
+[
+  {
+    "id": "76a2e9d0195ebfe5213a9820553c3478a3105506d06cf546675301420c437967",
+    "answer": "C is larger than D.",
+    "label": "greater",
+    "source_fact": {
+      "a": "C",
+      "b": "D",
+      "operator": "greater",
+      "language": "en",
+      "group": "CD|en",
+      "fact": "C is larger than D.",
+      "key": "C|D|greater|en"
+    },
+    "reverse": false,
+    "family": 0,
+    "layout": 0,
+    "pair_key": "5eec551369785f1191ffb17f5cd6a8742e03c788829e07f824705967eb3f4b36"
+  },
+  {
+    "id": "dc20d9e50f8da9b89d2e9f68dd2c7835a2f019001637bab5006624130bff8732",
+    "answer": "D is smaller than C.",
+    "label": "less",
+    "source_fact": {
+      "a": "C",
+      "b": "D",
+      "operator": "greater",
+      "language": "en",
+      "group": "CD|en",
+      "fact": "C is larger than D.",
+      "key": "C|D|greater|en"
+    },
+    "reverse": true,
+    "family": 0,
+    "layout": 0,
+    "pair_key": "5eec551369785f1191ffb17f5cd6a8742e03c788829e07f824705967eb3f4b36"
+  },
+  {
+    "id": "024f337c3d66c3fb785cb26b6e1cd412aa9490e20a0d6e96ebbd45d4b535ff0b",
+    "answer": "C is larger than D.",
+    "label": "greater",
+    "source_fact": {
+      "a": "C",
+      "b": "D",
+      "operator": "greater",
+      "language": "en",
+      "group": "CD|en",
+      "fact": "C is larger than D.",
+      "key": "C|D|greater|en"
+    },
+    "reverse": false,
+    "family": 1,
+    "layout": 0,
+    "pair_key": "3116c1916ea795614c58d490329f202cdb00145d0e2981a35f17fc670e16eb57"
+  },
+  {
+    "id": "523948ac12c9bddff95b44aaa9246b624390f8e5ab17c37dbd3714c0eae4404c",
+    "answer": "D is smaller than C.",
+    "label": "less",
+    "source_fact": {
+      "a": "C",
+      "b": "D",
+      "operator": "greater",
+      "language": "en",
+      "group": "CD|en",
+      "fact": "C is larger than D.",
+      "key": "C|D|greater|en"
+    },
+    "reverse": true,
+    "family": 1,
+    "layout": 0,
+    "pair_key": "3116c1916ea795614c58d490329f202cdb00145d0e2981a35f17fc670e16eb57"
+  },
+  {
+    "id": "0c69a7fb6d38e54d0a40d5144ed3baf75b86971baf4f94f6e305aeefff1273f8",
+    "answer": "C is larger than D.",
+    "label": "greater",
+    "source_fact": {
+      "a": "C",
+      "b": "D",
+      "operator": "greater",
+      "language": "en",
+      "group": "CD|en",
+      "fact": "C is larger than D.",
+      "key": "C|D|greater|en"
+    },
+    "reverse": false,
+    "family": 2,
+    "layout": 0,
+    "pair_key": "a2860b2228dbf1382b8f754fead1de4b9127abca439e7e2b5a6e9d6ee0477be2"
+  },
+  {
+    "id": "e8addfcc88809f420f9877c7875fd33e6668f407983e75efb3fb49b2c98ca296",
+    "answer": "D is smaller than C.",
+    "label": "less",
+    "source_fact": {
+      "a": "C",
+      "b": "D",
+      "operator": "greater",
+      "language": "en",
+      "group": "CD|en",
+      "fact": "C is larger than D.",
+      "key": "C|D|greater|en"
+    },
+    "reverse": true,
+    "family": 2,
+    "layout": 0,
+    "pair_key": "a2860b2228dbf1382b8f754fead1de4b9127abca439e7e2b5a6e9d6ee0477be2"
+  },
+  {
+    "id": "cc1d33170dcc97a8c8dc035d2bb8c7375412ce4eef014540d95ec1fa3afa3d98",
+    "answer": "C is larger than D.",
+    "label": "greater",
+    "source_fact": {
+      "a": "C",
+      "b": "D",
+      "operator": "greater",
+      "language": "en",
+      "group": "CD|en",
+      "fact": "C is larger than D.",
+      "key": "C|D|greater|en"
+    },
+    "reverse": false,
+    "family": 3,
+    "layout": 0,
+    "pair_key": "3b7bd96c95e77d9deff60c5aab5294c48eec4a428fd0a57d3aa64c2db53e7592"
+  },
+  {
+    "id": "c2702d070666f0293c42ba1d323b97f6be9d05379da7e370030d59e05255169e",
+    "answer": "D is smaller than C.",
+    "label": "less",
+    "source_fact": {
+      "a": "C",
+      "b": "D",
+      "operator": "greater",
+      "language": "en",
+      "group": "CD|en",
+      "fact": "C is larger than D.",
+      "key": "C|D|greater|en"
+    },
+    "reverse": true,
+    "family": 3,
+    "layout": 0,
+    "pair_key": "3b7bd96c95e77d9deff60c5aab5294c48eec4a428fd0a57d3aa64c2db53e7592"
+  },
+  {
+    "id": "b4faf1b17406d883e4073f42fc17434f6759ec6a23a4b01cba26c6fa897080ea",
+    "answer": "G is smaller than B.",
+    "label": "less",
+    "source_fact": {
+      "a": "G",
+      "b": "B",
+      "operator": "less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "G is smaller than B.",
+      "key": "G|B|less|en"
+    },
+    "reverse": false,
+    "family": 0,
+    "layout": 0,
+    "pair_key": "547283c89f09ef57b0685d80937949ad3f2c7bcd852192e4cfcff57447901d8c"
+  },
+  {
+    "id": "f0502b3568240b93ac842953411fcfb94a0fe2ba37f21e511dea0bfffbe9b5a9",
+    "answer": "B is larger than G.",
+    "label": "greater",
+    "source_fact": {
+      "a": "G",
+      "b": "B",
+      "operator": "less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "G is smaller than B.",
+      "key": "G|B|less|en"
+    },
+    "reverse": true,
+    "family": 0,
+    "layout": 0,
+    "pair_key": "547283c89f09ef57b0685d80937949ad3f2c7bcd852192e4cfcff57447901d8c"
+  },
+  {
+    "id": "819ab9db7cdfd56f7e8c2775393d508c70e155bc9275ec5df880762e64564f7e",
+    "answer": "G is smaller than B.",
+    "label": "less",
+    "source_fact": {
+      "a": "G",
+      "b": "B",
+      "operator": "less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "G is smaller than B.",
+      "key": "G|B|less|en"
+    },
+    "reverse": false,
+    "family": 1,
+    "layout": 0,
+    "pair_key": "d12a61789f02b68f14407c518fe0164770c872ee90533284af7dcb68c5e6557c"
+  },
+  {
+    "id": "420a21c4cb2e7a9e7fefafc9c610cf553f28691a0b1f9fa309324af55bfe83b0",
+    "answer": "B is larger than G.",
+    "label": "greater",
+    "source_fact": {
+      "a": "G",
+      "b": "B",
+      "operator": "less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "G is smaller than B.",
+      "key": "G|B|less|en"
+    },
+    "reverse": true,
+    "family": 1,
+    "layout": 0,
+    "pair_key": "d12a61789f02b68f14407c518fe0164770c872ee90533284af7dcb68c5e6557c"
+  },
+  {
+    "id": "bb66c0fa4993ce6343bb4b40fe5a1ca340db451d95a215397a2f1fbe63351af9",
+    "answer": "G is smaller than B.",
+    "label": "less",
+    "source_fact": {
+      "a": "G",
+      "b": "B",
+      "operator": "less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "G is smaller than B.",
+      "key": "G|B|less|en"
+    },
+    "reverse": false,
+    "family": 2,
+    "layout": 0,
+    "pair_key": "187907fdb2870ee23547263df1a96a629412ad9d522952db7d2d7f50e3d2cd14"
+  },
+  {
+    "id": "37e78bd4527619235f67d77655e4a36f17a664602c773ea8e2c66f88354e218b",
+    "answer": "B is larger than G.",
+    "label": "greater",
+    "source_fact": {
+      "a": "G",
+      "b": "B",
+      "operator": "less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "G is smaller than B.",
+      "key": "G|B|less|en"
+    },
+    "reverse": true,
+    "family": 2,
+    "layout": 0,
+    "pair_key": "187907fdb2870ee23547263df1a96a629412ad9d522952db7d2d7f50e3d2cd14"
+  },
+  {
+    "id": "b1749edfc408b25f6c167ffd16cc3eb191acd858b3f44b4a2185e3b981e2de94",
+    "answer": "G is smaller than B.",
+    "label": "less",
+    "source_fact": {
+      "a": "G",
+      "b": "B",
+      "operator": "less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "G is smaller than B.",
+      "key": "G|B|less|en"
+    },
+    "reverse": false,
+    "family": 3,
+    "layout": 0,
+    "pair_key": "2a2e1af355283446af17576420334115e201439ba9b573498349371d16de8bd0"
+  },
+  {
+    "id": "e0710444540cd7922d2900a4bfebfaa756fe79d441e5cf44860a780548f7b15d",
+    "answer": "B is larger than G.",
+    "label": "greater",
+    "source_fact": {
+      "a": "G",
+      "b": "B",
+      "operator": "less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "G is smaller than B.",
+      "key": "G|B|less|en"
+    },
+    "reverse": true,
+    "family": 3,
+    "layout": 0,
+    "pair_key": "2a2e1af355283446af17576420334115e201439ba9b573498349371d16de8bd0"
+  },
+  {
+    "id": "23fc12f41985a69ad41a6ccfb54948b6e7645a3e21b1875ef63c082075373fa4",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "E",
+      "b": "D",
+      "operator": "not greater",
+      "language": "en",
+      "group": "DE|en",
+      "fact": "E is not larger than D.",
+      "key": "E|D|not greater|en"
+    },
+    "reverse": false,
+    "family": 0,
+    "layout": 0,
+    "pair_key": "d6cb0a0e79e62319878943dc1297289588028b343163efa1e9dda7b00cf13126"
+  },
+  {
+    "id": "98d6ef04289c3b9400f14ec674cd0b0c3b0097b5c172b6bb28e6f1956692c53c",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "E",
+      "b": "D",
+      "operator": "not greater",
+      "language": "en",
+      "group": "DE|en",
+      "fact": "E is not larger than D.",
+      "key": "E|D|not greater|en"
+    },
+    "reverse": true,
+    "family": 0,
+    "layout": 0,
+    "pair_key": "d6cb0a0e79e62319878943dc1297289588028b343163efa1e9dda7b00cf13126"
+  },
+  {
+    "id": "7356579978b96f7d0811ccbd4bbd055a9486286a2912f617f7d4d42511e5f1b0",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "E",
+      "b": "D",
+      "operator": "not greater",
+      "language": "en",
+      "group": "DE|en",
+      "fact": "E is not larger than D.",
+      "key": "E|D|not greater|en"
+    },
+    "reverse": false,
+    "family": 1,
+    "layout": 0,
+    "pair_key": "7cede8880dc8a569290904825a44df3d1d5018d5a85a95ca3cf333ce271f5317"
+  },
+  {
+    "id": "eef0ec06df494935e80a2823d10e1da7274d4dbc058d33d22b6544de2e42fd60",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "E",
+      "b": "D",
+      "operator": "not greater",
+      "language": "en",
+      "group": "DE|en",
+      "fact": "E is not larger than D.",
+      "key": "E|D|not greater|en"
+    },
+    "reverse": true,
+    "family": 1,
+    "layout": 0,
+    "pair_key": "7cede8880dc8a569290904825a44df3d1d5018d5a85a95ca3cf333ce271f5317"
+  },
+  {
+    "id": "67d34f554d8b5669aa72ff9ca06afee5a8c4bf1c868fa0a4b6d383bec173f8b5",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "E",
+      "b": "D",
+      "operator": "not greater",
+      "language": "en",
+      "group": "DE|en",
+      "fact": "E is not larger than D.",
+      "key": "E|D|not greater|en"
+    },
+    "reverse": false,
+    "family": 2,
+    "layout": 0,
+    "pair_key": "95a7a4f8ce4ebe312b92d34dfa0d9239623f34ebb00b0965cf4b66889dd485ab"
+  },
+  {
+    "id": "1ac3f9b946a6b4cd80861640376d084111cdbe27c62e1444efdca7a6d3edaae4",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "E",
+      "b": "D",
+      "operator": "not greater",
+      "language": "en",
+      "group": "DE|en",
+      "fact": "E is not larger than D.",
+      "key": "E|D|not greater|en"
+    },
+    "reverse": true,
+    "family": 2,
+    "layout": 0,
+    "pair_key": "95a7a4f8ce4ebe312b92d34dfa0d9239623f34ebb00b0965cf4b66889dd485ab"
+  },
+  {
+    "id": "f1e7c9858229505b7ce905742238dda767e6f4f0d4af6de1d6c7cf5b078195eb",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "E",
+      "b": "D",
+      "operator": "not greater",
+      "language": "en",
+      "group": "DE|en",
+      "fact": "E is not larger than D.",
+      "key": "E|D|not greater|en"
+    },
+    "reverse": false,
+    "family": 3,
+    "layout": 0,
+    "pair_key": "333019bbb20b10bb67c28e79b7663d5f66c4f29453b270be516d9b9b8176bd2a"
+  },
+  {
+    "id": "e900c6d27a2565b8e2454c182f1a1fb4c478c87117a53a0ed920ac74986bd313",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "E",
+      "b": "D",
+      "operator": "not greater",
+      "language": "en",
+      "group": "DE|en",
+      "fact": "E is not larger than D.",
+      "key": "E|D|not greater|en"
+    },
+    "reverse": true,
+    "family": 3,
+    "layout": 0,
+    "pair_key": "333019bbb20b10bb67c28e79b7663d5f66c4f29453b270be516d9b9b8176bd2a"
+  },
+  {
+    "id": "3d1320adde47e038063eb57bac18d6e01d9d6e0c0ec42ec323eb9593545d75a8",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "B",
+      "b": "G",
+      "operator": "not less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "B is not smaller than G.",
+      "key": "B|G|not less|en"
+    },
+    "reverse": false,
+    "family": 0,
+    "layout": 0,
+    "pair_key": "c2b4bf71593da044010af1537b54824ee743b8c7d978374fe29ecb297f33e845"
+  },
+  {
+    "id": "9b80fb953a45b4138734c383702ac7e5ee9df4c6f20e8aa7ed0d282ee5204606",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "B",
+      "b": "G",
+      "operator": "not less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "B is not smaller than G.",
+      "key": "B|G|not less|en"
+    },
+    "reverse": true,
+    "family": 0,
+    "layout": 0,
+    "pair_key": "c2b4bf71593da044010af1537b54824ee743b8c7d978374fe29ecb297f33e845"
+  },
+  {
+    "id": "fdf4bf1b406a0509b12160b837deaa79e7b65c8d0c41c184fb4d3095370ed0b6",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "B",
+      "b": "G",
+      "operator": "not less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "B is not smaller than G.",
+      "key": "B|G|not less|en"
+    },
+    "reverse": false,
+    "family": 1,
+    "layout": 0,
+    "pair_key": "9a081e5a101f25638f044fcb9b55bb9cfa2296dff32005afb504c9e72e1957c2"
+  },
+  {
+    "id": "46f4d990538da4ebc63e01f70b93b326ea26a31bd1e4b62e098fe2a43588944d",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "B",
+      "b": "G",
+      "operator": "not less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "B is not smaller than G.",
+      "key": "B|G|not less|en"
+    },
+    "reverse": true,
+    "family": 1,
+    "layout": 0,
+    "pair_key": "9a081e5a101f25638f044fcb9b55bb9cfa2296dff32005afb504c9e72e1957c2"
+  },
+  {
+    "id": "53a6f78f2376d2b58f4d11ed2284b84f88a216d915efc232b4732834c3d45271",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "B",
+      "b": "G",
+      "operator": "not less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "B is not smaller than G.",
+      "key": "B|G|not less|en"
+    },
+    "reverse": false,
+    "family": 2,
+    "layout": 0,
+    "pair_key": "33dff085e165fd3d26f1f605b94d266d618c89d2be80d5e218fd94c67bad39b2"
+  },
+  {
+    "id": "5c1863d402ae2d9a6c0c9ee710be25c5ba6ad35bcaeb444769ad8824ca9103f9",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "B",
+      "b": "G",
+      "operator": "not less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "B is not smaller than G.",
+      "key": "B|G|not less|en"
+    },
+    "reverse": true,
+    "family": 2,
+    "layout": 0,
+    "pair_key": "33dff085e165fd3d26f1f605b94d266d618c89d2be80d5e218fd94c67bad39b2"
+  },
+  {
+    "id": "359753cc94c39cf36e4dd640f2d4e15065371bc5c4f06c5ce66f3d0b2affd044",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "B",
+      "b": "G",
+      "operator": "not less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "B is not smaller than G.",
+      "key": "B|G|not less|en"
+    },
+    "reverse": false,
+    "family": 3,
+    "layout": 0,
+    "pair_key": "50cdf1865f785ca4a9dbf59a7c2a0e835e8deadf4edcd19892a62f9be38d2dc0"
+  },
+  {
+    "id": "c68af07b382474ad260174735a2995891b39deae37a37ac8261379d025ac6200",
+    "answer": "It is unknown.",
+    "label": "unknown",
+    "source_fact": {
+      "a": "B",
+      "b": "G",
+      "operator": "not less",
+      "language": "en",
+      "group": "BG|en",
+      "fact": "B is not smaller than G.",
+      "key": "B|G|not less|en"
+    },
+    "reverse": true,
+    "family": 3,
+    "layout": 0,
+    "pair_key": "50cdf1865f785ca4a9dbf59a7c2a0e835e8deadf4edcd19892a62f9be38d2dc0"
+  }
+]

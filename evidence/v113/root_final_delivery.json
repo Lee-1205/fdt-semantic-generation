@@ -1,0 +1,145 @@
+{
+  "Status": "TWO_REPAIR_TRIALS_REVIEWED_PARTIAL_TRAIN_TRANSFORMATION_DEV_UNRESOLVED",
+  "Time": "2026-11-14T18:50:16.6486511+09:00",
+  "Plans": [
+    {
+      "Run": "evidence/v112",
+      "PlanSHA": "231351fdb8781e2472f3a18bbacb8ec69c2dcf856e29fe57f38046acf8b4368e",
+      "PinnedFiles": 1913,
+      "AllPinnedAssetsUnchanged": true,
+      "TerminalCompleteAllGone": true
+    },
+    {
+      "Run": "evidence/v113",
+      "PlanSHA": "b26a04e79f4f221e4538a94dd974ffb85a5733377ff9c52dc7eb5498b510a0a8",
+      "PinnedFiles": 2162,
+      "AllPinnedAssetsUnchanged": true,
+      "TerminalCompleteAllGone": true
+    }
+  ],
+  "Deliverables": [
+    {
+      "Path": "evidence/v112\\root_result.json",
+      "Bytes": 5904,
+      "SHA": "ea7ab9350106da3df358454937b8bcf9621d033910c50ac0e69443a9f2792f07"
+    },
+    {
+      "Path": "evidence/v112\\root_saved_review.json",
+      "Bytes": 6218,
+      "SHA": "70fad299eaf7d476f27e727e5ef583753fd5871859d22b720f8344cd2ee99318"
+    },
+    {
+      "Path": "evidence/v112\\root_manual_semantic_review.json",
+      "Bytes": 1626,
+      "SHA": "8efe43898aebdc2e7f216f30f7e3a98b3f017f71ffd2a62c2b6321a2d79ef74e"
+    },
+    {
+      "Path": "evidence/v112\\ROOT_terminal_native.json",
+      "Bytes": 303,
+      "SHA": "de510537db45acb6f3b61dae339d1cdde87927a8fb4230692c4bc6c3b150ce65"
+    },
+    {
+      "Path": "evidence/v112\\result.json",
+      "Bytes": 2006,
+      "SHA": "7e21df48825419d0681fd410f0078c0051017a536593360e0310e7df610d6a9d"
+    },
+    {
+      "Path": "evidence/v112\\RESULT_AND_NEXT_KR.md",
+      "Bytes": 4709,
+      "SHA": "53a599dcd5e7aae1c2f3a5a7dc083bbc480b50c34a732c36659e4d3f92171d3f"
+    },
+    {
+      "Path": "evidence/v113\\root_result.json",
+      "Bytes": 1084,
+      "SHA": "96182b62486b6f4f5dd531e8b0af66df55a0c0449f1688ab6042c7f67032b5ba"
+    },
+    {
+      "Path": "evidence/v113\\root_saved_review.json",
+      "Bytes": 6481,
+      "SHA": "875b8510eeed374381d64c2a4aa59bb5c79be77ca98d031b6b58789d263252fe"
+    },
+    {
+      "Path": "evidence/v113\\root_manual_semantic_review.json",
+      "Bytes": 8011,
+      "SHA": "1b07546a1f967a405343f0a0df0ceb72d4094289027ce9d01aeacd6379492a42"
+    },
+    {
+      "Path": "evidence/v113\\ROOT_terminal_native.json",
+      "Bytes": 305,
+      "SHA": "e2a45b67ba56d2b647999401f0e133a0690b8ba7f9c6a41ba04749a2cda68a44"
+    },
+    {
+      "Path": "evidence/v113\\result.json",
+      "Bytes": 2026,
+      "SHA": "349a9de3d3cd078bec8a2f0636c186acb8167cb071ddf96324fe4efaf0f1a814"
+    },
+    {
+      "Path": "evidence/v113\\README_RESULTS_KR.md",
+      "Bytes": 1814,
+      "SHA": "5ec0fec0fe2ccac30cc0ae548e98229cb8b593b0544be69efebb1ef1ca1dd2bc"
+    },
+    {
+      "Path": "evidence/v113\\root_dataset_generalization_audit.json",
+      "Bytes": 7418,
+      "SHA": "f939e77c98f0ae81733fbd16467615ec5f75ef03521afdab0b6b7ad334fb7c47"
+    },
+    {
+      "Path": "evidence/v113\\root_TRAIN_constant_reference.json",
+      "Bytes": 213,
+      "SHA": "5430a86c4344a2ca7c972a2a217a5b6db4629dbcd995e3ac1d30937b004c1a05"
+    },
+    {
+      "Path": "evidence/v113\\root_analysis_corrections.json",
+      "Bytes": 422,
+      "SHA": "ac1b604aaf306a8973cfd3c7e4201ffcaef0050a84eb6515126ac74064e999d2"
+    },
+    {
+      "Path": "evidence/v113\\01_CURRENT_STATE_AUDIT_KR.md",
+      "Bytes": 1796,
+      "SHA": "6136a3ec02ae1c2e0794da38f041a06d9600fbcb4ef98b126a6331103cbc994b"
+    },
+    {
+      "Path": "evidence/v113\\02_ANSWER_TARGET_CONTRACT_KR.md",
+      "Bytes": 1701,
+      "SHA": "ba6274123e01fffdd232cd5137f6d824817c2a98b8f38606cc21bd160f46ba6a"
+    },
+    {
+      "Path": "evidence/v113\\03_TRAINING_PLAN_KR.md",
+      "Bytes": 1823,
+      "SHA": "efb875707c0dae0229ec061b44f9200ba9355c3d65d020cef29636dce46d98f7"
+    },
+    {
+      "Path": "evidence/v113\\04_TRAINING_RESULTS_KR.md",
+      "Bytes": 2059,
+      "SHA": "6714c12dc6bef956a1a9fc5186ce4e4c0c1f6ac5c56194e70c1e471d46d799d9"
+    },
+    {
+      "Path": "evidence/v113\\05_SEMANTIC_EVALUATION_KR.md",
+      "Bytes": 3263,
+      "SHA": "ce6faad4e29f7f8cce9c957e213969d7269237c5eef6fbab1873d86291157999"
+    },
+    {
+      "Path": "evidence/v113\\06_DECODER_BOUNDARY_AUDIT_KR.md",
+      "Bytes": 1758,
+      "SHA": "d9dacd1017a23fc55b22a9ed520d338b016bf03014781b2aaa6fda7f952b51c4"
+    },
+    {
+      "Path": "evidence/v113\\07_NEXT_RESEARCH_DECISION_KR.md",
+      "Bytes": 3218,
+      "SHA": "762ae22d6730e7ce3d335560a9c56c9a498011240e9edd2f1a0e5725c49d20c1"
+    }
+  ],
+  "FinalCheckpointSHA": "a01c4f1170ab8a2428a61ac239858436db67229293a2056dfc417fc9bbe386e3",
+  "CFreeBytes": 113427660800,
+  "CFreeGiB": 105.637741,
+  "CFinal100GiBRequirementMet": true,
+  "FreshPythonCount": 0,
+  "AllOwnedGoneBeforeAnalysis": true,
+  "NoNewDOutput": true,
+  "NoOldAssetDeletionMoveCompression": true,
+  "NoNewAgent": true,
+  "TimerNotResumed": true,
+  "NewScientificUpdates536": true,
+  "FurtherTrainingNotStarted": true,
+  "ModelCallsByFinalizer": 0
+}

@@ -1,0 +1,52 @@
+{
+  "status": "CONDITIONAL_NEW_ANSWER_MEANING_TRIAL_COMPLETE",
+  "execution_device": "cpu",
+  "CUDA_initialized": false,
+  "attempts": 268,
+  "updates": 268,
+  "AMP_skips": 0,
+  "cursor": 2144,
+  "exposure_target_bytes": 37088,
+  "calls": {
+    "denoise": 40032,
+    "readout": 224,
+    "encode": 0
+  },
+  "seconds": 536.539315700531,
+  "selected_TRAIN": 134,
+  "selected_DEV_for_training": 0,
+  "source_encode0": true,
+  "allcodec_parameters_buffers_frozen": true,
+  "frozen_codec_SHA_before_after": "42a2032db3137ffb9f876585cf26979854d2555e19639fa5c2f1e8d61201b96a",
+  "only_new_thought_optimizer": true,
+  "warm_V110_thought_ONLY": true,
+  "fresh_Adam": true,
+  "checkpoints": [
+    {
+      "path": "evidence/v111\\checkpoints\\state_0000.pt",
+      "SHA": "bef27266041f1ad72c3051b4519675fdca81a45cc6d74f69631a426fd885915b",
+      "bytes": 38522912,
+      "algorithm_SHA": "61078a0de03b7c370f3d5393d267f662ec825811841a0bbc86673210cd02685a"
+    },
+    {
+      "path": "evidence/v111\\checkpoints\\state_0134.pt",
+      "SHA": "e9848b9a0e36542b840626754429ae9e37fbf320e549d8e9551219a45e407522",
+      "bytes": 115291709,
+      "algorithm_SHA": "6fc79da69fb72bcbabac27fbe39792d4df97df917d43b5a80170ab16ef04e8f3"
+    },
+    {
+      "path": "evidence/v111\\checkpoints\\state_0268.pt",
+      "SHA": "e905927d288dff3f91dcb0c4eb53257503fd92929bbd50248b371db183fb7f76",
+      "bytes": 115324221,
+      "algorithm_SHA": "4977b0169b0dd98ee603b09e720a84083edd43ab6cc14a17691e3bef076b9650"
+    }
+  ],
+  "assessment_rows224": true,
+  "full16step_training_gradient": true,
+  "target_is_EY_NOT_source_EX": true,
+  "D_forward_during_training": 0,
+  "language_loss_NOT_used": true,
+  "hidden520": true,
+  "all_oldbudgets_closed": true,
+  "no_promotion_or_automatic_repeat": true
+}

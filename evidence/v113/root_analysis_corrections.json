@@ -1,0 +1,7 @@
+{
+  "no_training_failure": true,
+  "review_initial_absolute_tolerance_failure": "log_softmax vs gather-logsumexp FP32 roundoff up to2.86e-6; actual stored460 answerLP reproduced bitwise,FP64max2.58e-6",
+  "dataset_initial_saved_audit_KeyError": "source_fact.key is actual schema, not flat fact_key; corrected before deriving counts",
+  "automatic_grammar0_NOT_semantic0": true,
+  "no_model_data_or_scores_changed": true
+}

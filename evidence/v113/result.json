@@ -1,0 +1,49 @@
+{
+  "status": "ANSWER_CODEC_FIDELITY_TRIAL_COMPLETE",
+  "execution_device": "cpu",
+  "CUDA_initialized": false,
+  "attempts": 268,
+  "updates": 268,
+  "AMP_skips": 0,
+  "cursor": 2144,
+  "exposure_target_bytes": 37088,
+  "calls": {
+    "denoise": 40128,
+    "readout": 2374,
+    "encode": 0
+  },
+  "seconds": 657.8890511989594,
+  "selected_TRAIN": 134,
+  "selected_DEV_for_training": 0,
+  "frozen_codec_SHA_before_after": "42a2032db3137ffb9f876585cf26979854d2555e19639fa5c2f1e8d61201b96a",
+  "only_new_thought_optimizer": true,
+  "warm_V112_ONLYtheta": true,
+  "fresh_Adam": true,
+  "checkpoints": [
+    {
+      "path": "evidence/v113\\checkpoints\\state_0000.pt",
+      "SHA": "a525da786c7cc104cbd6148ae7627b702b76cd96e02360fced375f5c6b8125c8",
+      "bytes": 38916128,
+      "algorithm_SHA": "1c6c878ec5e98c06716f68ef4c14ad072d969ca22398ef346ea177f23b779c40"
+    },
+    {
+      "path": "evidence/v113\\checkpoints\\state_0134.pt",
+      "SHA": "91c0473142612de7018d313472906ee098fd205b3a71bddead5c2b40974779a8",
+      "bytes": 115615485,
+      "algorithm_SHA": "4c34bd5eef10e895262e6c6d915a835fc19aa3e2799276a2e91e25f745f1e4e3"
+    },
+    {
+      "path": "evidence/v113\\checkpoints\\state_0268.pt",
+      "SHA": "a01c4f1170ab8a2428a61ac239858436db67229293a2056dfc417fc9bbe386e3",
+      "bytes": 115653629,
+      "algorithm_SHA": "802deafac70f4e30b3f52ef69c5c42114896e8a5ca21760aee86945e1e000891"
+    }
+  ],
+  "assessment_rows460": true,
+  "training_D_frozen_gradient": true,
+  "full16step_gradient": true,
+  "baseline230_inherited_forward0": true,
+  "old_budget_reuse": false,
+  "pair_coefficient": 0.25,
+  "all_old_assets_preserved": true
+}

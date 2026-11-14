@@ -1,0 +1,102 @@
+seed: 20260802
+
+target_mix:
+  fineweb_edu_dedup: 0.30
+  cosmopedia: 0.25
+  fineweb: 0.10
+  tinystories: 0.10
+  code_python: 0.25
+
+sources:
+  fineweb_edu_dedup:
+    kind: hf_text
+    dataset: HuggingFaceTB/smollm-corpus
+    preferred_config: fineweb-edu-dedup
+    split: train
+    streaming: true
+    content_field: text
+
+  cosmopedia:
+    kind: hf_text
+    dataset: HuggingFaceTB/smollm-corpus
+    preferred_config: cosmopedia-v2
+    split: train
+    streaming: true
+    content_field: text
+
+  fineweb:
+    kind: hf_text
+    dataset: HuggingFaceFW/fineweb
+    preferred_config: sample-10BT
+    split: train
+    streaming: true
+    content_field: text
+
+  tinystories:
+    kind: hf_text
+    dataset: roneneldan/TinyStories
+    preferred_config: default
+    split: train
+    streaming: true
+    content_field: text
+
+  code:
+    kind: hf_code
+    preferred:
+      dataset: bigcode/the-stack-smol-xl
+      split: train
+      streaming: true
+      content_field: content
+      access_method: language_json_files
+
+dedup:
+  exact: true
+  cross_source: true
+  sqlite_path: artifacts/dedup_v3_broad_200m_ctx2048.sqlite3
+  priority:
+    - fineweb_edu_dedup
+    - cosmopedia
+    - fineweb
+    - code_python
+    - tinystories
+
+splits:
+  train: 0.99
+  validation: 0.005
+  test: 0.005
+
+packing:
+  enabled: true
+  max_seq_len: 2048
+  add_eos_between_documents: true
+  shard_tokens: 25000000
+
+quota:
+  relative_tolerance: 0.001
+  allow_document_overshoot: true
+
+filters:
+  web:
+    min_chars: 160
+    min_tokens: 24
+    max_tokens: 200000
+    max_repetition_ratio: 0.30
+    min_alpha_ratio: 0.50
+  code:
+    min_chars: 20
+    min_tokens: 8
+    max_tokens: 200000
+    reject_minified: true
+    reject_generated: true
+    reject_vendor: true
+    reject_secrets: true
+
+limits:
+  max_download_gb: 12
+  max_output_gb: 8
+  max_documents: 0
+  min_free_gb: 18
+
+cache:
+  hf_home: ""
+  reuse_existing: true

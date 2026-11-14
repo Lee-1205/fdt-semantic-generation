@@ -1,0 +1,17 @@
+{
+  "time": "2026-11-13T07:52:07.681635+09:00",
+  "decision": "KEEP_V75_AS_NEXT_RESEARCH_INITIALIZATION_DO_NOT_PROMOTE_V76",
+  "selected_version": "V75",
+  "selected_runtime": "PROJECT_ROOT\\runs\\critical_retention_20261112_v75\\model\\runtime.pt",
+  "selected_SHA": "f01e851284df0bd971498ee709b81158abb4ce157bf7e19578c146614411c124",
+  "mandatory_standalone_base": "PROJECT_ROOT\\runs\\context_verbalizer_20261112_v74\\model\\checkpoints\\state_0640.pt",
+  "mandatory_base_SHA": "734a2eed6526f86526f203d6389f6b1a778b50f9273ae9aaf90d4c801998dab7",
+  "rejected_as_default": "V76",
+  "V76_final_SHA": "e4e2e83aa0e46bf4748cb272dc43ef67af96ba6e27b13ef621a46bc376ba96a2",
+  "all_V76_states_preserved": true,
+  "reason": "Observed long quantity errors16 to36 with20new and0fixed; naturalOWT decoded108 to122;new64 two-value correctness58/64 unchanged despite stock/unit gains.",
+  "deployed_model_registry_changed": false,
+  "weight_files_modified": false,
+  "automatic_extra_training": false,
+  "all_unused_budgets_closed": true
+}

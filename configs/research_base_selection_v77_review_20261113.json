@@ -1,0 +1,17 @@
+{
+  "time": "2026-11-13T08:39:00.439703+09:00",
+  "decision": "KEEP_V75_AS_NEXT_RESEARCH_INITIALIZATION_DO_NOT_PROMOTE_V77",
+  "selected_version": "V75",
+  "selected_runtime": "PROJECT_ROOT\\runs\\critical_retention_20261112_v75\\model\\runtime.pt",
+  "selected_SHA": "f01e851284df0bd971498ee709b81158abb4ce157bf7e19578c146614411c124",
+  "mandatory_standalone_base": "PROJECT_ROOT\\runs\\context_verbalizer_20261112_v74\\model\\checkpoints\\state_0640.pt",
+  "mandatory_base_SHA": "734a2eed6526f86526f203d6389f6b1a778b50f9273ae9aaf90d4c801998dab7",
+  "rejected_as_default": "V77",
+  "V77_final_SHA": "964aeeaaebd0029c370025a1f8c3b5e9cb9d60b5ac21d84d198650608c5e3fcc",
+  "all_V76_V77_states_preserved": true,
+  "reason": "V77 long quantities28 vs V75 16 and episode17 vs10; OWT110 vs108; revised64 both-facts54/64 unchanged. V76-to-V77 eight quantity repairs and observed75 stock22/32 gains preserved separately.",
+  "deployed_model_registry_changed": false,
+  "weight_files_modified": false,
+  "automatic_extra_training": false,
+  "all_unused_budgets_closed": true
+}

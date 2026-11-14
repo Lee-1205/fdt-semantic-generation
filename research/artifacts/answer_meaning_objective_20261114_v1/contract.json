@@ -1,0 +1,47 @@
+{
+  "schema": "fdt_answer_meaning_objective_correction_20261114_v1",
+  "status": "CPU_JSON_JOIN_ONLY_NOT_TRAINING_READY_OR_EXECUTED",
+  "latest_HUMAN": "Denoiser creates a new answer meaning conditioned on input meaning and memories; identity reconstruction is auxiliary diagnosis only.",
+  "training_objective": "R_theta(E(X), source_memories, independent_noise) -> Z_answer; loss target E(Y), NOT E(X)",
+  "train_rows": 134,
+  "all_input_texts_different_from_answer_texts": true,
+  "distinct_TRAIN_answer_meanings": 27,
+  "original_class_metadata_only": {
+    "less": 42,
+    "greater": 38,
+    "unknown": 54
+  },
+  "DEV_rows_for_training": 0,
+  "frozen": "Entire existing input codec, K_P/K_C/K_E snapshot formation, binding, output weights and ALL buffers; ONLY thought theta may update.",
+  "runtime": "Source meaning and permitted source memories only; E(Y), target masks, answer text/roles/length are training-loss-only; fixed D called after final meaning is committed.",
+  "Exact": "Current invalidNULL/content0/copy0 remains; no ordinary sentence copying.",
+  "historical_identity_trials": "V109/V110 CLOSED auxiliary controls; keep raw/results/weights/AdamRNG intact. Their targets were E(X), not answer generation. Do not continue identity fitting as main goal.",
+  "original_v95_answer_ceiling": {
+    "unique_answers": 31,
+    "literal_exact": 0,
+    "expected_sentence_prefix": 31,
+    "note": "Historical capacity33 traces have correct answer prefixes plus extra tail. This is not current fixed-capacity33/35 EOS parity or perfect reconstruction. Reconcile target packing/terminal policy in actual preflight; do not discard every answer on this stale full-string gate or claim new NN evaluation."
+  },
+  "model_forward_calls": 0,
+  "optimizer_steps": 0,
+  "sealed_plan_or_worker_launch": false,
+  "new_facts": 0,
+  "tensor_payloads_copied": 0,
+  "timer_remains_deleted": true,
+  "original_pins": {
+    "PROJECT_ROOT\\research\\artifacts\\memory_thought_data_20261113_v95_cpu_v1\\train_features.json": "82af2a3907b2eb89af32f93d1171e7365287a00aa95f6e9a4ca0b8f5de789165",
+    "PROJECT_ROOT\\research\\artifacts\\memory_thought_data_20261113_v95_cpu_v1\\train_targets.json": "6b9fb64a14b740dd80f6223bdb52d32756b4e54c6620f8760737ba3429a76129",
+    "PROJECT_ROOT\\runs\\thought_cache_20261113_v95\\target_index_loss_only.json": "ee6de9d8bc41483df0dd07cb922e8fe101306d7b2534eeb763d1fe95ede9757e",
+    "PROJECT_ROOT\\research\\artifacts\\roundtrip_identity_screen_20261114_v108_cpu_v2\\cpu_preflight_owned\\runtime\\selected_TRAIN_only.json": "54e202713ad624a456e3556c1d141c01f487ce1a03d3d916eb0baec0cd46194d"
+  },
+  "files": {
+    "train_conditions.json": {
+      "SHA": "a6c872cf63f257f30c1aa293995012b924dc94446382827750fedb2bcc697cd3",
+      "bytes": 85228
+    },
+    "train_targets_LOSS_ONLY.json": {
+      "SHA": "971dcdb4a26fb02e8c62cd097cb328d5a20c780d5ded5b865a30d830e6f48124",
+      "bytes": 132034
+    }
+  }
+}

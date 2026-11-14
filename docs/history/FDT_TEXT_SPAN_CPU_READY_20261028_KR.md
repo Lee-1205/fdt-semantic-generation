@@ -1,0 +1,26 @@
+# V4 CPU 준비 — 질문 byte span과 실현 계약 분리
+
+GPU/optimizer/새훈련은0이다. Root가직접새span자료/모듈/유한순서/phase분리CPU계약을준비했다. Worker/독립OSowner/실제preflight/봉인/launch는아직없다. 준비상태를능력향상으로보고하지않는다.
+
+## 보존한 자료와 독립 CPU 확인
+
+- V3의정확한1024trainpool과고정train_probe16/dev_pairs32/dev_wording32를그대로보존했다. 새행0/평가확대0/E2final접근0이다. 입력features파일에는id/prompt만있고headlabels·goldbyte span·답변·pairmetadata는분리된targets파일에있다.
+- 한국어문자offset과UTF8byteoffset을구분해1104행의두질문대상span을검사했다. 원본prompt/순서/기존4head정답/동결VPcache입력mask가정확히같음을root가독립재구성했다.
+- 기존pool안에질문역전짝177쌍이있고670행은짝이없다. Dev_pairs에는3쌍,다른두평가패널에는완전한짝0이다. 부족한짝을다른자료에서몰래추가하지않았다.177쌍은독립177graph가아니다.
+- Reader/realizer각4epoch의고정paired-batch순서(seed31/32)를CPU직렬화했다. 매epoch1024행을한번씩방문하고177짝을동일8rowbatch안에유지한다. JSON order/cursor복원후정확한다음batch가일치했다. 아직실제노출이아니다.
+
+## 후보 모듈
+
+`research/text_span_reader_v4.py`는원문byte A–H후보위치의학습pointer로질문대상을예측한다. `How`의H·`Compare`의C등도후보로남으므로외부정답역할을준것이아니다. 이finitealphabet필터를광범위NER라고부르지않는다. Pointer는rawtoken/context/mask만받으며goldspan이나regex결과를추론에받지않는다.
+
+실제V3fullstate를CPU에안전하게읽어38개기존readerkey와기존decoder를정확히복사했다. 새key는pointer_query.weight/pointer_key.weight/byte_positions.weight3개뿐이다. 후보reader+decoder18,742,535parameters이며기존18,144,535보다증가했다. 기존가중치를수정하지않았다. 실제부모modelforward0/CUDA초기화false다.
+
+Teacher조건전용method와맞는predicted조건만선택하는훈련method는eval상태에서예외를내도록했다. 오답predictedfactor+goldanswer를무조건한쌍으로학습하지않도록,일치조건은predictedsoftfactor/불일치조건은훈련전용teacherfactor로선택하는후보계약을추가했다. 평가에는항상predictedfactor만써야하며모든행을채점한다. 신경망decoder를문장template로바꾸지않는다.
+
+CPU10검사PASS: UTF8/query역전자료,GT-free입력/padding/distractor,reader전용gradient,realizer전용gradient/eval금지,정확한V3mapping/embedding의미보존,후보없을때실패,overwrite금지,teacher↔predicted일관선택,pairedfiniteorder/nextbatch복구,질문역전확률일관loss. TinyCPU계약이며실제모델능력이나GPU실행증거가아니다. 실제부모import/1104행독립검사는artifact/root_cpu_review.json에있다.
+
+## SHA와 다음 작업
+
+최신자료는research/artifacts/text_span_alignment_20261028_v4_cpu_v2다. Manifest실제파일SHAdff9d3f73a6d8039d3b6bdfeca67e29afff7c9155a735d4534ceed6b9e379cce와self-excluding payloadSHAb03a3a6a0e615509d3a9292eaf6f5bd6e4b3a7095134842566c7274f7b345fcd는다르다. BuilderSHA387c606e5ddc761cec5a4107a081ff5170df760394e28d502fa791fb90752896, candidateSHAe8b46ba3a715daa4f09c758188e3b3fb45535eff167aa1c3ec744b70a29af37b다. 최초CPU자료revision1과그builderSHAa6852c...e6337의정확한source snapshot도보존했다. 기존artifact를overwrite하지않았다.
+
+다음은새`run_text_span_alignment_20261028.py`/독립OSowner/실제plan-schema·전phase복구/CPUpreflight·validate를구현·검토하는것이다. `configs/text_span_alignment_20261028_v4_cpu_policy.json`은authorized:false의prospective제안이며sealedplan이나사람승인대기가아니다. 제안은reader512attempt+realizer512attempt/두phase각4finiteepoch/새900초reserve90/총actualreader+decoder2800callcap(최대2520예상)/output8GiB다. 실제코드비용·GPU안전·고정clock·새SHA/root검토전에는launch하지않는다. 이전V1/V2/V3미사용시간·call을사용하지않는다.

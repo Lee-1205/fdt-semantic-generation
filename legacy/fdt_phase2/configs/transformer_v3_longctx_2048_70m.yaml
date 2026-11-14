@@ -1,0 +1,38 @@
+data:
+  dataset_dir: prepared_data/v3_language_50m_24k_ctx2048
+  tokenizer_name: tokenizers/fdt_v3_bpe_24k
+  interleave_sources: true
+
+model:
+  model_type: transformer
+  dim: 512
+  n_layers: 10
+  n_heads: 8
+  mlp_ratio: 4
+  max_seq_len: 2048
+  dropout: 0.0
+  use_rope: false
+  tie_embeddings: true
+
+train:
+  output_dir: runs/transformer_v3_longctx_2048_70m
+  target_tokens: 70000000
+  max_steps: 0
+  batch_size: 2
+  grad_accum_steps: 1
+  learning_rate: 0.00005
+  lr_schedule: cosine
+  lr_warmup_steps: 100
+  lr_warmup_start: 0.00001
+  lr_min_ratio: 0.2
+  weight_decay: 0.1
+  precision: bf16
+  grad_clip: 1.0
+  log_every: 20
+  save_every: 500
+  eval_every: 500
+  eval_batches: 8
+  step_checkpoint_retention: 2
+  allow_position_embedding_resize: true
+  reset_optimizer_on_migration: true
+

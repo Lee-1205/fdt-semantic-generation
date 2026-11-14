@@ -1,0 +1,23 @@
+data:
+  dataset_dir: prepared_data/fdt_rlm_100m
+  tokenizer_name: tokenizers/fdt_bpe
+  interleave_sources: true
+model:
+  model_type: transformer
+  dim: 384
+  n_layers: 6
+  n_heads: 6
+  mlp_ratio: 4
+  max_seq_len: 512
+  dropout: 0.1
+train:
+  output_dir: runs/next_transformer_100m
+  target_tokens: 100000000
+  max_steps: 0
+  batch_size: 8
+  grad_accum_steps: 1
+  learning_rate: 0.00003
+  weight_decay: 0.1
+  precision: bf16
+  save_every: 2500
+  eval_every: 0

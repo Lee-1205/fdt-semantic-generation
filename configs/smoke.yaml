@@ -1,0 +1,20 @@
+schema: fdt_local_smoke_v1
+profile: full
+variant: baseline
+plan:
+  seed: 19
+  phase_steps: [480, 320, 640]
+  micro_batch: 1
+  accumulation: 1
+  save_every: 1
+  log_every: 1
+  train_graphs: 16
+  dev_graphs: 4
+  test_graphs: 4
+  eval_seed: 17
+  encoder_lr: 0.00003
+  ground_lr: 0.001
+  semantic_lr: 0.0003
+  diffusion_lr: 0.0003
+  ground_gate: 0.9
+  semantic_gate: 0.8

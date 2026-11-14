@@ -1,0 +1,99 @@
+{
+  "schema": "fdt_thought_source_answer_data_v95",
+  "status": "CPU_DATA_ONLY",
+  "source": "PROJECT_ROOT\\research\\artifacts\\text_surface_alignment_20261028_v5_cpu",
+  "source_pins": {
+    "manifest.json": "f65237022718a00cac2ea34f7f368055a1cc58c2261800eac0541cd81a2b4977",
+    "features.json": "8c45faeb9e959ef9a73e84cf95a5789ca4d9e435ff754322462c7a425d229dbd",
+    "targets.json": "fb55de15d38ea3ebdfafdc242fbc7110d525aa9d0a96b561a889788bc28fc0b6"
+  },
+  "builder_SHA": "e91b658127801ab87e4a1dc3bf802b6377ab1a4f4233568a80228316236aa35d",
+  "statistics": {
+    "train": {
+      "rows": 384,
+      "reverse_pairs": 192,
+      "distinct_fact_keys": 32,
+      "pair_groups": 19,
+      "labels": {
+        "greater": 128,
+        "less": 128,
+        "unknown": 128
+      },
+      "input_UTF8bytes": 30888,
+      "answer_UTF8bytes": 6784,
+      "max_input_bytes": 120
+    },
+    "dev_pair": {
+      "rows": 32,
+      "reverse_pairs": 16,
+      "distinct_fact_keys": 4,
+      "pair_groups": 3,
+      "labels": {
+        "greater": 8,
+        "less": 8,
+        "unknown": 16
+      },
+      "input_UTF8bytes": 2056,
+      "answer_UTF8bytes": 536,
+      "max_input_bytes": 77
+    },
+    "dev_surface": {
+      "rows": 32,
+      "reverse_pairs": 16,
+      "distinct_fact_keys": 4,
+      "pair_groups": 4,
+      "labels": {
+        "greater": 8,
+        "less": 8,
+        "unknown": 16
+      },
+      "input_UTF8bytes": 1952,
+      "answer_UTF8bytes": 536,
+      "max_input_bytes": 69
+    },
+    "dev_position": {
+      "rows": 32,
+      "reverse_pairs": 16,
+      "distinct_fact_keys": 4,
+      "pair_groups": 4,
+      "labels": {
+        "greater": 8,
+        "less": 8,
+        "unknown": 16
+      },
+      "input_UTF8bytes": 3744,
+      "answer_UTF8bytes": 536,
+      "max_input_bytes": 127
+    }
+  },
+  "unique_answer_targets": 31,
+  "feature_keys": [
+    "id",
+    "prompt"
+  ],
+  "target_metadata_never_neural_features": true,
+  "files": {
+    "answers_loss_only.json": "f78102573312448b6fbe051229cee0cc33922a8f36233c1cfd921a9f686f95a7",
+    "dev_pair_features.json": "6c5469cccb30f6ee413455d99569bc710007848673ad262d01fc2f1a3e713066",
+    "dev_pair_targets.json": "d3c0abc7bda0f2b88733ad2c983cf092481e9f08a0e829fa51af20186ef9b17f",
+    "dev_position_features.json": "4c87ab043b206ea56b5ab5172626ee17b2bd573161ade4489721c122c19e3317",
+    "dev_position_targets.json": "db7b316a0266b2e2c9cb35bb483f5d3a526423669d7b01f019ce5394ccee7450",
+    "dev_surface_features.json": "6839c0fab49145c0b7d251a113d40fe76211e80a5370280dfe56dc95f70943d1",
+    "dev_surface_targets.json": "897fbd6727b2a63ffde183737a1b6ae8d6c8aa83fe323b146b3d7113bc231b74",
+    "four_finite_orders.json": "0a51816fcb814921ac5501c0d1dfd8afa84d1c424a486c7da0dfe510777277c6",
+    "train_features.json": "82af2a3907b2eb89af32f93d1171e7365287a00aa95f6e9a4ca0b8f5de789165",
+    "train_targets.json": "6b9fb64a14b740dd80f6223bdb52d32756b4e54c6620f8760737ba3429a76129"
+  },
+  "finite_orders": 4,
+  "train_rows_per_epoch": 384,
+  "four_epoch_rows1536": true,
+  "fresh_rows_or_facts_authored": 0,
+  "E2final_access": false,
+  "actual_model_calls": 0,
+  "limits": [
+    "Existing observed A-H comparison/negation only; not broad language/reasoning.",
+    "Dev_surface/dev_position intentionally share training facts; dev_pair inherits old held pair groups.",
+    "Positive and negative fact view counts differ; balanced row labels do not guarantee equal gradients.",
+    "Unknown constant baseline train1/3 and eachDEV1/2; report positive cases separately."
+  ]
+}

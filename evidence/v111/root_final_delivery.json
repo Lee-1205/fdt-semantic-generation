@@ -1,0 +1,116 @@
+{
+  "status": "REPORTS_COMPLETE_ROOT_REVIEWED_TRANSFORMATION_NOT_ESTABLISHED",
+  "observed_at": "2026-11-14T14:52:38.7121332+09:00",
+  "sealed_plans": [
+    {
+      "plan": "evidence/v111\\plan.json",
+      "SHA": "1a914ad1880afc87e5e9053c08c5c46d787283e654e80f24a66598fe1bd9672a",
+      "pinned_files_checked": 1663,
+      "mismatches": [],
+      "terminal_status": "COMPLETE",
+      "all_owned_processes_gone": true
+    },
+    {
+      "plan": "PROJECT_ROOT\\research\\artifacts\\answer_meaning_v111_fullTRAIN_pair_readonly_20261114_v1\\plan.json",
+      "SHA": "1dd69e960d8f5ba0c1bd276ad7058b4df9da93448b2d7aff2399ab419931dcac",
+      "pinned_files_checked": 1670,
+      "mismatches": [],
+      "terminal_status": "COMPLETE",
+      "all_owned_processes_gone": true
+    }
+  ],
+  "final_checkpoint_SHA": "e905927d288dff3f91dcb0c4eb53257503fd92929bbd50248b371db183fb7f76",
+  "deliverables": [
+    {
+      "path": "evidence/v111\\01_CURRENT_STATE_AUDIT_KR.md",
+      "bytes": 4008,
+      "SHA": "acd861fb9a88b456546f5c8cccecc40fa38fc729442185c1b8ba579df4a97c9d"
+    },
+    {
+      "path": "evidence/v111\\02_ANSWER_TARGET_CONTRACT_KR.md",
+      "bytes": 3699,
+      "SHA": "63e2a5272f9ce6d0d91a3840900af811e9ca50d12139d62c387fa29206c16b68"
+    },
+    {
+      "path": "evidence/v111\\03_TRAINING_PLAN_KR.md",
+      "bytes": 3911,
+      "SHA": "ee64ca521a7182c901db2953d05e5b8f34024a319af4079ba732adfab7d2ecac"
+    },
+    {
+      "path": "evidence/v111\\04_TRAINING_RESULTS_KR.md",
+      "bytes": 3121,
+      "SHA": "6b5073211edf17603c0be0c928eadb2e21d8165f8acf0c192fc849e070cb2b1f"
+    },
+    {
+      "path": "evidence/v111\\05_SEMANTIC_EVALUATION_KR.md",
+      "bytes": 5361,
+      "SHA": "5ef53988854d1308ff450df51d5621391ad46908a01802bdaaf70c6a460be483"
+    },
+    {
+      "path": "evidence/v111\\06_DECODER_BOUNDARY_AUDIT_KR.md",
+      "bytes": 3419,
+      "SHA": "48dedcbb3f65b7c7eb000e7708ffbf4800dfedb5294a4d52532da2525803917e"
+    },
+    {
+      "path": "evidence/v111\\07_NEXT_RESEARCH_DECISION_KR.md",
+      "bytes": 6065,
+      "SHA": "7c9981199ccbdcf134effad4b526fa252866e1e174f7566c4d397bd9d7702a18"
+    },
+    {
+      "path": "evidence/v111\\README_RESULTS_KR.md",
+      "bytes": 1650,
+      "SHA": "35bc612c0ddda6a8785766cd0722e76f0677f4702326aeca27f2f417c6cdf672"
+    },
+    {
+      "path": "evidence/v111\\root_result.json",
+      "bytes": 1247,
+      "SHA": "2ff463e14cfd68f65e32e83ec098d4032f4af29ba6927bf2fbf82f7f0b7948a5"
+    },
+    {
+      "path": "evidence/v111\\root_saved_review.json",
+      "bytes": 8250,
+      "SHA": "ab6e7631786691f388689813b73ba3c906b4d0536591b18c822be40d4ecd83b5"
+    },
+    {
+      "path": "evidence/v111\\root_saved_rows224.json",
+      "bytes": 465387,
+      "SHA": "0bad9f3b73d32c8d3a62c2644431e66aa5c79f7586baf438e8efac081b8987ce"
+    },
+    {
+      "path": "evidence/v111\\root_manual_semantic_core_review.json",
+      "bytes": 155274,
+      "SHA": "6d475c26fba5e68587969f5792461c2c20dd24c75614f488c5c64caae498d58d"
+    },
+    {
+      "path": "evidence/v111\\root_decoder_boundary_statistics.json",
+      "bytes": 992,
+      "SHA": "f0da477d539caf13f7aa1e0d62642f40a3c5720689f848e0fd91a210e60673a1"
+    },
+    {
+      "path": "PROJECT_ROOT\\research\\artifacts\\answer_meaning_v111_fullTRAIN_pair_readonly_20261114_v1\\root_saved_review.json",
+      "bytes": 1144,
+      "SHA": "cc0a966ead43553af2d45fccc4ce1029a7ded3d6d930e418634bbd06ed8a64da"
+    },
+    {
+      "path": "PROJECT_ROOT\\research\\artifacts\\answer_meaning_v111_fullTRAIN_pair_readonly_20261114_v1\\root_rows134.json",
+      "bytes": 218210,
+      "SHA": "ca709bf50a560dcdf0f98f0a10857825e51ea8b8e117d51a80e3f0afab07393d"
+    },
+    {
+      "path": "PROJECT_ROOT\\research\\artifacts\\answer_meaning_v111_fullTRAIN_pair_readonly_20261114_v1\\root_actual58_pair_response.json",
+      "bytes": 51990,
+      "SHA": "b462ccaa61a7f7a86f95a82efe546292528cb16373d04fb6491806b22b71eec9"
+    }
+  ],
+  "C_available_bytes": 114928087040,
+  "C_available_GiB": 107.035122,
+  "C_end_100GiB_requirement_met": true,
+  "fresh_native_python_processes": [],
+  "fdt_timer_config_absent": true,
+  "new_D_research_output_after_C_instruction": false,
+  "model_calls_by_this_finalizer": 0,
+  "optimizer_updates_by_this_finalizer": 0,
+  "further_SGD_started": false,
+  "old_assets_deleted_moved_or_modified_by_this_finalizer": false,
+  "scientific_status": "TRIAL_COMPLETE_TRANSFORMATION_NOT_ESTABLISHED"
+}

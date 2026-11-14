@@ -1,0 +1,20 @@
+{
+  "schema": "fdt_querycount_partial9_readonly_config_v1",
+  "models": [
+    "QueryBoundRefiner"
+  ],
+  "seed": 17,
+  "query_counts": [
+    1,
+    4,
+    8,
+    16
+  ],
+  "panels": 14,
+  "physical_panels": 13,
+  "batch_size": 4,
+  "rollout_steps": 4,
+  "optimizer_allowed": false,
+  "checkpoint_write_allowed": false,
+  "e2_final_files_accessed": false
+}

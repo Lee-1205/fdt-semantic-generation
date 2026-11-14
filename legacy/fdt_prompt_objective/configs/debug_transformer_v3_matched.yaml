@@ -1,0 +1,29 @@
+data:
+  dataset_dir: prepared_data/quality_english_100m_v2
+  tokenizer_name: tokenizers/fdt_bpe
+  interleave_sources: true
+
+model:
+  model_type: transformer
+  dim: 512
+  n_layers: 10
+  n_heads: 8
+  mlp_ratio: 4
+  max_seq_len: 512
+  dropout: 0.0
+  use_rope: false
+  tie_embeddings: true
+
+train:
+  output_dir: runs/debug_transformer_v3_matched
+  target_tokens: 1000000
+  max_steps: 1
+  batch_size: 1
+  grad_accum_steps: 1
+  learning_rate: 0.0003
+  weight_decay: 0.1
+  precision: bf16
+  grad_clip: 1.0
+  log_every: 1
+  save_every: 1
+  eval_every: 0

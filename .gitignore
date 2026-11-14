@@ -1,0 +1,25 @@
+# Local environments and private/binary research state
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest*/
+.cpu*/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.zip
+*.pdf
+*.ipynb
+.env
+.env.*
+!.env.example
+credentials*
+*private_key*
+runs/
+raw/
+datasets/
+sealed_test_records/
+*.log

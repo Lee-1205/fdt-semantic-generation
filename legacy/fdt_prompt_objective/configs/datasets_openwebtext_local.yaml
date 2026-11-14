@@ -1,0 +1,57 @@
+seed: 20260727
+
+target_mix:
+  openwebtext: 1.0
+
+sources:
+  openwebtext:
+    kind: local_tar_text
+    source_name: openwebtext_gpt2_replication
+
+dedup:
+  exact: true
+  cross_source: true
+  sqlite_path: artifacts/dedup.sqlite3
+  priority:
+    - openwebtext
+
+splits:
+  train: 0.99
+  validation: 0.005
+  test: 0.005
+
+packing:
+  enabled: true
+  max_seq_len: 512
+  add_eos_between_documents: true
+  shard_tokens: 25000000
+
+quota:
+  relative_tolerance: 0.001
+  allow_document_overshoot: true
+
+filters:
+  web:
+    min_chars: 200
+    min_tokens: 32
+    max_tokens: 200000
+    max_repetition_ratio: 0.30
+    min_alpha_ratio: 0.50
+  code:
+    min_chars: 20
+    min_tokens: 8
+    max_tokens: 200000
+    reject_minified: true
+    reject_generated: true
+    reject_vendor: true
+    reject_secrets: true
+
+limits:
+  max_download_gb: 0
+  max_output_gb: 20
+  max_documents: 0
+  min_free_gb: 15
+
+logging:
+  interval_documents: 1000
+  interval_seconds: 60
